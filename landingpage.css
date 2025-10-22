@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    border: 2px solid crimson;
+    background-color: #08090A;
+    border: none;
+}
+
+.logo {
+    border: 2px solid orange;
+    width: 100px;
+    border: none;
+}
+
+.nav_link {
+    border: 2px solid purple;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: none;
+}
+
+.left-side {
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.right-side {
+    border: 2px solid violet;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    border: none;
+}
+
+.menu-list {
+    border: 2px solid red;
+    display: flex;
+    gap: 2em;
+    font-size: 13px;
+    font-weight: 510;
+    border: none;
+}
+
+.menu-list li a {
+    border: 2px solid white;
+    color: #8A8F98;
+    border: none;
+}
+
+li a:hover {
+    color: #F7F8F8;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 8px;
+    align-items: center;
+    background-color: #1C1D1D;
+    border: none;
+}
+
+.btn-icon {
+    border: 2px solid pink;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    border: none;
+}
+
+.loginbtn {
+    border: 2px solid green;
+    padding: 4px;
+    background-color: #08090A;
+    text-align: center;
+    border: none;
+    font-size: 13px;
+    font-weight: 510;
+    font-family: "Inter Variable", sans-serif
+}
+
+.loginbtn a {
+    color: #8A8F98;
+}
+
+.loginbtn:hover {
+    color: #F7F8F8;
+    background-color: #1A1B1B;
+    border: 2px solid grey;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.signupbtn {
+    border: 2px solid green;
+    padding: 10px;
+    text-align: center;
+    background-color: #E6E6E6;
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+    font-weight: 510;
+    font-family: "Inter Variable", sans-serif
+}
+
+.signupbtn a {
+    color: #08090A;
+}
+
+.signupbtn:hover {
+    background-color: white;
+}
+
+.fa-bars {
+    border: 2px solid crimson;
+    color: white;
+    display: none;
+    border: none;
+}
+
+hr.full-line {
+    width: 100%;
+    border: none;
+    margin: 0;
+    border-top: 0.1px solid white;
+    color: #1D1E1E;
+}
+
+/* ----MEDIA-QUERY------- */
+
+@media(max-width:800px){
+    .nav_link{
+        justify-content: space-between;
+    }
+   
+}
+@media(max-width:768px){
+    .nav_link{
+        justify-content: space-between;
+    }
+    .menu-list{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        font-size: 1.5em;
+    }
+    .btn-icon{
+        gap: .5em;
+    }
+    .signupbtn{
+        padding: 5px;
+    }
+}
+
+
+/* -----HER0-SECTION---- */
+
+.hero-sect {
+    background-color: #08090A;
+    /* height: 100vh; */
+}
+.hero-text{
+    border: 2px solid purple;
+    margin: auto;
+    align-items: center;
+    padding: 80px;
+    border: none;
+}
+.hero-text h1{
+    border: 2px solid crimson;
+    padding: 20px;
+    font-size: 64px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    color: #F7F8F8;
+    border: none;
+}
+.hero-text p{
+    border: 2px solid yellow;
+    color: #8A8F98;
+    padding: 20px;
+    font-size: 17px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+}
+.links{
+    border: 2px solid purple;
+    padding: 15px;
+    display: flex;
+    gap: 2em;
+    border: none;
+}
+
+.startbtn{
+    border: 2px solid crimson;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+}
+
+.startbtn a{
+    color: #08090A;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 510;
+    font-style: normal;
+}
+
+.new {
+    border: 2px solid green;
+    padding: 4px;
+    background-color: #08090A;
+    text-align: center;
+    border: none;
+   
+}
+.new a {
+    color: #8A8F98;
+    font-size: 15px;
+    font-weight: 510;
+    font-family: "Inter Variable", sans-serif;
+    font-style: normal;
+}
+.new:hover {
+    color: #F7F8F8;
+    background-color: #1A1B1B;
+    border: 2px solid grey;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+.hero-sect img{
+    width: 100%;
+}
+.hero-sect h6{
+    color: #F7F8F8;
+    text-align: center;
+    font-size: 21px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+}
+.hero-sect h5{
+    color: #8A8F98;
+    text-align: center;
+    font-size: 21px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+}
+.main-wrapper a{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 30px; 
+    padding: 40px 20px;
+    justify-items: center;
+    align-items: center;
+}
+.main-wrapper a img{
+    width: 100px;
+}
+.made{
+    border: 2px solid purple;
+    padding: 90px;
+    display: flex;
+    gap: 8em;
+    margin-top: 100px;
+    border: none;
+}
+.madeproduct{
+    border: 2px solid yellow;
+    color: #F7F8F8;
+    font-size: 56px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 538;
+    border: none;
+}
+.makeswitch{
+    border: 2px solid red;
+    color: #8A8F98;
+    font-size: 15px;
+    font-weight: 510;
+    margin-top: 50px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    border: none;
+}
+.makeswitch a{
+    border: 2px solid crimson;
+    color: #F7F8F8;
+    border: none;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 15px;
+}
+.threeimages{
+    border: 2px solid yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    position: relative;
+    border: none;
+}
+.threeimages img:hover{
+    background-color: #191A1B;
+}
+.threeimages a img {
+    border: 2px solid purple;
+    height: 370px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #141516;
+    border: none;
+    width: 370px;
+}
+.threetext{
+    border: 2px solid crimson;
+    position: absolute;
+    top: 300px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    color: white;
+    border: none;
+
+}
+.secondtext{
+    border: 2px solid crimson;
+    position: absolute;
+    top: 320px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    color: white;
+    border: none;
+
+}
+.firsttext{
+    border: 2px solid crimson;
+    position: absolute;
+    top: 320px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    color: white;
+    border: none;
+
+}
+
+
+
+
+/* -----MEDIA-QUERY FOR HEROSECTION---- */
+
+@media(max-width:768px){
+    .hero-text {
+        padding: 40px;
+        text-align: center;
+    }
+     .hero-text h1 {
+        font-size: 40px;
+        padding: 15px;
+    }
+     .hero-text p {
+        font-size: 16px;
+        padding: 15px;
+    }
+     .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+    .new {
+        width: 100%;
+        max-width: 250px;
+    }
+    .startbtn {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+@media(max-width:480px){
+     .hero-sect {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .hero-text {
+        padding: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+        padding: 10px;
+    }
+     .hero-text p {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+    .new {
+        width: 100%;
+        max-width: 220px;
+        padding: 12px;
+    }
+    .startbtn {
+        width: 100%;
+        max-width: 220px;
+        padding: 12px;
+    }
+}
