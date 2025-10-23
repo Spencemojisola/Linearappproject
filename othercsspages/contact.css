@@ -267,7 +267,7 @@ hr.full-line {
     border: 2px solid green;
     display: flex;
     justify-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 20px;
     border: none;
 }
@@ -348,3 +348,83 @@ hr.full-line {
 .hello a :hover{
     color: #8A8F98;
 }
+
+.thirdwrapper{
+    border: 2px solid green;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: none;
+}
+.thirdleftside{
+    border: 2px solid cyan;
+    padding: 40px;
+    border: none;
+}
+.thirdleftside h4{
+    border: 2px solid brown;
+    color: #F7F8F8;
+    font-size: 17px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    border: none;
+
+}
+.thirdleftside p{
+    border: 2px solid indigo;
+    margin-top: 10px;
+    color: #8A8F98;
+    font-size: 15px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    border: none;
+}
+.docs{
+    border: 2px solid maroon;
+    margin-top: 10px;
+    display: flex;
+    border: none;
+}
+.docs a p{
+    color: white;
+}
+.doctext:hover{
+    color: #8A8F98;
+}
+.fourthrightside{
+    border: 2px solid cyan;
+    padding: 40px;
+    border: none;
+}
+.fourthrightside h4{
+    border: 2px solid brown;
+    color: #F7F8F8;
+    font-size: 17px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    border: none;
+
+}
+.fourthrightside p{
+    border: 2px solid indigo;
+    margin-top: 10px;
+    color: #8A8F98;
+    font-size: 15px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    border: none;
+}
+.api{
+    border: 2px solid maroon;
+    margin-top: 10px;
+    display: flex;
+    border: none;
+}
+.api a p{
+    color: white;
+}
+.apitext:hover{
+    color: #8A8F98;
+}
+
