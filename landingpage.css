@@ -431,7 +431,7 @@ hr.full-line {
 .ai-section{
     border: 2px solid orangered;
     background-color: #08090A;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 70px;
 }
 .aiassisted a{
@@ -476,4 +476,48 @@ hr.full-line {
 .learn:hover{
     background-color: #323237;
 }
+.assignimage{
+    padding: 20px;
+}
+.assignimage img{
+    border: 2px solid indigo;
+    width: 1000px;
+    height: 500px;
+    border: none;
+    
+}
 
+hr.middleline{
+    width: 80%;
+    /* border: none; */
+    margin: auto;
+    border-top: 0.1px solid #151616;
+    color: #1D1E1E;
+
+}
+.linesection{
+    border: 2px solid yellow;
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    padding: 20px;
+   
+}
+.firstside{
+    border: 2px solid maroon;
+}
+.firstside h4{
+    color: white;
+}
+.firstside p{
+    color: white;
+}
+.secondside{
+    border: 2px solid mediumblue;
+}
+.secondside h5{
+    color: white;
+}
+.secondside p{
+    color: white;
+}
