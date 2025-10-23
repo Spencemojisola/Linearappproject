@@ -138,20 +138,77 @@ hr.full-line {
     background-color: #08090A;
     height: 100vh;
 }
-.hero-sect h2{
-    border: 2px solid goldenrod;
+.how{
+    border: 2px solid blue;
+    padding: 20px;
+}
+.how h2{
+    border: 2px solid lightcoral;
     color: #F7F8F8;
-    text-align: center;
-    padding: 50px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 64px;
     font-weight: 510;
-}
-.hero-sect p{
-    border: 2px solid mediumaquamarine;
-    color: #8A8F98;
     text-align: center;
+}
+.how p{
+    border: 2px solid pink;
+    color: #8A8F98;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 17px;
     font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+}
+.wrapper{
+    border: 2px solid green;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.leftside{
+    border: 2px solid cyan;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    padding: 40px;
+    background-color: #101112;
+    border: none;
+}
+.lefticon{
+    border: 2px solid red;
+    display: flex;
+    gap: .5em;
+    align-items: center;
+    border: none;
+}
+.fa-envelope{
+    color: white;
+}
+.lefticon p{
+    color: white;
+}
+.lefttext{
+    border: 2px solid pink;
+    margin-top: 20px;
+    border: none;
+}
+.lefttext p{
+    color: #F7F8F8;
+}
+.leftside .talk {
+    border: 2px solid chartreuse;
+    margin-top: 30px;
+    background-color: #28282C;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+}
+.leftside .talk a{
+    color: #F7F8F8;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 13px;
+}
+.talk:hover{
+    background-color: #323237;
 }
