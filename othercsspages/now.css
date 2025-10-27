@@ -138,11 +138,11 @@ hr.full-line {
 
 .hero-sect {
     background-color: #08090A;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .nowbtn{
     border: 2px solid crimson;
-    padding: 50px;
+    padding: 40px;
     width: 90%;
     margin: auto;
     border: none;
@@ -167,7 +167,7 @@ hr.full-line {
 .nowmenulist {
     display: flex;
     justify-content: space-around;
-    gap: 1.5em;
+    gap: 1em;
 }
 .nowmenulist li a:hover{
     color: white;
@@ -216,5 +216,212 @@ hr.full-line {
     width: 30px;
     height: 29px;
 }
+.imagesection{
+    border: 2px solid maroon;
+    padding: 10px;
+    margin: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+.karri a img{
+    border: 2px solid forestgreen;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    margin-top: 30px;
+}
+.karri a .oct{
+    color: #8A8F98;
+    padding: 5px;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+.karri a h4{
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    padding: 5px;
+
+}
+.karri a .Real{
+    color: #8A8F98 ;
+    padding: 5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.centerpc{
+    color: #18191A;
+}
+hr.vertical{
+    width: 1px;
+    height: 380px;
+    border-top: 0.1px thin #18191A;
+    margin-top: 30px;
+   
+}
+
+.robb a img{
+    border: 2px solid forestgreen;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+}
+.robb a .occt{
+    color: #8A8F98;
+    padding: 5px;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+.robb a h4{
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    padding: 5px;
+
+}
+.robb a .rebuilt{
+    color: #8A8F98 ;
+    padding: 5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.anotherimagesection{
+    border: 2px solid maroon;
+    padding: 10px;
+    margin: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+.timi a img{
+    border: 2px solid forestgreen;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    margin-top: 40px;
+}
+.timi a .tim{
+    color: #8A8F98;
+    padding: 5px;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+.timi a h4{
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    padding: 5px;
+
+}
+.timi a .notall{
+    color: #8A8F98 ;
+    padding: 5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.anothercenterpc{
+    color: #18191A;
+}
+hr.anothervertical{
+    width: 1px;
+    height: 380px;
+    margin-top: 30px;
+   
+}
+
+.twoauthors a img{
+    border: 2px solid forestgreen;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    margin-top: 28px;
+}
+.twoauthors a .twoauth{
+    color: #8A8F98;
+    padding: 5px;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+.twoauthors a h4{
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    padding: 5px;
+
+}
+.twoauthors a .zero{
+    color: #8A8F98 ;
+    padding: 5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+hr.line {
+    width: 83%;
+    border: none;
+    margin: auto;
+    border-top: 0.1px solid #1A1B1B;
+    color: #1D1E1E;
+    padding: 20px;
+    margin-top: 50px;
+}
+.anotherherosect{
+    background-color: #08090A;
+    /* height: 100vh; */
+
+}
+.change{
+    border: 2px solid peru;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+}
+.change h5{
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 590;
+
+}
+.change a{
+    color: #EFF0F1;
+    font-size: 15px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+.change a:hover{
+    color: white;
+}
+.cards{
+    border: 2ps solid yellow;
+    display: flex;
+    gap: 2em;
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    
+}
+
 
 
