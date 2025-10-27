@@ -49,6 +49,7 @@ header {
     gap: 2em;
     font-size: 13px;
     font-weight: 510;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     border: none;
 }
 
@@ -139,3 +140,81 @@ hr.full-line {
     background-color: #08090A;
     height: 100vh;
 }
+.nowbtn{
+    border: 2px solid crimson;
+    padding: 50px;
+    width: 90%;
+    margin: auto;
+    border: none;
+}
+.nowbtn a{
+    color: white;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 32px;
+    font-weight: 590;
+    margin: auto;
+}
+.now_navlink{
+    border: 2px solid orange;
+    width: 82%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    
+}
+.nowmenulist {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5em;
+}
+.nowmenulist li a:hover{
+    color: white;
+} 
+.nowmenulist li a {
+    color: #898E97;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background: none;
+}
+.nowright {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #1C1D1D;
+    padding: 5px;
+    width: 220px;
+    height: 40px;
+}
+.search a {
+    display: flex;
+    align-items: center;
+    color: #8A8F98;
+    font-weight: 400;
+    font-size: 14px;
+    gap: .5em;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.fa-rss{
+    color: #8A8F98;
+    align-items: center;
+    justify-content: center;
+}
+.prompt a .fa-rss:hover{
+    background-color: #252529;
+    border-radius: 5px;
+    color: white;
+    width: 30px;
+    height: 29px;
+}
+
+
