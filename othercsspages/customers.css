@@ -137,5 +137,153 @@ hr.full-line {
 
 .hero-sect {
     background-color: #08090A;
-    height: 100vh;
+    /* height: 100vh; */
 }
+.hero-text{
+    border: 2px solid chartreuse;
+    margin: auto;
+    width: 90%;
+    padding: 30px;
+    border: none;
+}
+.hero-text h5{
+    color: rgb(247, 248, 248);
+    font-size: 64px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+
+}
+.hero-text p{
+    color: #8A8F98;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 10px;
+}
+.hero-text a{
+    color: #828FFF;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 510;
+    padding: 10px;
+    
+}
+.hero-text a:hover{
+    color: white;
+}
+.hero-text .fa-chevron-right{
+    font-size: 10px;
+    align-items: center;
+}
+.customersect{
+    border: 2px solid indigo;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.openai{
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0F1011;
+    width: 490px;
+    height: 300px;
+    position: relative;
+    border: none;
+}
+
+.openai .card8{
+    border: 2px solid crimson;
+    position: absolute;
+    left: 200px;
+    width: 265px;
+    border: none;
+    
+}
+.openai .gpt{
+    border: 2px solid chocolate;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    border: none;
+   
+}
+.openai h4{
+    border: 2px solid seagreen;
+    position: absolute;
+    top: 150px;
+    color: #F7F8F8;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 510;
+    border: none;
+}
+.openai p{
+    border: 2px solid khaki;
+    position: absolute;
+    top: 250px;
+    color: #8A8F98;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+.openai p:hover{
+    color: white;
+}
+
+.ramp{
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0F1011;
+    width: 490px;
+    height: 300px;
+    position: relative;
+    border: none;
+}
+
+.ramp .card1{
+    border: 2px solid crimson;
+    position: absolute;
+    left: 200px;
+    width: 265px;
+    border: none;
+    
+}
+.ramp .ram{
+    border: 2px solid chocolate;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    border: none;
+   
+}
+.ramp h4{
+    border: 2px solid seagreen;
+    position: absolute;
+    top: 150px;
+    color: #F7F8F8;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 510;
+    border: none;
+}
+.ramp p{
+    border: 2px solid khaki;
+    position: absolute;
+    top: 250px;
+    color: #8A8F98;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+.ramp p:hover{
+    color: white;
+}
+
