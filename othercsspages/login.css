@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.loginnow{
+    border: 2px solid gold;
+    background-color: #0D0E0F;
+    height: 100vh;
+    
+}
+.loginsect{
+    border: 2px solid aqua;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    border: 2px solid hotpink;
+    position: absolute;
+    top: 190px;
+    left: 440px;
+}
+.textbox{
+    border: 2px solid lawngreen;
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 415px;
+}
+.box1{
+    border: 2px solid indigo;
+    position: absolute;
+    padding: 10px;
+    top: 320px;
+    border-radius: 10px;
+    left: 340px;
+    background-color: blueviolet;
+}
+.google {
+  background: transparent; 
+  border: none;            
+  color: white;            
+  font-size: 16px;                
+  padding: 4px 40px     
+}
+
+.box2{
+    border: 2px solid indigo;
+    position: absolute;
+    padding: 10px;
+    top: 380px;
+    border-radius: 10px;
+    left: 343px;
+    background-color: blueviolet;
+}
+.email {
+  background: transparent; 
+  border: none;            
+  color: white;            
+  font-size: 16px;                
+  padding: 6px 45px     
+}
+
+.box3{
+    border: 2px solid indigo;
+    position: absolute;
+    padding: 10px;
+    top: 445px;
+    border-radius: 10px;
+    left: 343px;
+    background-color: blueviolet;
+}
+.saml {
+  background: transparent; 
+  border: none;            
+  color: white;            
+  font-size: 16px;                
+  padding: 4px 25px     
+}
+
+.box4{
+    border: 2px solid indigo;
+    position: absolute;
+    padding: 10px;
+    top: 505px;
+    border-radius: 10px;
+    left: 343px;
+    background-color: blueviolet;
+}
+.passkey {
+  background: transparent; 
+  border: none;            
+  color: white;            
+  font-size: 16px;                
+  padding: 4px 46px     
+}
+
+
