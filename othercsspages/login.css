@@ -10,6 +10,7 @@
     border: 2px solid gold;
     background-color: #0D0E0F;
     height: 100vh;
+    border: none;
     
 }
 .loginsect{
@@ -19,86 +20,134 @@
     width: 80%;
     align-items: center;
     position: relative;
+    border: none;
 }
 .logo{
     border: 2px solid hotpink;
     position: absolute;
-    top: 190px;
+    top: 100px;
     left: 440px;
+    border: none;
 }
 .textbox{
     border: 2px solid lawngreen;
-    color: white;
+    color: #E3E4E6;
     position: absolute;
-    top: 270px;
-    left: 415px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    top: 180px;
+    left: 400px;
+    border: none;
 }
 .box1{
     border: 2px solid indigo;
     position: absolute;
     padding: 10px;
-    top: 320px;
-    border-radius: 10px;
+    top: 220px;
+    border-radius: 4px;
     left: 340px;
-    background-color: blueviolet;
+    background-color: #575CC7;
+    border: none;
+}
+.box1:hover{
+    background-color: #6C78E6;
 }
 .google {
   background: transparent; 
   border: none;            
-  color: white;            
-  font-size: 16px;                
-  padding: 4px 40px     
+  color: #FEFEFF;            
+  font-size: 13px;    
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+  font-weight: 500;            
+  padding: 4px 50px     
 }
 
 .box2{
     border: 2px solid indigo;
     position: absolute;
     padding: 10px;
-    top: 380px;
-    border-radius: 10px;
+    top: 275px;
+    border-radius: 4px;
     left: 343px;
-    background-color: blueviolet;
+    background-color: #1E2025;
+    border: none;
+}
+.box2:hover{
+    background-color: #26282F;
 }
 .email {
   background: transparent; 
   border: none;            
   color: white;            
-  font-size: 16px;                
-  padding: 6px 45px     
+  font-size: 13px;  
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+  font-weight: 500;               
+  padding: 6px 55px     
 }
 
 .box3{
     border: 2px solid indigo;
     position: absolute;
     padding: 10px;
-    top: 445px;
-    border-radius: 10px;
+    top: 335px;
+    border-radius: 4%;
     left: 343px;
-    background-color: blueviolet;
+    background-color: #1E2025;
+    border: none;
+}
+.box3:hover{
+    background-color: #26282F;
 }
 .saml {
   background: transparent; 
   border: none;            
   color: white;            
-  font-size: 16px;                
-  padding: 4px 25px     
+  font-size: 13px;    
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+  font-weight: 500;             
+  padding: 4px 40px     
 }
 
 .box4{
     border: 2px solid indigo;
     position: absolute;
     padding: 10px;
-    top: 505px;
-    border-radius: 10px;
+    top: 390px;
+    border-radius: 4px;
     left: 343px;
-    background-color: blueviolet;
+    background-color: #1E2025;
+    border: none;
+}
+.box4:hover{
+    background-color: #26282F;
 }
 .passkey {
   background: transparent; 
   border: none;            
   color: white;            
-  font-size: 16px;                
-  padding: 4px 46px     
+  font-size: 13px;  
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+  font-weight: 500;                
+  padding: 4px 57px     
 }
+.accounttext{
+    border: 2px solid firebrick;
+    position: absolute;
+    padding: 10px;
+    top: 450px;
+    left: 320px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+    font-size: 13px;
+    color: #969799;
+    font-weight: 450;
+    border: none;
 
+}
+.accounttext a{
+    color: white;
+}
+.accounttext a:hover{
+    text-decoration: underline grey;
+}
 
