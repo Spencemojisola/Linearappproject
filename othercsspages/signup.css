@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.signupnow{
+    border: 2px solid gold;
+    background-color: #0D0E0F;
+    height: 100vh;
+    border: none;
+    
+}
+.signupsect{
+    border: 2px solid aqua;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    position: relative;
+    border: none;
+}
+.logo{
+    border: 2px solid hotpink;
+    position: absolute;
+    top: 100px;
+    left: 440px;
+    border: none;
+}
+.textbox{
+    border: 2px solid lawngreen;
+    color: #E3E4E6;
+    position: absolute;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    top: 180px;
+    left: 400px;
+    border: none;
+}
+.box1{
+    border: 2px solid indigo;
+    position: absolute;
+    padding: 10px;
+    top: 220px;
+    border-radius: 4px;
+    left: 340px;
+    background-color: #575CC7;
+    border: none;
+}
+.box1:hover{
+    background-color: #6C78E6;
+}
+.google {
+  background: transparent; 
+  border: none;            
+  color: #FEFEFF;            
+  font-size: 13px;    
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+  font-weight: 500;            
+  padding: 4px 50px     
+}
+
+.box2{
+    border: 2px solid indigo;
+    position: absolute;
+    padding: 10px;
+    top: 275px;
+    border-radius: 4px;
+    left: 343px;
+    background-color: #1E2025;
+    border: none;
+}
+.box2:hover{
+    background-color: #26282F;
+}
+.email {
+  background: transparent; 
+  border: none;            
+  color: white;            
+  font-size: 13px;  
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+  font-weight: 500;               
+  padding: 6px 55px     
+}
+
+.box3{
+    border: 2px solid indigo;
+    position: absolute;
+    padding: 10px;
+    top: 335px;
+    border-radius: 4%;
+    left: 343px;
+    background-color: #1E2025;
+    border: none;
+}
+.box3:hover{
+    background-color: #26282F;
+}
+.saml {
+  background: transparent; 
+  border: none;            
+  color: white;            
+  font-size: 13px;    
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+  font-weight: 500;             
+  padding: 4px 40px     
+}
+
+.termstext{
+    border: 2px solid firebrick;
+    position: absolute;
+    padding: 10px;
+    top: 400px;
+    left: 330px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+    font-size: 13px;
+    color: #969799;
+    font-weight: 450;
+    border: none;
+
+}
+.termstext a{
+    color: white;
+}
+.termstext a:hover{
+    text-decoration: underline grey;
+}
+.logintext{
+    border: 2px solid firebrick;
+    position: absolute;
+    padding: 10px;
+    top: 460px;
+    left: 355px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Linear Thai", sans-serif;
+    font-size: 13px;
+    color: #969799;
+    font-weight: 450;
+    border: none;
+
+}
+.logintext a{
+    color: white;
+}
+.logintext a:hover{
+    text-decoration: underline grey;
+}
