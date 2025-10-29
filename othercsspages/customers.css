@@ -184,14 +184,13 @@ hr.full-line {
     border: none;
 }
 .openai{
-    border: 2px solid aqua;
+    border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
     background-color: #0F1011;
     width: 490px;
     height: 300px;
     position: relative;
-    border: none;
 }
 
 .openai .card8{
@@ -237,14 +236,13 @@ hr.full-line {
 }
 
 .ramp{
-    border: 2px solid aqua;
+    border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
     background-color: #0F1011;
     width: 490px;
     height: 300px;
     position: relative;
-    border: none;
 }
 
 .ramp .card1{
@@ -298,14 +296,13 @@ hr.full-line {
     border: none;
 }
 .brex{
-    border: 2px solid aqua;
+    border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
     background-color: #0F1011;
     width: 490px;
     height: 300px;
     position: relative;
-    border: none;
 }
 
 .brex .breximg{
@@ -351,14 +348,13 @@ hr.full-line {
 }
 
 .scale{
-    border: 2px solid aqua;
+    border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
     background-color: #0F1011;
     width: 490px;
     height: 300px;
     position: relative;
-    border: none;
 }
 
 .scale .card6{
@@ -408,7 +404,7 @@ hr.full-line {
     /* padding: 50px; */
     margin-top: 80px;
     display: flex;
-    height: 100vh;
+    height: 50vh;
     position: relative;
     border: none;
 }
@@ -477,4 +473,311 @@ hr.tinyline{
     margin-top: 50px;
    
 }
+
+.firstthreecards{
+    border: 2px solid indigo;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border: none;
+    
+}
+.mercury{
+    border: 2px solid #1B1C1D;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0F1011;
+    width: 330px;
+    height: 290px;
+    position: relative;
+    
+}
+
+
+.mercury .img{
+    border: 2px solid chocolate;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    border: none;
+   
+}
+.mercury h4{
+    border: 2px solid seagreen;
+    position: absolute;
+    top: 150px;
+    color: #F7F8F8;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 510;
+    border: none;
+}
+.mercury p{
+    border: 2px solid khaki;
+    position: absolute;
+    top: 250px;
+    color: #8A8F98;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+.mercury p:hover{
+    color: white;
+}
+.mercury:hover{
+    background-color: #161719;
+}
+.retools{
+    border: 2px solid #1B1C1D;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0F1011;
+    width: 330px;
+    height: 290px;
+    position: relative;
+}
+
+
+.retools .img{
+    border: 2px solid chocolate;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    border: none;
+   
+}
+.retools h4{
+    border: 2px solid seagreen;
+    position: absolute;
+    top: 150px;
+    color: #F7F8F8;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 510;
+    border: none;
+}
+.retools p{
+    border: 2px solid khaki;
+    position: absolute;
+    top: 250px;
+    color: #8A8F98;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+.retools p:hover{
+    color: white;
+}
+.retools:hover{
+    background-color: #161719;
+}
+
+.cashapp{
+    border: 2px solid #1B1C1D;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #0F1011;
+    width: 330px;
+    height: 290px;
+    position: relative;
+}
+
+
+.cashapp .img{
+    border: 2px solid chocolate;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    border: none;
+   
+}
+.cashapp h4{
+    border: 2px solid seagreen;
+    position: absolute;
+    top: 150px;
+    color: #F7F8F8;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 510;
+    border: none;
+}
+.cashapp p{
+    border: 2px solid khaki;
+    position: absolute;
+    top: 250px;
+    color: #8A8F98;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+.cashapp p:hover{
+    color: white;
+}
+.cashapp:hover{
+    background-color: #161719;
+}
+
+.secondthreecards{
+    border: 2px solid indigo;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    
+}
+.pleo{
+    border: 2px solid #1B1C1D;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0F1011;
+    width: 330px;
+    height: 290px;
+    position: relative;
+    
+}
+
+
+.pleo.img{
+    border: 2px solid chocolate;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    border: none;
+   
+}
+.pleo h4{
+    border: 2px solid seagreen;
+    position: absolute;
+    top: 150px;
+    color: #F7F8F8;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 510;
+    border: none;
+}
+.pleo p{
+    border: 2px solid khaki;
+    position: absolute;
+    top: 250px;
+    color: #8A8F98;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+.pleo p:hover{
+    color: white;
+}
+.pleo:hover{
+    background-color: #161719;
+}
+.seria{
+    border: 2px solid #1B1C1D;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0F1011;
+    width: 330px;
+    height: 290px;
+    position: relative;
+}
+
+
+.seria .img{
+    border: 2px solid chocolate;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    border: none;
+   
+}
+.seria h4{
+    border: 2px solid seagreen;
+    position: absolute;
+    top: 150px;
+    color: #F7F8F8;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 510;
+    border: none;
+}
+.seria p{
+    border: 2px solid khaki;
+    position: absolute;
+    top: 250px;
+    color: #8A8F98;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+.seria p:hover{
+    color: white;
+}
+.seria:hover{
+    background-color: #161719;
+}
+
+.clio{
+    border: 2px solid #1B1C1D;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #0F1011;
+    width: 330px;
+    height: 290px;
+    position: relative;
+}
+
+
+.clio .img{
+    border: 2px solid chocolate;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #1B1C1D;
+    border-radius: 10px;
+    border: none;
+   
+}
+.clio h4{
+    border: 2px solid seagreen;
+    position: absolute;
+    top: 150px;
+    color: #F7F8F8;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 510;
+    border: none;
+}
+.clio p{
+    border: 2px solid khaki;
+    position: absolute;
+    top: 250px;
+    color: #8A8F98;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+.clio p:hover{
+    color: white;
+}
+.clio:hover{
+    background-color: #161719;
+}
+
+
 
