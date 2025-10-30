@@ -887,7 +887,7 @@ h3 {
 .companysect{
     border: 2px solid indianred;
     padding: 25px;
-    /* display: flex; */
+    
 }
 .rampicon{
     border: 2px solid chartreuse;
@@ -895,13 +895,14 @@ h3 {
     margin: auto;
     align-items: center;
     width: 95%;
-    padding: 4px 4px;
+    padding: 6px 4px;
     border: none;
 
 }
 .rampicon .rm{
     border: 2px solid rebeccapurple;
     width: 30px;
+    border: none;
 }
 .rampicon h5{
     border: 2px solid coral;
@@ -909,8 +910,9 @@ h3 {
     font-size: 14px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
-    margin-left: 8px;
-    margin-top: 10px;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
 }
 .rampicon p{
     color: rgb(138, 143, 152);
@@ -947,13 +949,14 @@ h3 {
     margin: auto;
     align-items: center;
     width: 95%;
-    padding: 4px 4px;
+    padding: 6px 4px;
     border: none;
 
 }
 .brexicon .bx{
     border: 2px solid rebeccapurple;
     width: 30px;
+    border: none;
 }
 .brexicon h5{
     border: 2px solid coral;
@@ -961,8 +964,9 @@ h3 {
     font-size: 14px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
-    margin-left: 6px;
-    margin-top: 10px;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
 }
 .brexicon p{
     color: rgb(138, 143, 152);
@@ -998,13 +1002,13 @@ h3 {
     margin: auto;
     align-items: center;
     width: 95%;
-    padding: 4px 4px;
+    padding: 6px 4px;
     border: none;
 
 }
-.coinbaseicon .cb{
+.coinbaseicon.cb{
     border: 2px solid rebeccapurple;
-    width: 30px;
+    border: none;
 }
 .coinbaseicon h5{
     border: 2px solid coral;
@@ -1012,8 +1016,9 @@ h3 {
     font-size: 14px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
-    margin-left: 8px;
-    margin-top: 10px;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
 }
 .coinbaseicon p{
     color: rgb(138, 143, 152);
@@ -1043,50 +1048,7 @@ h3 {
   width: 95%;                         
   margin: 10px auto;                  
 }
-.coinbaseicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    width: 95%;
-    padding: 4px 4px;
-    border: none;
 
-}
-.coinbaseicon .cb{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-}
-.coinbaseicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 8px;
-    margin-top: 10px;
-}
-.coinbaseicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.coinbaseicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.coinbaseicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
 .firstline {
   border: none;                        
   height: 2px;                         
@@ -1100,13 +1062,14 @@ h3 {
     margin: auto;
     align-items: center;
     width: 95%;
-    padding: 4px 4px;
+    padding: 6px 4px;
     border: none;
 
 }
 .mercuryicon .me{
     border: 2px solid rebeccapurple;
     width: 30px;
+    border: none;
 }
 .mercuryicon h5{
     border: 2px solid coral;
@@ -1114,8 +1077,9 @@ h3 {
     font-size: 14px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
-    margin-left: 8px;
-    margin-top: 10px;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
 }
 .mercuryicon p{
     color: rgb(138, 143, 152);
@@ -1145,6 +1109,586 @@ h3 {
   width: 95%;                         
   margin: 10px auto;                  
 }
+.cashappicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 6px 4px;
+    border: none;
 
+}
+.cashappicon .ca{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.cashappicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+}
+.cashappicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.cashappicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.cashappicon:hover{
+    background-color: #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+.pleoicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 6px 4px;
+    border: none;
 
+}
+.pleoicon .pl{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.pleoicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+}
+.pleoicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.pleoicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.pleoicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+
+.monzoicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 6px 4px;
+    border: none;
+
+}
+.monzoicon .mo{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.monzoicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+}
+.monzoicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.monzoicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.monzoicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+
+.openseaicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 6px 4px;
+    border: none;
+
+}
+.openseaicon .op{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.openseaicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+}
+.openseaicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.openseaicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.openseaicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+.alanicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 6px 4px;
+    border: none;
+
+}
+.alanicon .al{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.alanicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+}
+.alanicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.alanicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.alanicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+
+.moonpayicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 6px 4px;
+    border: none;
+
+}
+.moonpayicon .mp{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.moonpayicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+}
+.moonpayicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.moonpayicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.moonpayicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+
+.pulleyicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 6px 4px;
+    border: none;
+
+}
+.pulleyicon .py{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.pulleyicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+
+}
+.pulleyicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.pulleyicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.pulleyicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+
+.modernicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 6px 4px;
+    border: none;
+
+}
+.modernicon .mt{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.modernicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+}
+.modernicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.modernicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.modernicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+.worldcoinicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 6px 4px;
+    border: none;
+
+}
+.worldcoinicon .wc{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.worldcoinicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+}
+.worldcoinicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.worldcoinicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.worldcoinicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+.parafinicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 4px 4px;
+    border: none;
+
+}
+.parafinicon .pac{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.parafinicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+}
+.parafinicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.parafinicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.parafinicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+
+.yourcompanyicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 6px 4px;
+    border: none;
+
+}
+.yourcompanyicon .yc{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+    border: none;
+}
+.yourcompanyicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 4px;
+    margin-top: 2px;
+    border: none;
+}
+.yourcompanyicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.yourcompanyicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.yourcompanyicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
 
