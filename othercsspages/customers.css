@@ -429,7 +429,7 @@ hr.full-line {
     /* padding: 50px; */
     margin-top: 80px;
     display: flex;
-    height: 50vh;
+    height: 100vh;
     position: relative;
     border: none;
 }
@@ -1691,4 +1691,61 @@ h3 {
 .fa-chevron-right{
     font-size: 10px;
 }
+
+.cont{
+    border: 2px solid cornflowerblue;
+    border: none;
+    height: 50vh;
+    
+}
+.lar{
+    border: 2px solid khaki;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    border: none;
+   
+}
+.lartext p{
+    color: #F7F8F8;
+    font-size: 40px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+}
+.larbtn{
+    border: 2px solid aquamarine;
+    display: flex;
+    gap: 1em;
+    border: none;
+}
+.larbtn .cs{
+    border: 1px solid #1B1C1D ;
+    background-color: #28282C;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    
+}
+.larbtn .cs .css{
+    color: white;
+}
+.larbtn .gs{
+     border: 1px solid #1B1C1D ;
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+
+}
+.larbtn .gs .gss{
+    color: black;
+}
+
+hr.longline{
+    border: .5px solid #18191A;
+    margin-top: 100px;
+}
+
 
