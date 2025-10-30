@@ -139,43 +139,50 @@ hr.full-line {
     background-color: #08090A;
     /* height: 100vh; */
 }
-.hero-text{
+
+.hero-text {
     border: 2px solid chartreuse;
     margin: auto;
     width: 90%;
     padding: 30px;
     border: none;
 }
-.hero-text h5{
+
+.hero-text h5 {
     color: rgb(247, 248, 248);
     font-size: 64px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
 
 }
-.hero-text p{
+
+.hero-text p {
     color: #8A8F98;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 17px;
     padding: 10px;
 }
-.hero-text a{
+
+.hero-text a {
     color: #828FFF;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     font-weight: 510;
     padding: 10px;
-    
+
 }
-.hero-text a:hover{
+
+.hero-text a:hover {
     color: white;
 }
-.hero-text .fa-chevron-right{
+
+.hero-text .fa-chevron-right {
     font-size: 10px;
     align-items: center;
 }
-.customersect{
+
+.customersect {
     border: 2px solid indigo;
     display: flex;
     justify-content: space-evenly;
@@ -183,7 +190,8 @@ hr.full-line {
     padding: 15px;
     border: none;
 }
-.openai{
+
+.openai {
     border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
@@ -193,15 +201,16 @@ hr.full-line {
     position: relative;
 }
 
-.openai .card8{
+.openai .card8 {
     border: 2px solid crimson;
     position: absolute;
     left: 200px;
     width: 265px;
     border: none;
-    
+
 }
-.openai .gpt{
+
+.openai .gpt {
     border: 2px solid chocolate;
     position: absolute;
     top: 10px;
@@ -209,9 +218,10 @@ hr.full-line {
     background-color: #1B1C1D;
     border-radius: 10px;
     border: none;
-   
+
 }
-.openai h4{
+
+.openai h4 {
     border: 2px solid seagreen;
     position: absolute;
     top: 150px;
@@ -221,7 +231,8 @@ hr.full-line {
     font-weight: 510;
     border: none;
 }
-.openai p{
+
+.openai p {
     border: 2px solid khaki;
     position: absolute;
     top: 250px;
@@ -231,11 +242,12 @@ hr.full-line {
     font-size: 14px;
     border: none;
 }
-.openai p:hover{
+
+.openai p:hover {
     color: white;
 }
 
-.ramp{
+.ramp {
     border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
@@ -245,15 +257,16 @@ hr.full-line {
     position: relative;
 }
 
-.ramp .card1{
+.ramp .card1 {
     border: 2px solid crimson;
     position: absolute;
     left: 200px;
     width: 265px;
     border: none;
-    
+
 }
-.ramp .ram{
+
+.ramp .ram {
     border: 2px solid chocolate;
     position: absolute;
     top: 10px;
@@ -261,9 +274,10 @@ hr.full-line {
     background-color: #1B1C1D;
     border-radius: 10px;
     border: none;
-   
+
 }
-.ramp h4{
+
+.ramp h4 {
     border: 2px solid seagreen;
     position: absolute;
     top: 150px;
@@ -273,7 +287,8 @@ hr.full-line {
     font-weight: 510;
     border: none;
 }
-.ramp p{
+
+.ramp p {
     border: 2px solid khaki;
     position: absolute;
     top: 250px;
@@ -283,11 +298,12 @@ hr.full-line {
     font-size: 14px;
     border: none;
 }
-.ramp p:hover{
+
+.ramp p:hover {
     color: white;
 }
 
-.customersectt{
+.customersectt {
     border: 2px solid indigo;
     display: flex;
     justify-content: space-evenly;
@@ -295,7 +311,8 @@ hr.full-line {
     padding: 15px;
     border: none;
 }
-.brex{
+
+.brex {
     border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
@@ -305,15 +322,16 @@ hr.full-line {
     position: relative;
 }
 
-.brex .breximg{
+.brex .breximg {
     border: 2px solid crimson;
     position: absolute;
     left: 200px;
     width: 265px;
     border: none;
-    
+
 }
-.brex .brexximg{
+
+.brex .brexximg {
     border: 2px solid chocolate;
     position: absolute;
     top: 10px;
@@ -321,9 +339,10 @@ hr.full-line {
     background-color: #1B1C1D;
     border-radius: 10px;
     border: none;
-   
+
 }
-.brex h4{
+
+.brex h4 {
     border: 2px solid seagreen;
     position: absolute;
     top: 150px;
@@ -333,7 +352,8 @@ hr.full-line {
     font-weight: 510;
     border: none;
 }
-.brex p{
+
+.brex p {
     border: 2px solid khaki;
     position: absolute;
     top: 250px;
@@ -343,11 +363,12 @@ hr.full-line {
     font-size: 14px;
     border: none;
 }
-.brex p:hover{
+
+.brex p:hover {
     color: white;
 }
 
-.scale{
+.scale {
     border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
@@ -357,15 +378,16 @@ hr.full-line {
     position: relative;
 }
 
-.scale .card6{
+.scale .card6 {
     border: 2px solid crimson;
     position: absolute;
     left: 200px;
     width: 265px;
     border: none;
-    
+
 }
-.scale .scalee{
+
+.scale .scalee {
     border: 2px solid chocolate;
     position: absolute;
     top: 10px;
@@ -373,9 +395,10 @@ hr.full-line {
     background-color: #1B1C1D;
     border-radius: 10px;
     border: none;
-   
+
 }
-.scale h4{
+
+.scale h4 {
     border: 2px solid seagreen;
     position: absolute;
     top: 150px;
@@ -385,7 +408,8 @@ hr.full-line {
     font-weight: 510;
     border: none;
 }
-.scale p{
+
+.scale p {
     border: 2px solid khaki;
     position: absolute;
     top: 250px;
@@ -395,11 +419,12 @@ hr.full-line {
     font-size: 14px;
     border: none;
 }
-.scale p:hover{
+
+.scale p:hover {
     color: white;
 }
 
-.figuresect{
+.figuresect {
     border: 2px solid seagreen;
     /* padding: 50px; */
     margin-top: 80px;
@@ -408,41 +433,47 @@ hr.full-line {
     position: relative;
     border: none;
 }
-.twox{
+
+.twox {
     border: 2px solid navy;
     position: absolute;
     left: 150px;
     top: 30px;
     border: none;
-   
+
 }
-.twox h4{
+
+.twox h4 {
     color: #F7F8F8;
     font-size: 80px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
-    
+
 }
-.twox p{
+
+.twox p {
     color: #8A8F98;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
-.onepoint{
+
+.onepoint {
     border: 2px solid khaki;
     position: absolute;
     left: 350px;
     top: 30px;
     border: none;
 }
-.onepoint h4{
+
+.onepoint h4 {
     color: #F7F8F8;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 80px;
     font-weight: 510;
 }
-.onepoint p{
+
+.onepoint p {
     color: #8A8F98;
     font-size: 14px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -450,39 +481,43 @@ hr.full-line {
 }
 
 
-.righttext{
+.righttext {
     color: white;
     position: absolute;
     left: 630px;
     top: 80px;
 }
-.righttext p{
+
+.righttext p {
     color: rgb(138, 143, 152);
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
-.smallline{
+
+.smallline {
     color: #18191A;
     position: absolute;
     left: 555px;
 }
-hr.tinyline{
+
+hr.tinyline {
     width: 1px;
     height: 90px;
     margin-top: 50px;
-   
+
 }
 
-.firstthreecards{
+.firstthreecards {
     border: 2px solid indigo;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
     border: none;
-    
+
 }
-.mercury{
+
+.mercury {
     border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
@@ -490,11 +525,11 @@ hr.tinyline{
     width: 330px;
     height: 290px;
     position: relative;
-    
+
 }
 
 
-.mercury .img{
+.mercury .img {
     border: 2px solid chocolate;
     position: absolute;
     top: 10px;
@@ -502,9 +537,10 @@ hr.tinyline{
     background-color: #1B1C1D;
     border-radius: 10px;
     border: none;
-   
+
 }
-.mercury h4{
+
+.mercury h4 {
     border: 2px solid seagreen;
     position: absolute;
     top: 150px;
@@ -514,7 +550,8 @@ hr.tinyline{
     font-weight: 510;
     border: none;
 }
-.mercury p{
+
+.mercury p {
     border: 2px solid khaki;
     position: absolute;
     top: 250px;
@@ -524,13 +561,16 @@ hr.tinyline{
     font-size: 14px;
     border: none;
 }
-.mercury p:hover{
+
+.mercury p:hover {
     color: white;
 }
-.mercury:hover{
+
+.mercury:hover {
     background-color: #161719;
 }
-.retools{
+
+.retools {
     border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
@@ -541,7 +581,7 @@ hr.tinyline{
 }
 
 
-.retools .img{
+.retools .img {
     border: 2px solid chocolate;
     position: absolute;
     top: 10px;
@@ -549,9 +589,10 @@ hr.tinyline{
     background-color: #1B1C1D;
     border-radius: 10px;
     border: none;
-   
+
 }
-.retools h4{
+
+.retools h4 {
     border: 2px solid seagreen;
     position: absolute;
     top: 150px;
@@ -561,7 +602,8 @@ hr.tinyline{
     font-weight: 510;
     border: none;
 }
-.retools p{
+
+.retools p {
     border: 2px solid khaki;
     position: absolute;
     top: 250px;
@@ -571,14 +613,16 @@ hr.tinyline{
     font-size: 14px;
     border: none;
 }
-.retools p:hover{
+
+.retools p:hover {
     color: white;
 }
-.retools:hover{
+
+.retools:hover {
     background-color: #161719;
 }
 
-.cashapp{
+.cashapp {
     border: 2px solid #1B1C1D;
     border-radius: 20px;
     padding: 20px;
@@ -589,7 +633,7 @@ hr.tinyline{
 }
 
 
-.cashapp .img{
+.cashapp .img {
     border: 2px solid chocolate;
     position: absolute;
     top: 10px;
@@ -597,9 +641,10 @@ hr.tinyline{
     background-color: #1B1C1D;
     border-radius: 10px;
     border: none;
-   
+
 }
-.cashapp h4{
+
+.cashapp h4 {
     border: 2px solid seagreen;
     position: absolute;
     top: 150px;
@@ -609,7 +654,8 @@ hr.tinyline{
     font-weight: 510;
     border: none;
 }
-.cashapp p{
+
+.cashapp p {
     border: 2px solid khaki;
     position: absolute;
     top: 250px;
@@ -619,23 +665,26 @@ hr.tinyline{
     font-size: 14px;
     border: none;
 }
-.cashapp p:hover{
+
+.cashapp p:hover {
     color: white;
 }
-.cashapp:hover{
+
+.cashapp:hover {
     background-color: #161719;
 }
 
-.secondthreecards{
+.secondthreecards {
     border: 2px solid indigo;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
     margin-top: 20px;
     border: none;
-    
+
 }
-.pleo{
+
+.pleo {
     border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
@@ -643,11 +692,11 @@ hr.tinyline{
     width: 330px;
     height: 290px;
     position: relative;
-    
+
 }
 
 
-.pleo.img{
+.pleo.img {
     border: 2px solid chocolate;
     position: absolute;
     top: 10px;
@@ -655,9 +704,10 @@ hr.tinyline{
     background-color: #1B1C1D;
     border-radius: 10px;
     border: none;
-   
+
 }
-.pleo h4{
+
+.pleo h4 {
     border: 2px solid seagreen;
     position: absolute;
     top: 150px;
@@ -667,7 +717,8 @@ hr.tinyline{
     font-weight: 510;
     border: none;
 }
-.pleo p{
+
+.pleo p {
     border: 2px solid khaki;
     position: absolute;
     top: 250px;
@@ -677,13 +728,16 @@ hr.tinyline{
     font-size: 14px;
     border: none;
 }
-.pleo p:hover{
+
+.pleo p:hover {
     color: white;
 }
-.pleo:hover{
+
+.pleo:hover {
     background-color: #161719;
 }
-.seria{
+
+.seria {
     border: 2px solid #1B1C1D;
     border-radius: 10px;
     padding: 20px;
@@ -694,7 +748,7 @@ hr.tinyline{
 }
 
 
-.seria .img{
+.seria .img {
     border: 2px solid chocolate;
     position: absolute;
     top: 10px;
@@ -702,9 +756,10 @@ hr.tinyline{
     background-color: #1B1C1D;
     border-radius: 10px;
     border: none;
-   
+
 }
-.seria h4{
+
+.seria h4 {
     border: 2px solid seagreen;
     position: absolute;
     top: 150px;
@@ -714,7 +769,8 @@ hr.tinyline{
     font-weight: 510;
     border: none;
 }
-.seria p{
+
+.seria p {
     border: 2px solid khaki;
     position: absolute;
     top: 250px;
@@ -724,14 +780,16 @@ hr.tinyline{
     font-size: 14px;
     border: none;
 }
-.seria p:hover{
+
+.seria p:hover {
     color: white;
 }
-.seria:hover{
+
+.seria:hover {
     background-color: #161719;
 }
 
-.clio{
+.clio {
     border: 2px solid #1B1C1D;
     border-radius: 20px;
     padding: 20px;
@@ -742,7 +800,7 @@ hr.tinyline{
 }
 
 
-.clio .img{
+.clio .img {
     border: 2px solid chocolate;
     position: absolute;
     top: 10px;
@@ -750,9 +808,10 @@ hr.tinyline{
     background-color: #1B1C1D;
     border-radius: 10px;
     border: none;
-   
+
 }
-.clio h4{
+
+.clio h4 {
     border: 2px solid seagreen;
     position: absolute;
     top: 150px;
@@ -762,7 +821,8 @@ hr.tinyline{
     font-weight: 510;
     border: none;
 }
-.clio p{
+
+.clio p {
     border: 2px solid khaki;
     position: absolute;
     top: 250px;
@@ -772,11 +832,318 @@ hr.tinyline{
     font-size: 14px;
     border: none;
 }
-.clio p:hover{
+
+.clio p:hover {
     color: white;
 }
-.clio:hover{
+
+.clio:hover {
     background-color: #161719;
+}
+
+h3 {
+    border: 2px solid crimson;
+    color: #F7F8F8;
+    font-size: 40px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    text-align: center;
+    margin-top: 150px;
+    border: none;
+}
+
+.middle-side {
+  display: flex;                   
+  border: 2px solid #E0E0E0;                
+  border-radius: 6px;   
+  margin: auto;       
+  justify-content: center;             
+  padding: 4px 8px;
+  border: none;
+  margin-top: 70px;
+}
+
+.middle-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;                          
+  gap: 12px;                                 
+}
+.middle-list li{
+    border: 2px solid #1B1C1D;
+    border-radius: 8px;
+}
+
+.middle-list li a {
+  color: #8A8F98;                       
+  font-size: 16px;
+  font-weight: 510;
+  padding: 20px 10px;
+  background: none;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+.companysect{
+    border: 2px solid indianred;
+    padding: 25px;
+    /* display: flex; */
+}
+.rampicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 4px 4px;
+    border: none;
+
+}
+.rampicon .rm{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+}
+.rampicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.rampicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.rampicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.rampicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+
+.brexicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 4px 4px;
+    border: none;
+
+}
+.brexicon .bx{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+}
+.brexicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.brexicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.brexicon a{
+    color: white;
+    margin-left: 430px;
+    margin-top: 10px;
+}
+.brexicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+.coinbaseicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 4px 4px;
+    border: none;
+
+}
+.coinbaseicon .cb{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+}
+.coinbaseicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.coinbaseicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.coinbaseicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.coinbaseicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+.coinbaseicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 4px 4px;
+    border: none;
+
+}
+.coinbaseicon .cb{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+}
+.coinbaseicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.coinbaseicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.coinbaseicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.coinbaseicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
+}
+.mercuryicon{
+    border: 2px solid chartreuse;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 95%;
+    padding: 4px 4px;
+    border: none;
+
+}
+.mercuryicon .me{
+    border: 2px solid rebeccapurple;
+    width: 30px;
+}
+.mercuryicon h5{
+    border: 2px solid coral;
+    color: #D0D6E0;
+    font-size: 14px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.mercuryicon p{
+    color: rgb(138, 143, 152);
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.mercuryicon a{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.mercuryicon:hover{
+    background-color: #1B1C1D;
+    border: 3px solid #1B1C1D;
+    border-radius: 20px;
+}
+.fa-chevron-right{
+    font-size: 10px;
+}
+.firstline {
+  border: none;                        
+  height: 2px;                         
+  background-color: #151616; 
+  width: 95%;                         
+  margin: 10px auto;                  
 }
 
 
