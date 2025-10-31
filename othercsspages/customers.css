@@ -893,7 +893,7 @@ h3 {
     border: 2px solid crimson;
     margin: auto;
     padding: 50px;
-    /* border: none; */
+    border: none;
     
 }
 .companyramp{
@@ -903,6 +903,10 @@ h3 {
     padding: 16px 0;
     border-bottom: 1px solid #2a2a2a;
    
+}
+.companyramp:hover{
+    background-color: #151616;
+    border-radius: 8px;
 }
 
 .companyle {
@@ -949,6 +953,10 @@ h3 {
     border-bottom: 1px solid #2a2a2a;
    
 }
+.companybrex:hover{
+    background-color: #151616;
+    border-radius: 8px;
+}
 
 .companybr {
   display: flex;
@@ -993,6 +1001,10 @@ h3 {
     padding: 16px 0;
     border-bottom: 1px solid #2a2a2a;
    
+}
+.companycoin:hover{
+    background-color: #151616;
+    border-radius: 8px;
 }
 
 .companycb {
@@ -1039,6 +1051,10 @@ h3 {
     border-bottom: 1px solid #2a2a2a;
    
 }
+.companymecury:hover{
+    background-color: #151616;
+    border-radius: 8px;
+}
 
 .companymec {
   display: flex;
@@ -1083,6 +1099,10 @@ h3 {
     padding: 16px 0;
     border-bottom: 1px solid #2a2a2a;
    
+}
+.companycash:hover{
+    background-color: #151616;
+    border-radius: 8px;
 }
 
 .companycas {
@@ -1129,6 +1149,10 @@ h3 {
     border-bottom: 1px solid #2a2a2a;
    
 }
+.companypleo:hover{
+    background-color: #151616;
+    border-radius: 8px;
+}
 
 .companyple {
   display: flex;
@@ -1173,6 +1197,10 @@ h3 {
     padding: 16px 0;
     border-bottom: 1px solid #2a2a2a;
    
+}
+.companymonzo:hover{
+    background-color: #151616;
+    border-radius: 8px;
 }
 
 .companymon {
@@ -1219,6 +1247,10 @@ h3 {
     border-bottom: 1px solid #2a2a2a;
    
 }
+.companyopensea:hover{
+    background-color: #151616;
+    border-radius: 8px;
+}
 
 .companyope {
   display: flex;
@@ -1263,6 +1295,10 @@ h3 {
     padding: 16px 0;
     border-bottom: 1px solid #2a2a2a;
    
+}
+.companyalan:hover{
+    background-color: #151616;
+    border-radius: 8px;
 }
 
 .companyala {
@@ -1309,6 +1345,10 @@ h3 {
     border-bottom: 1px solid #2a2a2a;
    
 }
+.companymoonpay:hover{
+    background-color: #151616;
+    border-radius: 8px;
+}
 
 .companymoo {
   display: flex;
@@ -1354,6 +1394,10 @@ h3 {
     border-bottom: 1px solid #2a2a2a;
    
 }
+.companypulley:hover{
+    background-color: #151616;
+    border-radius: 8px;
+}
 
 .companypul {
   display: flex;
@@ -1390,6 +1434,200 @@ h3 {
   color: #7c7c7c;
   font-weight: 400;
 }
+
+.companymodern{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
+}
+.companymodern:hover{
+    background-color: #151616;
+    border-radius: 8px;
+}
+
+.companymod {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.companymodlo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
+
+.modtext {
+  font-weight: 600;
+  color: white;
+}
+
+.mod {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+.modstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.modstory:hover {
+  text-decoration: underline;
+}
+
+.modstory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.companyworld{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
+}
+.companyworld:hover{
+    background-color: #151616;
+    border-radius: 8px;
+}
+
+.companywor {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.companyworlo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
+
+.wortext {
+  font-weight: 600;
+  color: white;
+}
+
+.wor {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+.worstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.worstory:hover {
+  text-decoration: underline;
+}
+
+.worstory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.companyparafin{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
+}
+
+.companyparafin:hover{
+    background-color: #151616;
+    border-radius: 8px;
+}
+
+.companypar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.companyparlo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
+
+.partext {
+  font-weight: 600;
+  color: white;
+}
+
+.par {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+.parstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.parstory:hover {
+  text-decoration: underline;
+}
+
+.parstory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.companyyourcompany{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+}
+.companyyourcompany:hover{
+    background-color: #151616;
+    border-radius: 8px;
+}
+
+.companyyou {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.companyyoulo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
+
+.youtext {
+  font-weight: 600;
+  color: white;
+}
+
+.you {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+.youstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.youstory:hover {
+  text-decoration: underline;
+}
+
+
+
 
 
 .cont{
