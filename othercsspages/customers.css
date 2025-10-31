@@ -1,866 +1,867 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
 }
-body{
-    background-color: #08090A;
-    margin: 0;
+
+body {
+  background-color: #08090A;
+  margin: 0;
 }
 
 header {
-    border: 2px solid crimson;
-    background-color: #08090A;
-    border: none;
+  border: 2px solid crimson;
+  background-color: #08090A;
+  border: none;
 }
 
 .logo {
-    border: 2px solid orange;
-    width: 100px;
-    border: none;
+  border: 2px solid orange;
+  width: 100px;
+  border: none;
 }
 
 .nav_link {
-    border: 2px solid purple;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    border: none;
+  border: 2px solid purple;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border: none;
 }
 
 .left-side {
-    border: 2px solid green;
-    display: flex;
-    align-items: center;
-    border: none;
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+  border: none;
 }
 
 .right-side {
-    border: 2px solid violet;
-    display: flex;
-    align-items: center;
-    gap: 2em;
-    border: none;
+  border: 2px solid violet;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  border: none;
 }
 
 .menu-list {
-    border: 2px solid red;
-    display: flex;
-    gap: 2em;
-    font-size: 13px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid red;
+  display: flex;
+  gap: 2em;
+  font-size: 13px;
+  font-weight: 510;
+  border: none;
 }
 
 .menu-list li a {
-    border: 2px solid white;
-    color: #8A8F98;
-    border: none;
+  border: 2px solid white;
+  color: #8A8F98;
+  border: none;
 }
 
 li a:hover {
-    color: #F7F8F8;
-    border: 2px solid grey;
-    border-radius: 5px;
-    padding: 8px;
-    align-items: center;
-    background-color: #1C1D1D;
-    border: none;
+  color: #F7F8F8;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 8px;
+  align-items: center;
+  background-color: #1C1D1D;
+  border: none;
 }
 
 .btn-icon {
-    border: 2px solid pink;
-    display: flex;
-    gap: 2em;
-    align-items: center;
-    border: none;
+  border: 2px solid pink;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  border: none;
 }
 
 .loginbtn {
-    border: 2px solid green;
-    padding: 4px;
-    background-color: #08090A;
-    text-align: center;
-    border: none;
-    font-size: 13px;
-    font-weight: 510;
-    font-family: "Inter Variable", sans-serif
+  border: 2px solid green;
+  padding: 4px;
+  background-color: #08090A;
+  text-align: center;
+  border: none;
+  font-size: 13px;
+  font-weight: 510;
+  font-family: "Inter Variable", sans-serif
 }
 
 .loginbtn a {
-    color: #8A8F98;
+  color: #8A8F98;
 }
 
 .loginbtn:hover {
-    color: #F7F8F8;
-    background-color: #1A1B1B;
-    border: 2px solid grey;
-    border: none;
-    border-radius: 6px;
-    padding: 8px;
+  color: #F7F8F8;
+  background-color: #1A1B1B;
+  border: 2px solid grey;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
 }
 
 .signupbtn {
-    border: 2px solid green;
-    padding: 10px;
-    text-align: center;
-    background-color: #E6E6E6;
-    border-radius: 6px;
-    border: none;
-    font-size: 13px;
-    font-weight: 510;
-    font-family: "Inter Variable", sans-serif
+  border: 2px solid green;
+  padding: 10px;
+  text-align: center;
+  background-color: #E6E6E6;
+  border-radius: 6px;
+  border: none;
+  font-size: 13px;
+  font-weight: 510;
+  font-family: "Inter Variable", sans-serif
 }
 
 .signupbtn a {
-    color: #08090A;
+  color: #08090A;
 }
 
 .signupbtn:hover {
-    background-color: white;
+  background-color: white;
 }
 
 .fa-bars {
-    border: 2px solid crimson;
-    color: white;
-    display: none;
-    border: none;
+  border: 2px solid crimson;
+  color: white;
+  display: none;
+  border: none;
 }
 
 hr.full-line {
-    width: 100%;
-    border: none;
-    margin: 0;
-    border-top: 0.1px solid white;
-    color: #1D1E1E;
+  width: 100%;
+  border: none;
+  margin: 0;
+  border-top: 0.1px solid white;
+  color: #1D1E1E;
 }
 
 .hero-sect {
-    background-color: #08090A;
+  background-color: #08090A;
 }
 
 .hero-text {
-    border: 2px solid chartreuse;
-    margin: auto;
-    width: 90%;
-    padding: 30px;
-    border: none;
+  border: 2px solid chartreuse;
+  margin: auto;
+  width: 90%;
+  padding: 30px;
+  border: none;
 }
 
 .hero-text h5 {
-    color: rgb(247, 248, 248);
-    font-size: 64px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
+  color: rgb(247, 248, 248);
+  font-size: 64px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 510;
 
 }
 
 .hero-text p {
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    padding: 10px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  padding: 10px;
 }
 
 .hero-text a {
-    color: #828FFF;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 16px;
-    font-weight: 510;
-    padding: 10px;
+  color: #828FFF;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 510;
+  padding: 10px;
 
 }
 
 .hero-text a:hover {
-    color: white;
+  color: white;
 }
 
 .hero-text .fa-chevron-right {
-    font-size: 10px;
-    align-items: center;
+  font-size: 10px;
+  align-items: center;
 }
 
 .customersect {
-    border: 2px solid indigo;
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
-    padding: 15px;
-    border: none;
+  border: 2px solid indigo;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 15px;
+  border: none;
 }
 
 .openai {
-    border: 2px solid #1B1C1D;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #0F1011;
-    width: 490px;
-    height: 300px;
-    position: relative;
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 490px;
+  height: 300px;
+  position: relative;
 }
 
 .openai .card8 {
-    border: 2px solid crimson;
-    position: absolute;
-    left: 200px;
-    width: 265px;
-    border: none;
+  border: 2px solid crimson;
+  position: absolute;
+  left: 200px;
+  width: 265px;
+  border: none;
 
 }
 
 .openai .gpt {
-    border: 2px solid chocolate;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    border: none;
+  border: 2px solid chocolate;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1B1C1D;
+  border-radius: 10px;
+  border: none;
 
 }
 
 .openai h4 {
-    border: 2px solid seagreen;
-    position: absolute;
-    top: 150px;
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid seagreen;
+  position: absolute;
+  top: 150px;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 510;
+  border: none;
 }
 
 .openai p {
-    border: 2px solid khaki;
-    position: absolute;
-    top: 250px;
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  top: 250px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
 }
 
 .openai p:hover {
-    color: white;
+  color: white;
 }
 
 .ramp {
-    border: 2px solid #1B1C1D;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #0F1011;
-    width: 490px;
-    height: 300px;
-    position: relative;
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 490px;
+  height: 300px;
+  position: relative;
 }
 
 .ramp .card1 {
-    border: 2px solid crimson;
-    position: absolute;
-    left: 200px;
-    width: 265px;
-    border: none;
+  border: 2px solid crimson;
+  position: absolute;
+  left: 200px;
+  width: 265px;
+  border: none;
 
 }
 
 .ramp .ram {
-    border: 2px solid chocolate;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    border: none;
+  border: 2px solid chocolate;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1B1C1D;
+  border-radius: 10px;
+  border: none;
 
 }
 
 .ramp h4 {
-    border: 2px solid seagreen;
-    position: absolute;
-    top: 150px;
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid seagreen;
+  position: absolute;
+  top: 150px;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 510;
+  border: none;
 }
 
 .ramp p {
-    border: 2px solid khaki;
-    position: absolute;
-    top: 250px;
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  top: 250px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
 }
 
 .ramp p:hover {
-    color: white;
+  color: white;
 }
 
 .customersectt {
-    border: 2px solid indigo;
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
-    padding: 15px;
-    border: none;
+  border: 2px solid indigo;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 15px;
+  border: none;
 }
 
 .brex {
-    border: 2px solid #1B1C1D;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #0F1011;
-    width: 490px;
-    height: 300px;
-    position: relative;
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 490px;
+  height: 300px;
+  position: relative;
 }
 
 .brex .breximg {
-    border: 2px solid crimson;
-    position: absolute;
-    left: 200px;
-    width: 265px;
-    border: none;
+  border: 2px solid crimson;
+  position: absolute;
+  left: 200px;
+  width: 265px;
+  border: none;
 
 }
 
 .brex .brexximg {
-    border: 2px solid chocolate;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    border: none;
+  border: 2px solid chocolate;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1B1C1D;
+  border-radius: 10px;
+  border: none;
 
 }
 
 .brex h4 {
-    border: 2px solid seagreen;
-    position: absolute;
-    top: 150px;
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid seagreen;
+  position: absolute;
+  top: 150px;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 510;
+  border: none;
 }
 
 .brex p {
-    border: 2px solid khaki;
-    position: absolute;
-    top: 250px;
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  top: 250px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
 }
 
 .brex p:hover {
-    color: white;
+  color: white;
 }
 
 .scale {
-    border: 2px solid #1B1C1D;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #0F1011;
-    width: 490px;
-    height: 300px;
-    position: relative;
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 490px;
+  height: 300px;
+  position: relative;
 }
 
 .scale .card6 {
-    border: 2px solid crimson;
-    position: absolute;
-    left: 200px;
-    width: 265px;
-    border: none;
+  border: 2px solid crimson;
+  position: absolute;
+  left: 200px;
+  width: 265px;
+  border: none;
 
 }
 
 .scale .scalee {
-    border: 2px solid chocolate;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    border: none;
+  border: 2px solid chocolate;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1B1C1D;
+  border-radius: 10px;
+  border: none;
 
 }
 
 .scale h4 {
-    border: 2px solid seagreen;
-    position: absolute;
-    top: 150px;
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid seagreen;
+  position: absolute;
+  top: 150px;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 510;
+  border: none;
 }
 
 .scale p {
-    border: 2px solid khaki;
-    position: absolute;
-    top: 250px;
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  top: 250px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
 }
 
 .scale p:hover {
-    color: white;
+  color: white;
 }
 
 .figuresect {
-    border: 2px solid seagreen;
-    margin-top: 80px;
-    display: flex;
-    height: 50vh;
-    position: relative;
-    border: none;
-    background-color: #08090A;
+  border: 2px solid seagreen;
+  margin-top: 80px;
+  display: flex;
+  height: 50vh;
+  position: relative;
+  border: none;
+  background-color: #08090A;
 }
 
 .twox {
-    border: 2px solid navy;
-    position: absolute;
-    left: 150px;
-    top: 30px;
-    border: none;
+  border: 2px solid navy;
+  position: absolute;
+  left: 150px;
+  top: 30px;
+  border: none;
 
 }
 
 .twox h4 {
-    color: #F7F8F8;
-    font-size: 80px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
+  color: #F7F8F8;
+  font-size: 80px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 510;
 
 }
 
 .twox p {
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .onepoint {
-    border: 2px solid khaki;
-    position: absolute;
-    left: 350px;
-    top: 30px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  left: 350px;
+  top: 30px;
+  border: none;
 }
 
 .onepoint h4 {
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 80px;
-    font-weight: 510;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 80px;
+  font-weight: 510;
 }
 
 .onepoint p {
-    color: #8A8F98;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
+  color: #8A8F98;
+  font-size: 14px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
 }
 
 
 .righttext {
-    color: white;
-    position: absolute;
-    left: 630px;
-    top: 80px;
+  color: white;
+  position: absolute;
+  left: 630px;
+  top: 80px;
 }
 
 .righttext p {
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+  color: rgb(138, 143, 152);
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .smallline {
-    color: #18191A;
-    position: absolute;
-    left: 555px;
+  color: #18191A;
+  position: absolute;
+  left: 555px;
 }
 
 hr.tinyline {
-    width: 1px;
-    height: 90px;
-    margin-top: 50px;
+  width: 1px;
+  height: 90px;
+  margin-top: 50px;
 
 }
 
 .firstthreecards {
-    border: 2px solid indigo;
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
-    border: none;
+  border: 2px solid indigo;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  border: none;
 
 }
 
 .mercury {
-    border: 2px solid #1B1C1D;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #0F1011;
-    width: 330px;
-    height: 290px;
-    position: relative;
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 330px;
+  height: 290px;
+  position: relative;
 
 }
 
 
 .mercury .img {
-    border: 2px solid chocolate;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    border: none;
+  border: 2px solid chocolate;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1B1C1D;
+  border-radius: 10px;
+  border: none;
 
 }
 
 .mercury h4 {
-    border: 2px solid seagreen;
-    position: absolute;
-    top: 150px;
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid seagreen;
+  position: absolute;
+  top: 150px;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 510;
+  border: none;
 }
 
 .mercury p {
-    border: 2px solid khaki;
-    position: absolute;
-    top: 250px;
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  top: 250px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
 }
 
 .mercury p:hover {
-    color: white;
+  color: white;
 }
 
 .mercury:hover {
-    background-color: #161719;
+  background-color: #161719;
 }
 
 .retools {
-    border: 2px solid #1B1C1D;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #0F1011;
-    width: 330px;
-    height: 290px;
-    position: relative;
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 330px;
+  height: 290px;
+  position: relative;
 }
 
 
 .retools .img {
-    border: 2px solid chocolate;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    border: none;
+  border: 2px solid chocolate;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1B1C1D;
+  border-radius: 10px;
+  border: none;
 
 }
 
 .retools h4 {
-    border: 2px solid seagreen;
-    position: absolute;
-    top: 150px;
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid seagreen;
+  position: absolute;
+  top: 150px;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 510;
+  border: none;
 }
 
 .retools p {
-    border: 2px solid khaki;
-    position: absolute;
-    top: 250px;
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  top: 250px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
 }
 
 .retools p:hover {
-    color: white;
+  color: white;
 }
 
 .retools:hover {
-    background-color: #161719;
+  background-color: #161719;
 }
 
 .cashapp {
-    border: 2px solid #1B1C1D;
-    border-radius: 20px;
-    padding: 20px;
-    background-color: #0F1011;
-    width: 330px;
-    height: 290px;
-    position: relative;
+  border: 2px solid #1B1C1D;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 330px;
+  height: 290px;
+  position: relative;
 }
 
 
 .cashapp .img {
-    border: 2px solid chocolate;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    border: none;
+  border: 2px solid chocolate;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1B1C1D;
+  border-radius: 10px;
+  border: none;
 
 }
 
 .cashapp h4 {
-    border: 2px solid seagreen;
-    position: absolute;
-    top: 150px;
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid seagreen;
+  position: absolute;
+  top: 150px;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 510;
+  border: none;
 }
 
 .cashapp p {
-    border: 2px solid khaki;
-    position: absolute;
-    top: 250px;
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  top: 250px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
 }
 
 .cashapp p:hover {
-    color: white;
+  color: white;
 }
 
 .cashapp:hover {
-    background-color: #161719;
+  background-color: #161719;
 }
 
 .secondthreecards {
-    border: 2px solid indigo;
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
-    margin-top: 20px;
-    border: none;
+  border: 2px solid indigo;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 20px;
+  border: none;
 
 }
 
 .pleo {
-    border: 2px solid #1B1C1D;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #0F1011;
-    width: 330px;
-    height: 290px;
-    position: relative;
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 330px;
+  height: 290px;
+  position: relative;
 
 }
 
 
 .pleo.img {
-    border: 2px solid chocolate;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    border: none;
+  border: 2px solid chocolate;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1B1C1D;
+  border-radius: 10px;
+  border: none;
 
 }
 
 .pleo h4 {
-    border: 2px solid seagreen;
-    position: absolute;
-    top: 150px;
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid seagreen;
+  position: absolute;
+  top: 150px;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 510;
+  border: none;
 }
 
 .pleo p {
-    border: 2px solid khaki;
-    position: absolute;
-    top: 250px;
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  top: 250px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
 }
 
 .pleo p:hover {
-    color: white;
+  color: white;
 }
 
 .pleo:hover {
-    background-color: #161719;
+  background-color: #161719;
 }
 
 .seria {
-    border: 2px solid #1B1C1D;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #0F1011;
-    width: 330px;
-    height: 290px;
-    position: relative;
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 330px;
+  height: 290px;
+  position: relative;
 }
 
 
 .seria .img {
-    border: 2px solid chocolate;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    border: none;
+  border: 2px solid chocolate;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1B1C1D;
+  border-radius: 10px;
+  border: none;
 
 }
 
 .seria h4 {
-    border: 2px solid seagreen;
-    position: absolute;
-    top: 150px;
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid seagreen;
+  position: absolute;
+  top: 150px;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 510;
+  border: none;
 }
 
 .seria p {
-    border: 2px solid khaki;
-    position: absolute;
-    top: 250px;
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  top: 250px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
 }
 
 .seria p:hover {
-    color: white;
+  color: white;
 }
 
 .seria:hover {
-    background-color: #161719;
+  background-color: #161719;
 }
 
 .clio {
-    border: 2px solid #1B1C1D;
-    border-radius: 20px;
-    padding: 20px;
-    background-color: #0F1011;
-    width: 330px;
-    height: 290px;
-    position: relative;
+  border: 2px solid #1B1C1D;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 330px;
+  height: 290px;
+  position: relative;
 }
 
 
 .clio .img {
-    border: 2px solid chocolate;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #1B1C1D;
-    border-radius: 10px;
-    border: none;
+  border: 2px solid chocolate;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1B1C1D;
+  border-radius: 10px;
+  border: none;
 
 }
 
 .clio h4 {
-    border: 2px solid seagreen;
-    position: absolute;
-    top: 150px;
-    color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    font-weight: 510;
-    border: none;
+  border: 2px solid seagreen;
+  position: absolute;
+  top: 150px;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 510;
+  border: none;
 }
 
 .clio p {
-    border: 2px solid khaki;
-    position: absolute;
-    top: 250px;
-    color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border: none;
+  border: 2px solid khaki;
+  position: absolute;
+  top: 250px;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
 }
 
 .clio p:hover {
-    color: white;
+  color: white;
 }
 
 .clio:hover {
-    background-color: #161719;
+  background-color: #161719;
 }
 
 h3 {
-    border: 2px solid crimson;
-    color: #F7F8F8;
-    font-size: 40px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    text-align: center;
-    margin-top: 150px;
-    border: none;
+  border: 2px solid crimson;
+  color: #F7F8F8;
+  font-size: 40px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 510;
+  text-align: center;
+  margin-top: 150px;
+  border: none;
 }
 
 .middle-side {
-  display: flex;                   
-  border: 2px solid #E0E0E0;                
-  border-radius: 6px;   
-  margin: auto;       
-  justify-content: center;             
+  display: flex;
+  border: 2px solid #E0E0E0;
+  border-radius: 6px;
+  margin: auto;
+  justify-content: center;
   padding: 4px 8px;
   border: none;
   margin-top: 70px;
@@ -870,16 +871,17 @@ h3 {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;                          
-  gap: 12px;                                 
+  flex-wrap: wrap;
+  gap: 12px;
 }
-.middle-list li{
-    border: 2px solid #1B1C1D;
-    border-radius: 8px;
+
+.middle-list li {
+  border: 2px solid #1B1C1D;
+  border-radius: 8px;
 }
 
 .middle-list li a {
-  color: #8A8F98;                       
+  color: #8A8F98;
   font-size: 16px;
   font-weight: 510;
   padding: 20px 10px;
@@ -888,25 +890,27 @@ h3 {
 
 }
 
-.companyli{
-    width: 80%;
-    border: 2px solid crimson;
-    margin: auto;
-    padding: 50px;
-    border: none;
-    
+.companyli {
+  width: 80%;
+  border: 2px solid crimson;
+  margin: auto;
+  padding: 50px;
+  border: none;
+
 }
-.companyramp{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+
+.companyramp {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companyramp:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companyramp:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companyle {
@@ -930,6 +934,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .rampstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -945,17 +950,18 @@ h3 {
   font-weight: 400;
 }
 
-.companybrex{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companybrex {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companybrex:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companybrex:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companybr {
@@ -979,6 +985,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .brexstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -994,17 +1001,18 @@ h3 {
   font-weight: 400;
 }
 
-.companycoin{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companycoin {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companycoin:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companycoin:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companycb {
@@ -1028,6 +1036,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .cbstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1043,17 +1052,18 @@ h3 {
   font-weight: 400;
 }
 
-.companymecury{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companymecury {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companymecury:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companymecury:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companymec {
@@ -1077,6 +1087,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .mecstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1092,17 +1103,18 @@ h3 {
   font-weight: 400;
 }
 
-.companycash{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companycash {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companycash:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companycash:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companycas {
@@ -1126,6 +1138,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .casstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1141,17 +1154,18 @@ h3 {
   font-weight: 400;
 }
 
-.companypleo{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companypleo {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companypleo:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companypleo:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companyple {
@@ -1175,6 +1189,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .plestory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1190,17 +1205,18 @@ h3 {
   font-weight: 400;
 }
 
-.companymonzo{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companymonzo {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companymonzo:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companymonzo:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companymon {
@@ -1224,6 +1240,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .monstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1239,17 +1256,18 @@ h3 {
   font-weight: 400;
 }
 
-.companyopensea{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companyopensea {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companyopensea:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companyopensea:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companyope {
@@ -1273,6 +1291,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .opestory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1288,17 +1307,18 @@ h3 {
   font-weight: 400;
 }
 
-.companyalan{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companyalan {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companyalan:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companyalan:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companyala {
@@ -1322,6 +1342,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .alastory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1337,17 +1358,18 @@ h3 {
   font-weight: 400;
 }
 
-.companymoonpay{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companymoonpay {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companymoonpay:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companymoonpay:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companymoo {
@@ -1371,6 +1393,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .moostory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1386,17 +1409,18 @@ h3 {
   font-weight: 400;
 }
 
-.companypulley{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companypulley {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companypulley:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companypulley:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companypul {
@@ -1420,6 +1444,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .pulstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1435,17 +1460,18 @@ h3 {
   font-weight: 400;
 }
 
-.companymodern{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companymodern {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companymodern:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companymodern:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companymod {
@@ -1469,6 +1495,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .modstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1484,17 +1511,18 @@ h3 {
   font-weight: 400;
 }
 
-.companyworld{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companyworld {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
-.companyworld:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companyworld:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companywor {
@@ -1518,6 +1546,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .worstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1533,18 +1562,18 @@ h3 {
   font-weight: 400;
 }
 
-.companyparafin{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
-   
+.companyparafin {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
+
 }
 
-.companyparafin:hover{
-    background-color: #151616;
-    border-radius: 8px;
+.companyparafin:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companypar {
@@ -1568,6 +1597,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .parstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1583,16 +1613,17 @@ h3 {
   font-weight: 400;
 }
 
-.companyyourcompany{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid #2a2a2a;
+.companyyourcompany {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #2a2a2a;
 }
-.companyyourcompany:hover{
-    background-color: #151616;
-    border-radius: 8px;
+
+.companyyourcompany:hover {
+  background-color: #151616;
+  border-radius: 8px;
 }
 
 .companyyou {
@@ -1616,6 +1647,7 @@ h3 {
   color: #a0a0a0;
   font-size: 0.95rem;
 }
+
 .youstory {
   color: #e5e5e5;
   text-decoration: none;
@@ -1627,81 +1659,87 @@ h3 {
 }
 
 
-
-
-
-.cont{
-    border: 2px solid cornflowerblue;
-    border: none;
-    background-color: #08090A;
-    
-}
-.lar{
-    border: 2px solid khaki;
-    display: flex;
-    gap: 2em;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 200px;
-    border: none;
-   
-}
-.lartext p{
-    color: #F7F8F8;
-    font-size: 40px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-}
-.larbtn{
-    border: 2px solid aquamarine;
-    display: flex;
-    gap: 1em;
-    border: none;
-}
-.larbtn .cs{
-    border: 1px solid #1B1C1D ;
-    background-color: #28282C;
-    padding: 10px;
-    border-radius: 6px;
-    border: none;
-    
-}
-.larbtn .cs .css{
-    color: white;
-}
-.larbtn .gs{
-     border: 1px solid #1B1C1D ;
-    background-color: white;
-    padding: 10px;
-    border-radius: 6px;
-    border: none;
+.cont {
+  border: 2px solid cornflowerblue;
+  border: none;
+  background-color: #08090A;
 
 }
-.larbtn .gs .gss{
-    color: black;
+
+.lar {
+  border: 2px solid khaki;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 200px;
+  border: none;
+
 }
 
-hr.longline{
-    border: .5px solid #18191A;
-    margin-top: 100px;
+.lartext p {
+  color: #F7F8F8;
+  font-size: 40px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 510;
 }
 
-.footer{
-    border: 2px solid aqua;
-    background-color: #08090A;
-    padding: 60px;
-    margin-top: 50px;
-    border: none;
+.larbtn {
+  border: 2px solid aquamarine;
+  display: flex;
+  gap: 1em;
+  border: none;
 }
-.footercontainer{
-    border: 2px solid lawngreen;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: auto;
-    display: flex;
-    width: 90%;
-    border: none;
+
+.larbtn .cs {
+  border: 1px solid #1B1C1D;
+  background-color: #28282C;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+
 }
+
+.larbtn .cs .css {
+  color: white;
+}
+
+.larbtn .gs {
+  border: 1px solid #1B1C1D;
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+
+}
+
+.larbtn .gs .gss {
+  color: black;
+}
+
+hr.longline {
+  border: .5px solid #18191A;
+  margin-top: 100px;
+}
+
+.footer {
+  border: 2px solid aqua;
+  background-color: #08090A;
+  padding: 60px;
+  margin-top: 50px;
+  border: none;
+}
+
+.footercontainer {
+  border: 2px solid lawngreen;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto;
+  display: flex;
+  width: 90%;
+  border: none;
+}
+
 .footerlogo a .lg {
   width: 20px;
   object-fit: contain;
@@ -1713,6 +1751,7 @@ hr.longline{
   gap: 80px;
   flex-wrap: wrap;
 }
+
 .firstcolumn {
   display: flex;
   flex-direction: column;
@@ -1728,6 +1767,7 @@ hr.longline{
   line-height: 19.5px;
   font-style: normal;
 }
+
 .firstcolumn a {
   color: #a8a8a8;
   font-size: 13px;
@@ -1736,6 +1776,7 @@ hr.longline{
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
 }
+
 .firstcolumn a:hover {
   color: #fff;
 }
@@ -1755,6 +1796,7 @@ hr.longline{
   line-height: 19.5px;
   font-style: normal;
 }
+
 .secondcolumn a {
   color: #a8a8a8;
   font-size: 13px;
@@ -1763,9 +1805,11 @@ hr.longline{
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
 }
+
 .secondcolumn a:hover {
   color: #fff;
 }
+
 .thirdcolumn {
   display: flex;
   flex-direction: column;
@@ -1781,6 +1825,7 @@ hr.longline{
   line-height: 19.5px;
   font-style: normal;
 }
+
 .thirdcolumn a {
   color: #a8a8a8;
   font-size: 13px;
@@ -1789,9 +1834,11 @@ hr.longline{
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
 }
+
 .thirdcolumn a:hover {
   color: #fff;
 }
+
 .fourthcolumn {
   display: flex;
   flex-direction: column;
@@ -1807,6 +1854,7 @@ hr.longline{
   line-height: 19.5px;
   font-style: normal;
 }
+
 .fourthcolumn a {
   color: #a8a8a8;
   font-size: 13px;
@@ -1815,9 +1863,11 @@ hr.longline{
   font-weight: 400;
   line-height: 19.5px;
 }
+
 .fourthcolumn a:hover {
   color: #fff;
 }
+
 .fifthcolumn {
   display: flex;
   flex-direction: column;
@@ -1833,6 +1883,7 @@ hr.longline{
   line-height: 19.5px;
   font-style: normal;
 }
+
 .fifthcolumn a {
   color: #a8a8a8;
   font-size: 13px;
@@ -1842,8 +1893,7 @@ hr.longline{
   font-weight: 400;
 
 }
+
 .fifthcolumn a:hover {
   color: #fff;
 }
-
-
