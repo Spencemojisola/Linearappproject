@@ -5,6 +5,10 @@
     text-decoration: none;
     list-style-type: none;
 }
+body{
+    background-color: #08090A;
+    margin: 0;
+}
 
 header {
     border: 2px solid crimson;
@@ -137,7 +141,6 @@ hr.full-line {
 
 .hero-sect {
     background-color: #08090A;
-    /* height: 100vh; */
 }
 
 .hero-text {
@@ -426,12 +429,12 @@ hr.full-line {
 
 .figuresect {
     border: 2px solid seagreen;
-    /* padding: 50px; */
     margin-top: 80px;
     display: flex;
-    height: 100vh;
+    height: 50vh;
     position: relative;
     border: none;
+    background-color: #08090A;
 }
 
 .twox {
@@ -884,818 +887,515 @@ h3 {
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
 }
-.companysect{
-    border: 2px solid indianred;
-    padding: 25px;
+
+.companyli{
+    width: 80%;
+    border: 2px solid crimson;
+    margin: auto;
+    padding: 50px;
+    /* border: none; */
     
 }
-.rampicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+.companyramp{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
-
-}
-.rampicon .rm{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
-}
-.rampicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
-}
-.rampicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.rampicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.rampicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
 }
 
-.brexicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+.companyle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.companylo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
+
+.ramptext {
+  font-weight: 600;
+  color: white;
+}
+
+.fe {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+.rampstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.rampstory:hover {
+  text-decoration: underline;
+}
+
+.rampstory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.companybrex{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
+}
 
+.companybr {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-.brexicon .bx{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
+
+.companybrlo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
 }
-.brexicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
+
+.brextext {
+  font-weight: 600;
+  color: white;
 }
-.brexicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
+
+.fi {
+  color: #a0a0a0;
+  font-size: 0.95rem;
 }
-.brexicon a{
-    color: white;
-    margin-left: 430px;
-    margin-top: 10px;
+.brexstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
 }
-.brexicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
+
+.brexstory:hover {
+  text-decoration: underline;
 }
-.fa-chevron-right{
-    font-size: 10px;
+
+.brexstory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
 }
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
-}
-.coinbaseicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+
+.companycoin{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
-
-}
-.coinbaseicon.cb{
-    border: 2px solid rebeccapurple;
-    border: none;
-}
-.coinbaseicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
-}
-.coinbaseicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.coinbaseicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.coinbaseicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
 }
 
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
+.companycb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-.mercuryicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+
+.companycblo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
+
+.cointext {
+  font-weight: 600;
+  color: white;
+}
+
+.fien {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+.cbstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cbstory:hover {
+  text-decoration: underline;
+}
+
+.cbstory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.companymecury{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
+}
 
+.companymec {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-.mercuryicon .me{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
+
+.companymeclo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
 }
-.mercuryicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
+
+.mectext {
+  font-weight: 600;
+  color: white;
 }
-.mercuryicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
+
+.fient {
+  color: #a0a0a0;
+  font-size: 0.95rem;
 }
-.mercuryicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
+.mecstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
 }
-.mercuryicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
+
+.mecstory:hover {
+  text-decoration: underline;
 }
-.fa-chevron-right{
-    font-size: 10px;
+
+.mecstory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
 }
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
-}
-.cashappicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+
+.companycash{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
+}
 
+.companycas {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-.cashappicon .ca{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
+
+.companycaslo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
 }
-.cashappicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
+
+.castext {
+  font-weight: 600;
+  color: white;
 }
-.cashappicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 300px;
-    margin-top: 10px;
+
+.fientc {
+  color: #a0a0a0;
+  font-size: 0.95rem;
 }
-.cashappicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
+.casstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
 }
-.cashappicon:hover{
-    background-color: #1B1C1D;
-    border-radius: 20px;
+
+.casstory:hover {
+  text-decoration: underline;
 }
-.fa-chevron-right{
-    font-size: 10px;
+
+.casstory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
 }
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
-}
-.pleoicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+
+.companypleo{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
-
-}
-.pleoicon .pl{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
-}
-.pleoicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
-}
-.pleoicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.pleoicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.pleoicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
 }
 
-.monzoicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+.companyple {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.companyplelo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
+
+.pletext {
+  font-weight: 600;
+  color: white;
+}
+
+.fte {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+.plestory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.plestory:hover {
+  text-decoration: underline;
+}
+
+.plestory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.companymonzo{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
-
-}
-.monzoicon .mo{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
-}
-.monzoicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
-}
-.monzoicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.monzoicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.monzoicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
 }
 
-.openseaicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+.companymon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.companymonlo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
+
+.montext {
+  font-weight: 600;
+  color: white;
+}
+
+.mon {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+.monstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.monstory:hover {
+  text-decoration: underline;
+}
+
+.monstory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.companyopensea{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
+}
 
+.companyope {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-.openseaicon .op{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
+
+.companyopelo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
 }
-.openseaicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
+
+.opetext {
+  font-weight: 600;
+  color: white;
 }
-.openseaicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
+
+.ope {
+  color: #a0a0a0;
+  font-size: 0.95rem;
 }
-.openseaicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
+.opestory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
 }
-.openseaicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
+
+.opestory:hover {
+  text-decoration: underline;
 }
-.fa-chevron-right{
-    font-size: 10px;
+
+.opestory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
 }
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
-}
-.alanicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+
+.companyalan{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
-
-}
-.alanicon .al{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
-}
-.alanicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
-}
-.alanicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.alanicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.alanicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
 }
 
-.moonpayicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+.companyala {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.companyalalo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
+
+.alatext {
+  font-weight: 600;
+  color: white;
+}
+
+.ala {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+.alastory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.alastory:hover {
+  text-decoration: underline;
+}
+
+.alastory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.companymoonpay{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
-
-}
-.moonpayicon .mp{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
-}
-.moonpayicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
-}
-.moonpayicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.moonpayicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.moonpayicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
 }
 
-.pulleyicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
+.companymoo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.companymoolo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
+
+.mootext {
+  font-weight: 600;
+  color: white;
+}
+
+.moo {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+.moostory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.moostory:hover {
+  text-decoration: underline;
+}
+
+.mostory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.companypulley{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
-
-}
-.pulleyicon .py{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
-}
-.pulleyicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
-
-}
-.pulleyicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.pulleyicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.pulleyicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
+    padding: 16px 0;
+    border-bottom: 1px solid #2a2a2a;
+   
 }
 
-.modernicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
-
-}
-.modernicon .mt{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
-}
-.modernicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
-}
-.modernicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.modernicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.modernicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
-}
-.worldcoinicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
-
-}
-.worldcoinicon .wc{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
-}
-.worldcoinicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
-}
-.worldcoinicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.worldcoinicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.worldcoinicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
-}
-.parafinicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    width: 95%;
-    padding: 4px 4px;
-    border: none;
-
-}
-.parafinicon .pac{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
-}
-.parafinicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
-}
-.parafinicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
-}
-.parafinicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-.parafinicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
-.firstline {
-  border: none;                        
-  height: 2px;                         
-  background-color: #151616; 
-  width: 95%;                         
-  margin: 10px auto;                  
+.companypul {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.yourcompanyicon{
-    border: 2px solid chartreuse;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    width: 95%;
-    padding: 6px 4px;
-    border: none;
+.companypullo {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+}
 
+.pultext {
+  font-weight: 600;
+  color: white;
 }
-.yourcompanyicon .yc{
-    border: 2px solid rebeccapurple;
-    width: 30px;
-    border: none;
+
+.pul {
+  color: #a0a0a0;
+  font-size: 0.95rem;
 }
-.yourcompanyicon h5{
-    border: 2px solid coral;
-    color: #D0D6E0;
-    font-size: 14px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    margin-left: 4px;
-    margin-top: 2px;
-    border: none;
+.pulstory {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
 }
-.yourcompanyicon p{
-    color: rgb(138, 143, 152);
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 510;
-    font-size: 14px;
-    margin-left: 350px;
-    margin-top: 10px;
+
+.pulstory:hover {
+  text-decoration: underline;
 }
-.yourcompanyicon a{
-    color: white;
-    margin-left: 400px;
-    margin-top: 10px;
+
+.pulstory.visit {
+  color: #7c7c7c;
+  font-weight: 400;
 }
-.yourcompanyicon:hover{
-    background-color: #1B1C1D;
-    border: 3px solid #1B1C1D;
-    border-radius: 20px;
-}
-.fa-chevron-right{
-    font-size: 10px;
-}
+
 
 .cont{
     border: 2px solid cornflowerblue;
     border: none;
-    height: 50vh;
+    background-color: #08090A;
     
 }
 .lar{
@@ -1746,6 +1446,166 @@ h3 {
 hr.longline{
     border: .5px solid #18191A;
     margin-top: 100px;
+}
+
+.footer{
+    border: 2px solid aqua;
+    background-color: #08090A;
+    padding: 60px;
+    margin-top: 50px;
+    border: none;
+}
+.footercontainer{
+    border: 2px solid lawngreen;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    display: flex;
+    width: 90%;
+    border: none;
+}
+.footerlogo a .lg {
+  width: 20px;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
+.footerlinks {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+.firstcolumn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.firstcolumn h4 {
+  color: #fff;
+  font-weight: 510;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 19.5px;
+  font-style: normal;
+}
+.firstcolumn a {
+  color: #a8a8a8;
+  font-size: 13px;
+  transition: color 0.2s ease;
+  line-height: 19.5px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.firstcolumn a:hover {
+  color: #fff;
+}
+
+.secondcolumn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.secondcolumn h4 {
+  color: #fff;
+  font-weight: 510;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 19.5px;
+  font-style: normal;
+}
+.secondcolumn a {
+  color: #a8a8a8;
+  font-size: 13px;
+  transition: color 0.2s ease;
+  line-height: 19.5px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.secondcolumn a:hover {
+  color: #fff;
+}
+.thirdcolumn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.thirdcolumn h4 {
+  color: #fff;
+  font-weight: 510;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 19.5px;
+  font-style: normal;
+}
+.thirdcolumn a {
+  color: #a8a8a8;
+  font-size: 13px;
+  transition: color 0.2s ease;
+  line-height: 19.5px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.thirdcolumn a:hover {
+  color: #fff;
+}
+.fourthcolumn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fourthcolumn h4 {
+  color: #fff;
+  font-weight: 510;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 19.5px;
+  font-style: normal;
+}
+.fourthcolumn a {
+  color: #a8a8a8;
+  font-size: 13px;
+  transition: color 0.2s ease;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.fourthcolumn a:hover {
+  color: #fff;
+}
+.fifthcolumn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fifthcolumn h4 {
+  color: #fff;
+  font-weight: 510;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 19.5px;
+  font-style: normal;
+}
+.fifthcolumn a {
+  color: #a8a8a8;
+  font-size: 13px;
+  line-height: 19.5px;
+  transition: color 0.2s ease;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+
+}
+.fifthcolumn a:hover {
+  color: #fff;
 }
 
 
