@@ -140,21 +140,24 @@ hr.full-line {
     background-color: #08090A;
     /* height: 100vh; */
 }
-.nowbtn{
+
+.nowbtn {
     border: 2px solid crimson;
     padding: 40px;
     width: 90%;
     margin: auto;
     border: none;
 }
-.nowbtn a{
+
+.nowbtn a {
     color: white;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 32px;
     font-weight: 590;
     margin: auto;
 }
-.now_navlink{
+
+.now_navlink {
     border: 2px solid orange;
     width: 82%;
     margin: auto;
@@ -162,16 +165,19 @@ hr.full-line {
     justify-content: space-between;
     align-items: center;
     border: none;
-    
+
 }
+
 .nowmenulist {
     display: flex;
     justify-content: space-around;
     gap: 1em;
 }
-.nowmenulist li a:hover{
+
+.nowmenulist li a:hover {
     color: white;
-} 
+}
+
 .nowmenulist li a {
     color: #898E97;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -179,11 +185,13 @@ hr.full-line {
     font-size: 15px;
     background: none;
 }
+
 .nowright {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .search {
     display: flex;
     align-items: center;
@@ -195,6 +203,7 @@ hr.full-line {
     width: 220px;
     height: 40px;
 }
+
 .search a {
     display: flex;
     align-items: center;
@@ -204,43 +213,49 @@ hr.full-line {
     gap: .5em;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.fa-rss{
+
+.fa-rss {
     color: #8A8F98;
     align-items: center;
     justify-content: center;
 }
-.prompt a .fa-rss:hover{
+
+.prompt a .fa-rss:hover {
     background-color: #252529;
     border-radius: 5px;
     color: white;
     width: 30px;
     height: 29px;
 }
-.imagesection{
+
+.imagesection {
     border: 2px solid maroon;
     padding: 10px;
     margin: auto;
-    width: 85%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: none;
 }
-.karri a img{
+
+.karri a img {
     border: 2px solid forestgreen;
     border-radius: 5px;
     border: none;
     align-items: center;
     margin-top: 30px;
 }
-.karri a .oct{
+
+.karri a .oct {
     color: #8A8F98;
     padding: 5px;
     font-size: 13px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
-.karri a h4{
+
+.karri a h4 {
     color: #F7F8F8;
     font-size: 24px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -248,38 +263,43 @@ hr.full-line {
     padding: 5px;
 
 }
-.karri a .Real{
-    color: #8A8F98 ;
+
+.karri a .Real {
+    color: #8A8F98;
     padding: 5px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
-.centerpc{
+
+.centerpc {
     color: #18191A;
 }
-hr.vertical{
+
+hr.vertical {
     width: 1px;
     height: 380px;
     border-top: 0.1px thin #18191A;
     margin-top: 30px;
-   
+
 }
 
-.robb a img{
+.robb a img {
     border: 2px solid forestgreen;
     border-radius: 5px;
     border: none;
     align-items: center;
 }
-.robb a .occt{
+
+.robb a .occt {
     color: #8A8F98;
     padding: 5px;
     font-size: 13px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
-.robb a h4{
+
+.robb a h4 {
     color: #F7F8F8;
     font-size: 24px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -287,39 +307,43 @@ hr.vertical{
     padding: 5px;
 
 }
-.robb a .rebuilt{
-    color: #8A8F98 ;
+
+.robb a .rebuilt {
+    color: #8A8F98;
     padding: 5px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
 
-.anotherimagesection{
+.anotherimagesection {
     border: 2px solid maroon;
     padding: 10px;
     margin: auto;
-    width: 85%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: none;
 }
-.timi a img{
+
+.timi a img {
     border: 2px solid forestgreen;
     border-radius: 5px;
     border: none;
     align-items: center;
     margin-top: 40px;
 }
-.timi a .tim{
+
+.timi a .tim {
     color: #8A8F98;
     padding: 5px;
     font-size: 13px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
-.timi a h4{
+
+.timi a h4 {
     color: #F7F8F8;
     font-size: 24px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -327,38 +351,43 @@ hr.vertical{
     padding: 5px;
 
 }
-.timi a .notall{
-    color: #8A8F98 ;
+
+.timi a .notall {
+    color: #8A8F98;
     padding: 5px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
-.anothercenterpc{
+
+.anothercenterpc {
     color: #18191A;
 }
-hr.anothervertical{
+
+hr.anothervertical {
     width: 1px;
     height: 380px;
     margin-top: 30px;
-   
+
 }
 
-.twoauthors a img{
+.twoauthors a img {
     border: 2px solid forestgreen;
     border-radius: 5px;
     border: none;
     align-items: center;
     margin-top: 28px;
 }
-.twoauthors a .twoauth{
+
+.twoauthors a .twoauth {
     color: #8A8F98;
     padding: 5px;
     font-size: 13px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
-.twoauthors a h4{
+
+.twoauthors a h4 {
     color: #F7F8F8;
     font-size: 24px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -366,8 +395,9 @@ hr.anothervertical{
     padding: 5px;
 
 }
-.twoauthors a .zero{
-    color: #8A8F98 ;
+
+.twoauthors a .zero {
+    color: #8A8F98;
     padding: 5px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
@@ -383,45 +413,368 @@ hr.line {
     padding: 20px;
     margin-top: 50px;
 }
-.anotherherosect{
+
+.anotherherosect {
     background-color: #08090A;
     /* height: 100vh; */
 
 }
-.change{
+
+.change {
     border: 2px solid peru;
     display: flex;
     justify-content: space-between;
     margin: auto;
     width: 85%;
 }
-.change h5{
+
+.change h5 {
     color: #F7F8F8;
     font-size: 24px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 590;
 
 }
-.change a{
+
+.change a {
     color: #EFF0F1;
     font-size: 15px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
-.change a:hover{
+
+.change a:hover {
     color: white;
 }
-.cards{
-    border: 2ps solid yellow;
+
+.cards {
+    border: 2px solid yellow;
     display: flex;
-    gap: 2em;
+    gap: 1em;
     justify-items: center;
     align-items: center;
     width: 90%;
     margin: auto;
     padding: 10px;
-    
+
 }
 
+.firstcard {
+    background-color: #141414;
+    border: 1px solid #1f1f1f;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 260px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.firstcard a .date{
+    border: 2px solid crimson;
+    color: #989DA7;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
 
+}
+.agent{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 510;
+    padding: 10px;
+}
+.issues{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #8A8F98;
+    font-size: 14px;
+    font-weight: 400;
+   padding: 10px;
+}
 
+.secondcard {
+    background-color: #141414;
+    border: 1px solid #1f1f1f;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 250px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.year{
+    border: 2px solid crimson;
+    color: #989DA7;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+
+}
+.mobile{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 510;
+    padding: 10px;
+}
+.ios{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #8A8F98;
+    font-size: 14px;
+    font-weight: 400;
+   padding: 10px;
+}
+.thirdcard {
+    background-color: #141414;
+    border: 1px solid #1f1f1f;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 250px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.oct{
+    border: 2px solid crimson;
+    color: #989DA7;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+
+}
+.label{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 510;
+    padding: 10px;
+}
+.org{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #8A8F98;
+    font-size: 14px;
+    font-weight: 400;
+   padding: 10px;
+}
+
+.fourthcard {
+    background-color: #141414;
+    border: 1px solid #1f1f1f;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 250px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.fth{
+    border: 2px solid crimson;
+    color: #989DA7;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+
+}
+.dis{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 510;
+    padding: 10px;
+}
+.sum{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #8A8F98;
+    font-size: 14px;
+    font-weight: 400;
+   padding: 10px;
+}
+hr.secondline{
+    width: 83%;
+    border: none;
+    margin: auto;
+    border-top: 0.1px solid #1A1B1B;
+    color: #1D1E1E;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.imagecontainer {
+    border: 2px solid maroon;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.kevin a img {
+    border: 2px solid forestgreen;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.kevin a .kev {
+    color: #8A8F98;
+    padding: 5px;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+
+.kevin a h4 {
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    padding: 5px;
+
+}
+
+.kevin a .commure {
+    color: #8A8F98;
+    padding: 5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.justaline {
+    color: #18191A;
+}
+
+hr.theline {
+    width: 1px;
+    height: 380px;
+    margin-top: 30px;
+
+}
+
+.prodi a img {
+    border: 2px solid forestgreen;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.prodi a .pd {
+    color: #8A8F98;
+    padding: 5px;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+
+.prodi a h4 {
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    padding: 5px;
+
+}
+
+.prodi a .intell {
+    color: #8A8F98;
+    padding: 5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.imgcont {
+    border: 2px solid maroon;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.saarinen a img {
+    border: 2px solid forestgreen;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.saarinen a .saa {
+    color: #8A8F98;
+    padding: 5px;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+
+.saarinen a h4 {
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    padding: 5px;
+
+}
+
+.saarinen a .series {
+    color: #8A8F98;
+    padding: 5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.aline {
+    color: #18191A;
+}
+
+hr.allline {
+    width: 1px;
+    height: 380px;
+    margin-top: 30px;
+
+}
+
+.hart a img {
+    border: 2px solid forestgreen;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.hart a .ha {
+    color: #8A8F98;
+    padding: 5px;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+
+.hart a h4 {
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    padding: 5px;
+
+}
+
+.hart a .cur {
+    color: #8A8F98;
+    padding: 5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
