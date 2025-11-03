@@ -416,7 +416,6 @@ hr.line {
 
 .anotherherosect {
     background-color: #08090A;
-    /* height: 100vh; */
 
 }
 
@@ -778,3 +777,28 @@ hr.allline {
     font-weight: 400;
     font-size: 14px;
 }
+
+.carda{
+    border: 2px solid crimson;
+    margin: auto;
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 1em; */
+}
+.wednesday{
+    padding: 10px;
+}
+.wedimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+hr.wedline{
+    width: 1px;
+    height: 210px;
+    margin-top: 10px;
+}
+
