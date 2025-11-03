@@ -1104,6 +1104,211 @@ hr.aiengline{
     margin-top: 10px;
 }
 
+hr.underline{
+    width: 83%;
+    border: none;
+    margin: auto;
+    border-top: 0.1px solid #1A1B1B;
+    color: #1D1E1E;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.custsto {
+    border: 2px solid peru;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+}
+
+.custsto h5 {
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 590;
+
+}
+
+.custsto a {
+    color: #EFF0F1;
+    font-size: 15px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+
+.custsto a:hover {
+    color: white;
+}
+
+.fourcads {
+  border: 2px solid indigo;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 15px;
+  
+}
+
+.sierra {
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+
+.sierra .sie {
+  border: 2px solid crimson;
+  position: absolute;
+  left: 200px;
+  width: 265px;
+  border: none;
+
+}
+
+.sierra .sietext {
+  border: 2px solid khaki;
+  position: absolute;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+}
+
+.sierra h4 {
+  border: 2px solid seagreen;
+  position: absolute;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 510;
+  font-style: normal;
+  border: none;
+}
+.openai p:hover {
+  color: white;
+}
+
+.clio {
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+
+.clio .cli {
+  border: 2px solid crimson;
+  position: absolute;
+  left: 200px;
+  width: 265px;
+  border: none;
+
+}
+
+.clio .clitext {
+  border: 2px solid khaki;
+  position: absolute;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+}
+
+.clio h4 {
+  border: 2px solid seagreen;
+  position: absolute;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 510;
+  border: none;
+}
+
+.hopen {
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+
+.hopen .hop {
+  border: 2px solid crimson;
+  position: absolute;
+  width: 265px;
+  border: none;
+
+}
+
+.hopen .hoptext {
+  border: 2px solid khaki;
+  position: absolute;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+}
+
+.hopen h4 {
+  border: 2px solid seagreen;
+  position: absolute;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 510;
+  border: none;
+}
+
+.bre {
+  border: 2px solid #1B1C1D;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0F1011;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+
+.bre .bur {
+  border: 2px solid crimson;
+  position: absolute;
+  left: 200px;
+  width: 265px;
+  border: none;
+
+}
+
+.bre .burtext {
+  border: 2px solid khaki;
+  position: absolute;
+  color: #8A8F98;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+}
+
+.bre h4 {
+  border: 2px solid seagreen;
+  position: absolute;
+  color: #F7F8F8;
+  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 510;
+  border: none;
+}
+
 
 
 
