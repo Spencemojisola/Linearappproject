@@ -785,7 +785,7 @@ hr.allline {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-    /* gap: 1em; */
+    border: none;
 }
 .wednesday{
     padding: 10px;
@@ -796,9 +796,314 @@ hr.allline {
     padding: 10px;
 
 }
-hr.wedline{
-    width: 1px;
-    height: 210px;
+.wedtext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin-top: 10px;
 }
+.wednesday h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.wedline{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.api{
+    padding: 10px;
+}
+.apiimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.apitext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.api h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.apiline{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.mecur{
+    padding: 10px;
+}
+.mecurimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.mecurtext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.mecur h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.apiline{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+
+.cardb{
+    border: 2px solid crimson;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+.karisa{
+    padding: 10px;
+}
+.karisaimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.karisatext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.karisa h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.kariline{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.krisa{
+    padding: 10px;
+}
+.krisaimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.krisatext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.krisa h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.krisaline{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.krsa{
+    padding: 10px;
+}
+.krsaimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.krsatext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.krsa h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.press {
+    border: 2px solid peru;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+    margin-top: 100px;
+    align-items: center;
+    border: none;
+}
+
+.press h5 {
+    color: #F7F8F8;
+    font-size: 24px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 510;
+    font-style: normal;
+}
+
+.press a {
+    color: #666A71;
+    font-size: 15px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+
+.press a:hover {
+    color: white;
+}
+
+.cardc{
+    border: 2px solid crimson;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+.ycomb{
+    padding: 10px;
+}
+.ycombimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    border: none;
+
+}
+.ycombtext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.ycomb h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.ycombline{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.aieng{
+    padding: 10px;
+}
+.aiimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+
+}
+.aitext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.aieng h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.aiengline{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.tech{
+    padding: 10px;
+}
+.techimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    border: none;
+
+}
+.techtext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.tech h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+
+
 
