@@ -425,6 +425,7 @@ hr.line {
     justify-content: space-between;
     margin: auto;
     width: 85%;
+    border: none;
 }
 
 .change h5 {
@@ -455,6 +456,7 @@ hr.line {
     width: 90%;
     margin: auto;
     padding: 10px;
+    border: none;
 
 }
 
@@ -1120,6 +1122,7 @@ hr.underline{
     justify-content: space-between;
     margin: auto;
     width: 85%;
+    border: none;
 }
 
 .custsto h5 {
@@ -1147,6 +1150,7 @@ hr.underline{
   justify-content: space-evenly;
   margin: auto;
   padding: 15px;
+  border: none;
   
 }
 
@@ -1154,7 +1158,7 @@ hr.underline{
   border: 2px solid #1B1C1D;
   border-radius: 10px;
   padding: 20px;
-  background-color: #0F1011;
+  background-color: #141516;
   width: 220px;
   height: 220px;
   position: relative;
@@ -1163,8 +1167,9 @@ hr.underline{
 .sierra .sie {
   border: 2px solid crimson;
   position: absolute;
-  left: 200px;
-  width: 265px;
+  width: 40px;
+  background-color: #28B3FA;
+  border-radius: 5px;
   border: none;
 
 }
@@ -1172,6 +1177,7 @@ hr.underline{
 .sierra .sietext {
   border: 2px solid khaki;
   position: absolute;
+  top: 100px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -1182,6 +1188,7 @@ hr.underline{
 .sierra h4 {
   border: 2px solid seagreen;
   position: absolute;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
@@ -1189,15 +1196,16 @@ hr.underline{
   font-style: normal;
   border: none;
 }
-.openai p:hover {
-  color: white;
+.sierra:hover{
+    background-color: #161718;
 }
+
 
 .clio {
   border: 2px solid #1B1C1D;
   border-radius: 10px;
   padding: 20px;
-  background-color: #0F1011;
+  background-color: #141516;
   width: 220px;
   height: 220px;
   position: relative;
@@ -1206,15 +1214,17 @@ hr.underline{
 .clio .cli {
   border: 2px solid crimson;
   position: absolute;
-  left: 200px;
-  width: 265px;
+  width: 40px;
+  background-color: black;
   border: none;
+  border-radius: 5px;
 
 }
 
 .clio .clitext {
   border: 2px solid khaki;
   position: absolute;
+  top: 100px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -1225,18 +1235,22 @@ hr.underline{
 .clio h4 {
   border: 2px solid seagreen;
   position: absolute;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
   font-weight: 510;
   border: none;
 }
+.clio:hover{
+    background-color: #161718;
+}
 
 .hopen {
   border: 2px solid #1B1C1D;
   border-radius: 10px;
   padding: 20px;
-  background-color: #0F1011;
+  background-color: #141516;
   width: 220px;
   height: 220px;
   position: relative;
@@ -1245,7 +1259,9 @@ hr.underline{
 .hopen .hop {
   border: 2px solid crimson;
   position: absolute;
-  width: 265px;
+  width: 40px;
+  background-color: white;
+  border-radius: 5px;
   border: none;
 
 }
@@ -1253,6 +1269,7 @@ hr.underline{
 .hopen .hoptext {
   border: 2px solid khaki;
   position: absolute;
+  top: 100px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -1263,18 +1280,22 @@ hr.underline{
 .hopen h4 {
   border: 2px solid seagreen;
   position: absolute;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
   font-weight: 510;
   border: none;
 }
+.hopen:hover{
+    background-color: #161718;
+}
 
 .bre {
   border: 2px solid #1B1C1D;
   border-radius: 10px;
   padding: 20px;
-  background-color: #0F1011;
+  background-color: #141516;
   width: 220px;
   height: 220px;
   position: relative;
@@ -1283,8 +1304,9 @@ hr.underline{
 .bre .bur {
   border: 2px solid crimson;
   position: absolute;
-  left: 200px;
-  width: 265px;
+  width: 40px;
+  background-color: orangered;
+  border-radius: 5px;
   border: none;
 
 }
@@ -1292,6 +1314,7 @@ hr.underline{
 .bre .burtext {
   border: 2px solid khaki;
   position: absolute;
+  top: 100px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -1302,12 +1325,220 @@ hr.underline{
 .bre h4 {
   border: 2px solid seagreen;
   position: absolute;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
   font-weight: 510;
   border: none;
 }
+.bre:hover{
+    background-color: #161718;
+}
+hr.newline{
+    width: 83%;
+    border: none;
+    margin: auto;
+    border-top: 0.1px solid #1A1B1B;
+    color: #1D1E1E;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.cardc{
+    border: 2px solid crimson;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+.quality{
+    padding: 10px;
+}
+.quaimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+}
+.quatext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.quality h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.qualine{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.design{
+    padding: 10px;
+}
+.desimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.destext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.design h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.desline{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.building{
+    padding: 10px;
+}
+.bedimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.bedtext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.building h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.cardd{
+    border: 2px solid crimson;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+.profitable{
+    padding: 10px;
+}
+.proimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.protext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.profitable h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.proline{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.migrated{
+    padding: 10px;
+}
+.migimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.migtext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.migrated h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+hr.migline{
+    width: 1px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.support{
+    padding: 10px;
+}
+.supimg{
+    border: 2px solid #1B1D1E;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.suptext{
+    color: #8A8F98;
+    font-size: 13px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.support h6{
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
+    font-weight: 510;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+
 
 
 
