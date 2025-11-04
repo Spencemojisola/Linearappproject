@@ -455,6 +455,7 @@ hr.full-line {
     border: 2px solid orangered;
     background-color: #08090A;
     padding: 70px;
+    border: none;
 }
 
 .aiassisted a {
@@ -557,4 +558,12 @@ hr.middleline {
 
 .secondside p {
     color: white;
+}
+
+hr.lain {
+    width: 80%;
+    border: none;
+    margin: 0;
+    height: 1px;
+    background-color: #1D1E1E;
 }
