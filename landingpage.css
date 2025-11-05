@@ -527,6 +527,7 @@ hr.full-line {
     position: relative;
 
 }
+
 hr.middleline {
     width: 95%;
     margin: auto;
@@ -538,75 +539,87 @@ hr.middleline {
     align-items: center;
 
 }
-.firstside{
+
+.firstside {
     margin-top: 20px;
-    
+
 }
-.firstside h4{
+
+.firstside h4 {
     color: white;
     font-size: 21px;
     font-weight: 510;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.firstside .stream{
+
+.firstside .stream {
     color: #8A8F98;
     font-size: 17px;
 
 }
-.bigtriage{
+
+.bigtriage {
     border: 1px solid grey;
     margin-top: 70px;
     border-radius: 5px;
     background-color: #121314;
 }
-.triage{
+
+.triage {
     margin-top: 10px;
     display: flex;
     gap: .5em;
     padding: 5px;
 }
-.triage p{
+
+.triage p {
     color: white;
     font-size: 13px;
-    
+
     text-align: center;
 }
-.firstside .sug{
+
+.firstside .sug {
     color: #8A8F98;
     font-size: 13px;
     padding: 10px;
 }
-.firstside .dup{
-     color: #8A8F98;
-    font-size: 13px;
-    padding: 10px;
 
-}
-.firstside .rel{
-     color: #8A8F98;
+.firstside .dup {
+    color: #8A8F98;
     font-size: 13px;
     padding: 10px;
 
 }
 
-.secondside{
+.firstside .rel {
+    color: #8A8F98;
+    font-size: 13px;
+    padding: 10px;
+
+}
+
+.secondside {
     margin-top: 15px;
     width: 400px;
 }
-.secondside h5{
+
+.secondside h5 {
     color: white;
     font-size: 21px;
     font-weight: 510;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
 }
-.secondside p{
+
+.secondside p {
     color: #8A8F98;
     font-size: 17px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
 }
-.secondside img{
+
+.secondside img {
     margin-top: 70px;
     width: 400px;
 }
@@ -622,5 +635,3 @@ hr.baseline {
     align-items: center;
 
 }
-
-
