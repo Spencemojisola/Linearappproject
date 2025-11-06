@@ -824,32 +824,38 @@ hr.frline {
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
-hr.diviline{
+
+hr.diviline {
     position: absolute;
     top: 5px;
     left: 500px;
     height: 330px;
 }
-.sideb{
+
+.sideb {
     margin-left: 100px;
     margin-top: 20px;
 }
-.pro{
+
+.pro {
     color: white;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 21px;
 
 }
-.com{
+
+.com {
     color: #8A8F98;
     font-size: 17px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
 }
-.sideb img{
+
+.sideb img {
     padding: 20px;
 }
-hr.btmline{
+
+hr.btmline {
     width: 95%;
     margin: auto;
     border-top: 0.1px solid #151616;
@@ -860,25 +866,29 @@ hr.btmline{
     align-items: center;
 
 }
-.ideaside{
+
+.ideaside {
     border: 2px solid aquamarine;
     margin: auto;
     display: flex;
     gap: 2em;
     justify-content: space-around;
 }
-.speci{
+
+.speci {
     border: 2px solid forestgreen;
 
 }
-.speci h3{
+
+.speci h3 {
     color: white;
     font-size: 24px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
     margin-top: 80px;
 }
-.speci a .colla{
+
+.speci a .colla {
     color: white;
     font-size: 17px;
     margin-top: 10px;
@@ -886,7 +896,7 @@ hr.btmline{
 
 }
 
-.speci a .inl{
+.speci a .inl {
     color: #6C7078;
     font-size: 17px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -894,10 +904,12 @@ hr.btmline{
     margin-top: 10px;
 
 }
-.speci a .inl:hover{
+
+.speci a .inl:hover {
     color: #8A8F98;
 }
-.speci a .iss{
+
+.speci a .iss {
     color: #71757D;
     font-size: 17px;
     font-weight: 510;
@@ -905,29 +917,34 @@ hr.btmline{
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
 }
-.speci a .iss:hover{
+
+.speci a .iss:hover {
     color: #8A8F98;
 }
-.spice{
+
+.spice {
     border: 2px solid teal;
     margin-top: 30px;
     position: relative;
-    
+
 }
-.fa-users{
+
+.fa-users {
     background-color: green;
     color: greenyellow;
     width: 30px;
-    height:25px;
+    height: 25px;
     border-radius: 5px;
-   
+
 }
-.spice .fa-users{
+
+.spice .fa-users {
     position: absolute;
     top: 100px;
     right: 400px;
 }
-.spice .on{
+
+.spice .on {
     color: white;
     font-size: 17px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -937,7 +954,8 @@ hr.btmline{
     left: 70px;
 
 }
-.spice .pd{
+
+.spice .pd {
     font-size: 15px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #8A8F98;
@@ -946,7 +964,8 @@ hr.btmline{
     top: 180px;
     left: 70px;
 }
-hr.btmmline{
+
+hr.btmmline {
     width: 95%;
     margin: auto;
     border-top: 0.1px solid #151616;
@@ -955,6 +974,62 @@ hr.btmmline{
 
 }
 
+.fourdivs {
+    border: 2px solid saddlebrown;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    align-items: start;
 
+}
+.init{
+    display: flex;
+    gap: .5em;
+    margin-top: 10px;
+}
+.init img{
+    filter: brightness(0) invert(1);
+}
+.init p{
+    color: white;
+    font-size: 14px;
+}
+.crosst{
+    display: flex;
+    gap: .5em;
+    margin-top: 10px;
 
+}
+.crosst img{
+    filter: brightness(0) invert(1);
 
+}.crosst p{
+    color: white;
+    font-size: 14px;
+}
+.milest{
+    display: flex;
+    gap: .5em;
+    margin-top: 10px;
+
+}
+.fa-diamond{
+    color: white;
+}
+.milest p{
+    color: white;
+    font-size: 14px;
+}
+.progin{
+    display: flex;
+    gap: .5em;
+    margin-top: 10px;
+
+}
+.progin img{
+    filter: brightness(0) invert(1);
+
+}.progin p{
+    color: white;
+    font-size: 14px;
+}
