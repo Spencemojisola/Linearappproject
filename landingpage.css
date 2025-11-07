@@ -1055,40 +1055,47 @@ hr.btmmline {
 .yetanother {
     background-color: black;
 }
-.task{
+
+.task {
     border: 2px solid violet;
     padding: 90px;
     border: none;
     border: none;
-    
+
 }
-.task a .fa-battery-empty{
+
+.task a .fa-battery-empty {
     color: yellow;
     background-color: yellow;
     font-size: 13px;
 }
-.task a p{
+
+.task a p {
     color: #D0D6E0;
     font: 13px;
     align-items: center;
     gap: 2em;
 }
-.task a h4{
+
+.task a h4 {
     font-size: 56px;
     color: #F7F8F8;
     font-weight: 538;
     margin-top: 10px;
 }
-.opt{
+
+.opt {
     margin-top: 20px;
-   
+
 }
-.opt span{
+
+.opt span {
     color: #F7F8F8;
     font-size: 17px;
     font-weight: 510;
 }
-.opt p{
+
+.opt p {
     color: #8A8F98;
     font-size: 17px;
     font-weight: 510;
@@ -1102,7 +1109,7 @@ hr.momline {
     margin: auto;
 }
 
-.ofthetwosides{
+.ofthetwosides {
     border: 2px solid firebrick;
     display: flex;
     margin: auto;
@@ -1110,134 +1117,158 @@ hr.momline {
     border: none;
     margin-top: 20px;
 }
-.momentuside{
+
+.momentuside {
     border: 2px solid mediumpurple;
     border: none;
 }
-.momentuside h5{
+
+.momentuside h5 {
     color: white;
     font-size: 21px;
     font-weight: 510;
 }
-.momentuside p{
+
+.momentuside p {
     color: #8A8F98;
     font-size: 17px;
     font-weight: 400;
 }
-.momentuimg{
+
+.momentuimg {
     border: 2px solid aquamarine;
     padding: 30px;
     border-radius: 10px;
     border: none;
 }
-.momentuimg p{
+
+.momentuimg p {
     color: white;
     font-size: 16px;
     font-weight: 400;
 }
-.thespan{
+
+.thespan {
     margin-top: 20px;
     border-radius: 10px;
 }
-.scope .fa-square{
+
+.scope .fa-square {
     color: white;
     font-size: 16px;
 }
-.thespan .scope{
+
+.thespan .scope {
     color: white;
     font-size: 16ppx;
 }
-.started .fa-square{
+
+.started .fa-square {
     color: goldenrod;
     font-size: 16px;
 }
-.thespan .started{
+
+.thespan .started {
     color: #8A8F98;
     font-size: 16px;
 }
-.complete .fa-square{
+
+.complete .fa-square {
     color: #626BBC;
     font-size: 16px;
 }
-.thespan .complete{
+
+.thespan .complete {
     color: #8A8F98;
     font-size: 16px;
 }
-hr.insline{
+
+hr.insline {
     height: 400px;
     color: #1A1B1B;
 
 }
 
-.incoming h5{
+.incoming h5 {
     color: white;
     font-size: 21px;
     font-weight: 510;
 }
-.incoming p{
+
+.incoming p {
     color: #8A8F98;
     font-size: 17px;
     font-weight: 400;
 
 }
-.triagecard{
+
+.triagecard {
     border: 1px solid #38393A;
     margin-top: 20px;
     border-radius: 10px;
     position: relative;
     background-color: #1D1E1F;
 }
-.triagecard h6{
+
+.triagecard h6 {
     color: #F7F8F8;
     font-size: 15px;
     padding: 20px;
 }
-.userep{
+
+.userep {
     border: 1px solid #38393A;
     padding: 10px;
     background-color: #232425;
     border-radius: 10px;
 }
-.userep span{
+
+.userep span {
     color: #62666D;
 }
-.userep p{
+
+.userep p {
     color: #8A8F98;
     font-size: 14px;
 }
 
-.rangee p{
-    color: #8A8F98;
-    font-size: 14px;
-    margin-left: 20px;
-    margin-top: 10px;
-
-}
-.rangee span{
-    color: #62666D;
-}
-.rangee img{
-    border-radius: 100px;
-    margin-left: 20px;
-    
-}
-
-.enter p{
+.rangee p {
     color: #8A8F98;
     font-size: 14px;
     margin-left: 20px;
     margin-top: 10px;
 
 }
-.enter span{
+
+.rangee span {
     color: #62666D;
 }
-.enter img{
+
+.rangee img {
     border-radius: 100px;
     margin-left: 20px;
-    
+
 }
-.cardontop{
+
+.enter p {
+    color: #8A8F98;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.enter span {
+    color: #62666D;
+}
+
+.enter img {
+    border-radius: 100px;
+    margin-left: 20px;
+
+}
+
+.cardontop {
     border: 1px solid #444546;
     position: absolute;
     top: 90px;
@@ -1246,32 +1277,39 @@ hr.insline{
     border-radius: 10px;
     background-color: #28292A;
 }
-.accp{
+
+.accp {
     padding: 2px;
     color: white;
 }
-.accp img{
+
+.accp img {
     filter: brightness(0) invert(1);
 
 }
-.dupl{
+
+.dupl {
     padding: 2px;
     color: white;
 }
-.dupl img{
+
+.dupl img {
     filter: brightness(0) invert(1);
 
 }
-.decl{
+
+.decl {
     padding: 2px;
     color: white;
 }
-.decl img{
+
+.decl img {
     filter: brightness(0) invert(1);
 
 }
-.btline{
-     width: 95%;
+
+.btline {
+    width: 95%;
     margin: auto;
     border-top: 0.1px solid #151616;
     color: #1D1E1E;
@@ -1279,4 +1317,263 @@ hr.insline{
 
 }
 
+.theinsights {
+    margin-top: 20px;
 
+}
+
+.theinsights h3 {
+    color: #F7F8F8;
+    font-size: 21px;
+    font-weight: 510;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.theinsights p {
+    color: #8A8F98;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.lmo {
+    display: inline-block;
+    background-color: #28282C;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: 510;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.lmo:hover {
+    background-color: #323237;
+}
+
+.theinsights img {
+    width: 1500px;
+
+}
+
+hr.mmline {
+    width: 95%;
+    margin: auto;
+    border-top: 0.1px solid #151616;
+    color: #1D1E1E;
+    align-items: center;
+
+}
+
+.fordivs {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 2em;
+}
+
+.tailored span {
+    color: #D0D6E0;
+    font-size: 14px;
+    font-weight: 510;
+    margin-left: 20px;
+
+}
+
+.tailored p {
+    color: #8A8F98;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.cuss span {
+    color: #D0D6E0;
+    font-size: 14px;
+    font-weight: 510;
+    margin-left: 20px;
+
+}
+
+.cuss p {
+    color: #8A8F98;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.filt span {
+    color: #D0D6E0;
+    font-size: 14px;
+    font-weight: 510;
+    margin-left: 20px;
+
+}
+
+.filt p {
+    color: #8A8F98;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.fire span {
+    color: #D0D6E0;
+    font-size: 14px;
+    font-weight: 510;
+    margin-left: 20px;
+
+}
+
+.fire p {
+    color: #8A8F98;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.upsect {
+    background-color: #0B0C0D;
+    padding: 100px 80px;
+    color: #fff;
+    overflow: hidden;
+
+}
+
+.upsectcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.floflo {
+    color: #d0d6e0;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.twocolla {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.festcol h3 {
+    color: #fff;
+    font-size: 52px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 0;
+}
+
+.secocol p {
+    color: #8a8f98;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.bigcards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.cardi1 {
+    flex: 1 1 calc(33.333% - 24px);
+    background-color: #0F1011;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, background 0.3s ease;
+    min-width: 280px;
+}
+
+.cardi1:hover {
+    background-color: #101213;
+}
+
+.cardi2 {
+    flex: 1 1 calc(33.333% - 24px);
+    background-color: #111;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, background 0.3s ease;
+    min-width: 280px;
+}
+
+.cardi2:hover {
+    background-color: #101213;
+
+}
+
+.cardi3:hover {
+    background-color: #101213;
+}
+
+.cardi3 {
+    flex: 1 1 calc(33.333% - 24px);
+    background-color: #111;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, background 0.3s ease;
+    min-width: 280px;
+}
+
+.bigcards a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.bigcards img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.bigcards p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #d0d6e0;
+}
+
+.bigcards .intertext {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    color: #f7f8f8;
+}
+
+.bigcards .igortext {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    color: #f7f8f8;
+}
+
+.bigcards .mob {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    color: #f7f8f8;
+}
+
+.bigcards i {
+    color: #8a8f98;
+    transition: color 0.3s;
+}
