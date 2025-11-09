@@ -6,6 +6,13 @@
     list-style-type: none;
 }
 
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     border: 2px solid crimson;
     background-color: #08090A;
@@ -141,44 +148,110 @@ hr.full-line {
     background-color: #1D1E1E;
 }
 
+/* ========media query for header========== */
 
-/* ----MEDIA-QUERY FOR HEADER------- */
-
-@media(max-width:800px) {
+@media (max-width: 1200px) {
     .nav_link {
         justify-content: space-between;
-    }
-
-}
-
-@media(max-width:768px) {
-    .nav_link {
-        justify-content: space-between;
+        padding: 10px 40px;
     }
 
     .menu-list {
-        display: none;
-    }
-
-    .fa-bars {
-        display: block;
-        font-size: 1.5em;
+        gap: 1.5em;
     }
 
     .btn-icon {
-        gap: .5em;
+        gap: 1.5em;
+    }
+}
+
+@media (max-width: 1023px) {
+    .menu-list {
+        gap: 1.2em;
+        font-size: 12px;
     }
 
+    .loginbtn,
     .signupbtn {
-        padding: 5px;
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .nav_link {
+        padding: 10px 20px;
+    }
+
+    .logo {
+        width: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav_link {
+        justify-content: space-between;
+        padding: 12px 20px;
+    }
+
+    .right-side,
+    .btn-icon button {
+        display: none;
+    }
+
+
+    .fa-bars {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #08090A;
+        border-top: 1px solid #1D1E1E;
+        padding: 15px 0;
+        gap: 1.5em;
+        text-align: center;
+    }
+
+    .mobile-menu a {
+        color: #8A8F98;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .mobile-menu a:hover {
+        color: #F7F8F8;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 80px;
+    }
+
+    .fa-bars {
+        font-size: 18px;
+    }
+
+    .mobile-menu a {
+        font-size: 13px;
     }
 }
 
 
-/* -----HER0-SECTION---- */
+/* =======herosection======= */
 
 .hero-sect {
     background-color: #08090A;
+    overflow-x: hidden;
+    width: 100vw;
+
 }
 
 .hero-text {
@@ -194,7 +267,7 @@ hr.full-line {
 @keyframes heroFadeIn {
     from {
         opacity: 0;
-        transform: translateY(100px);
+        transform: translateY(60px);
     }
 
     to {
@@ -202,6 +275,7 @@ hr.full-line {
         transform: translateY(0);
     }
 }
+
 
 .hero-text h1 {
     border: 2px solid crimson;
@@ -228,13 +302,14 @@ hr.full-line {
     border: 2px solid purple;
     padding: 15px;
     display: flex;
-    gap: 2em;
+    gap: 1.5em;
+    flex-wrap: wrap;
     border: none;
 }
 
 .startbtn {
     border: 2px solid crimson;
-    padding: 10px;
+    padding: 12px 24px;
     border-radius: 8px;
     background-color: white;
     border: none;
@@ -250,9 +325,10 @@ hr.full-line {
 
 .new {
     border: 2px solid green;
-    padding: 4px;
+    padding: 10px 18px;
     background-color: #08090A;
     text-align: center;
+    border-radius: 6px;
     border: none;
 
 }
@@ -276,6 +352,9 @@ hr.full-line {
 
 .hero-sect img {
     width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 60px;
 }
 
 .hero-sect h6 {
@@ -298,21 +377,25 @@ hr.full-line {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    padding: 40px 20px;
+    padding: 40px 0;
     justify-items: center;
     align-items: center;
 }
 
 .main-wrapper a img {
     width: 100px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
+
 
 .made {
     border: 2px solid purple;
-    padding: 90px;
     display: flex;
     gap: 8em;
-    margin-top: 100px;
+    margin-top: 120px;
+    justify-content: center;
     border: none;
 }
 
@@ -350,9 +433,15 @@ hr.full-line {
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-    gap: .5em;
-    position: relative;
+    gap: 1.5em;
+    flex-wrap: nowrap;
+    /* position: relative; */
     border: none;
+}
+
+.threeimages a {
+    position: relative;
+    text-align: center;
 }
 
 .threeimages img:hover {
@@ -361,19 +450,19 @@ hr.full-line {
 
 .threeimages a img {
     border: 2px solid purple;
-    height: 370px;
+    height: 300px;
     margin-bottom: 10px;
     border-radius: 20px;
     background-color: #141516;
     border: none;
-    width: 370px;
+    width: 300px;
 }
 
 .threetext {
     border: 2px solid crimson;
     position: absolute;
-    top: 300px;
-    padding: 15px;
+    bottom: 50px;
+    left: 10px;
     font-size: 16px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
@@ -385,8 +474,8 @@ hr.full-line {
 .secondtext {
     border: 2px solid crimson;
     position: absolute;
-    top: 320px;
-    padding: 15px;
+    bottom: 50px;
+    left: 10px;
     font-size: 16px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
@@ -398,8 +487,8 @@ hr.full-line {
 .firsttext {
     border: 2px solid crimson;
     position: absolute;
-    top: 320px;
-    padding: 15px;
+    bottom: 50px;
+    left: 10px;
     font-size: 16px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
@@ -409,86 +498,172 @@ hr.full-line {
 }
 
 
-/* -----MEDIA-QUERY FOR HEROSECTION---- */
+/* =======mediaquery for hero-sect========= */
 
-
-@media(max-width:480px) {
+@media (max-width: 1024px) {
     .hero-sect {
-        height: auto;
-        padding: 40px 20px;
-    }
-
-    .hero-text {
-        padding: 20px;
+        padding: 100px 60px;
     }
 
     .hero-text h1 {
-        font-size: 28px;
-        padding: 10px;
+        font-size: 52px;
+    }
+
+    .main-wrapper a {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .made {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3em;
+    }
+
+    .threeimages {
+        flex-wrap: wrap;
+        gap: 1.5em;
+    }
+
+    .threeimages a img {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-sect {
+        padding: 80px 40px;
+    }
+
+    .hero-text h1 {
+        font-size: 42px;
     }
 
     .hero-text p {
-        font-size: 14px;
-        padding: 10px;
+        font-size: 16px;
     }
 
     .links {
         flex-direction: column;
-        align-items: center;
         gap: 1em;
     }
 
-    .new {
-        width: 100%;
-        max-width: 220px;
-        padding: 12px;
+    .main-wrapper a {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
-    .startbtn {
-        width: 100%;
-        max-width: 220px;
-        padding: 12px;
+    .main-wrapper a img {
+        width: 90px;
+    }
+
+    .madeproduct {
+        font-size: 42px;
+    }
+
+    .threeimages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .threeimages a img {
+        width: 90%;
+        height: auto;
     }
 }
+
+@media (max-width: 480px) {
+    .hero-sect {
+        padding: 60px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 0.8em;
+    }
+
+    .startbtn,
+    .new {
+        width: 100%;
+    }
+
+    .main-wrapper a {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .main-wrapper a img {
+        width: 70px;
+    }
+
+    .madeproduct {
+        font-size: 32px;
+    }
+
+    .makeswitch {
+        font-size: 14px;
+    }
+
+    .threeimages a img {
+        width: 100%;
+        height: auto;
+    }
+
+    .threeimages p {
+        font-size: 14px;
+    }
+}
+
+/* =========AI-SECTION========== */
 
 .ai-section {
     border: 2px solid orangered;
     background-color: #08090A;
-    padding: 70px;
+    padding: 80px 0;
     border: none;
 }
 
 .aiassisted a {
-    border: 2px solid orange;
-    color: #D0D6E0;
+    margin-left: 80px;
     font-size: 13px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    border: none;
-
+    color: white;
 }
 
 .ai a {
-    color: #F7F8F8;
+    margin-left: 75px;
     font-size: 56px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 538;
+    color: #F7F8F8;
 }
+
 
 .agents p {
     border: 2px solid blue;
     color: #8A8F98;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 17px;
     border: none;
-    margin-top: 20px;
+    margin-left: 80px;
+    margin-top: 10px;
 
 }
 
 .learn {
     border: 2px solid magenta;
-    padding: 6px;
+    padding: 6px 12px;
     border-radius: 5px;
     background-color: #28282C;
+    margin-left: 80px;
     margin-top: 20px;
     border: none;
 }
@@ -511,88 +686,91 @@ hr.full-line {
 }
 
 .assignimage img {
-    border: 2px solid indigo;
-    width: 1000px;
-    height: 500px;
-    border: none;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
 
+}
+
+.divideline {
+    width: 80%;
+    border: none;
+    border-top: 0.1px solid #28282C;
+    margin-bottom: 0;
+    margin: auto;
 }
 
 .linesection {
     display: flex;
+    width: 80%;
+    margin: auto;
     gap: 2em;
+    align-items: flex-start;
+    padding: 60px 0;
     justify-content: space-between;
-    margin: auto;
-    padding: 20px;
-    position: relative;
 
 }
 
-hr.middleline {
-    width: 95%;
-    margin: auto;
-    border-top: 0.1px solid #151616;
-    color: #1D1E1E;
-    position: absolute;
-    top: 20px;
-    left: 18x;
-    align-items: center;
+hr.justline {
+    width: 0;
+    height: 400px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: -60px;
 
-}
-
-.firstside {
-    margin-top: 20px;
 
 }
 
 .firstside h4 {
-    color: white;
     font-size: 21px;
-    font-weight: 510;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #F7F8F8;
 }
 
 .firstside .stream {
     color: #8A8F98;
     font-size: 17px;
-
 }
 
 .bigtriage {
     border: 1px solid grey;
-    margin-top: 70px;
     border-radius: 5px;
+    margin-top: 25px;
     background-color: #121314;
 }
 
 .triage {
-    margin-top: 10px;
+    margin-bottom: 12px;
     display: flex;
     gap: .5em;
+    align-items: center;
     padding: 5px;
 }
 
 .triage p {
     color: white;
     font-size: 13px;
-
     text-align: center;
 }
 
-.firstside .sug {
+.triagesub .sug {
     color: #8A8F98;
     font-size: 13px;
     padding: 10px;
 }
 
-.firstside .dup {
+.triagesub .dup {
     color: #8A8F98;
     font-size: 13px;
     padding: 10px;
 
 }
 
-.firstside .rel {
+.triagesub .rel {
     color: #8A8F98;
     font-size: 13px;
     padding: 10px;
@@ -600,8 +778,7 @@ hr.middleline {
 }
 
 .secondside {
-    margin-top: 15px;
-    width: 400px;
+    margin-bottom: 10px;
 }
 
 .secondside h5 {
@@ -620,51 +797,51 @@ hr.middleline {
 }
 
 .secondside img {
-    margin-top: 70px;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    display: block;
 }
 
 hr.baseline {
-    width: 95%;
+    width: 80%;
+    border: none;
+    border-top: 0.1px solid #28282C;
     margin: auto;
-    border-top: 0.1px solid #151616;
-    color: #1D1E1E;
-    position: absolute;
-    top: 482px;
-    left: 18x;
-    align-items: center;
+    margin-top: -120px;
 
 }
 
 .anewsec {
     background-color: #121314;
     width: 100%;
+    padding: 80px 0;
+    align-items: center;
     margin: auto;
 }
 
 .project a p {
-    border: 2px solid crimson;
     color: #D0D6E0;
     font-size: 13px;
     font-weight: 400;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    padding: 20px;
-    margin-left: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 
 }
 
 .project a h3 {
-    border: 2px solid magenta;
     color: white;
     font-size: 56px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 538;
-    margin-left: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
 
 .project p {
-    border: 2px solid mediumvioletred;
-    margin-left: 20px;
+
+    margin-left: 80px;
     color: #8A8F98;
     font-size: 17px;
     font-weight: 510;
@@ -678,41 +855,39 @@ hr.baseline {
 
 .manprojsect {
     display: flex;
-    position: relative;
-    justify-content: space-around;
+    width: 80%;
     margin: auto;
+    gap: 2em;
+    align-items: flex-start;
+    /* padding: 60px 0; */
+    justify-content: space-around;
 }
 
 hr.frline {
     width: 80%;
+    border: none;
+    border-top: 1px solid #28282C;
+    margin-bottom: 0;
     margin: auto;
-    border-top: 0.1px solid #151616;
-    color: #1D1E1E;
-    align-items: center;
-    position: absolute;
-    left: 100px;
 
 }
 
 .sidea {
-    margin-top: 20px;
-
+    margin-top: 50px;
 }
 
 .sidea .end {
     color: #F7F8F8;
     font-size: 21px;
     font-weight: 510;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-
 }
 
 .sidea .specs {
     color: #8A8F98;
     font-size: 17px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
-    padding: 5px;
+    margin-bottom: 30px;
+
 }
 
 .proje {
@@ -724,7 +899,6 @@ hr.frline {
 
 .proje h4 {
     color: white;
-    padding: 20px;
     font-size: 21px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
@@ -826,15 +1000,19 @@ hr.frline {
 }
 
 hr.diviline {
-    position: absolute;
-    top: 5px;
-    left: 500px;
-    height: 330px;
+    width: 0;
+    height: 500px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 0px;
+    margin-left: 90px;
 }
 
 .sideb {
-    margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 50px;
+
 }
 
 .pro {
@@ -852,23 +1030,20 @@ hr.diviline {
 }
 
 .sideb img {
-    padding: 20px;
+    margin-top: 50px;
 }
 
 hr.btmline {
-    width: 95%;
+    width: 80%;
+    border: none;
+    border-top: 1px solid #28282C;
+    margin-bottom: 0;
     margin: auto;
-    border-top: 0.1px solid #151616;
-    color: #1D1E1E;
-    position: absolute;
-    top: 340px;
-    left: 18x;
-    align-items: center;
+    margin-top: 1px;
 
 }
 
 .ideaside {
-    border: 2px solid aquamarine;
     margin: auto;
     display: flex;
     gap: 2em;
@@ -876,7 +1051,7 @@ hr.btmline {
     border: none;
 }
 
-.speci {
+.spice {
     border: 2px solid forestgreen;
 
 }
@@ -1583,7 +1758,7 @@ hr.mmline {
     background-color: #08090A;
     padding: 100px 0;
     overflow: hidden;
-    
+
 
 }
 
@@ -1803,178 +1978,178 @@ hr.longrrline {
 }
 
 .footer {
-  border: 2px solid aqua;
-  background-color: #08090A;
-  padding: 60px;
-  margin-top: 50px;
-  border: none;
-  margin: 0;
+    border: 2px solid aqua;
+    background-color: #08090A;
+    padding: 60px;
+    margin-top: 50px;
+    border: none;
+    margin: 0;
 }
 
 .footercontainer {
-  border: 2px solid lawngreen;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: auto;
-  display: flex;
-  width: 90%;
-  border: none;
+    border: 2px solid lawngreen;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    display: flex;
+    width: 90%;
+    border: none;
 }
 
 .footerlogo a .lg {
-  width: 20px;
-  object-fit: contain;
-  opacity: 0.9;
+    width: 20px;
+    object-fit: contain;
+    opacity: 0.9;
 }
 
 .footerlinks {
-  display: flex;
-  gap: 80px;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
 }
 
 .firstcolumn {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .firstcolumn h4 {
-  color: #fff;
-  font-weight: 510;
-  font-size: 13px;
-  margin-bottom: 20px;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 19.5px;
-  font-style: normal;
+    color: #fff;
+    font-weight: 510;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 19.5px;
+    font-style: normal;
 }
 
 .firstcolumn a {
-  color: #a8a8a8;
-  font-size: 13px;
-  transition: color 0.2s ease;
-  line-height: 19.5px;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400;
+    color: #a8a8a8;
+    font-size: 13px;
+    transition: color 0.2s ease;
+    line-height: 19.5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
 }
 
 .firstcolumn a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .secondcolumn {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .secondcolumn h4 {
-  color: #fff;
-  font-weight: 510;
-  font-size: 13px;
-  margin-bottom: 20px;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 19.5px;
-  font-style: normal;
+    color: #fff;
+    font-weight: 510;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 19.5px;
+    font-style: normal;
 }
 
 .secondcolumn a {
-  color: #a8a8a8;
-  font-size: 13px;
-  transition: color 0.2s ease;
-  line-height: 19.5px;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400;
+    color: #a8a8a8;
+    font-size: 13px;
+    transition: color 0.2s ease;
+    line-height: 19.5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
 }
 
 .secondcolumn a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .thirdcolumn {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .thirdcolumn h4 {
-  color: #fff;
-  font-weight: 510;
-  font-size: 13px;
-  margin-bottom: 20px;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 19.5px;
-  font-style: normal;
+    color: #fff;
+    font-weight: 510;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 19.5px;
+    font-style: normal;
 }
 
 .thirdcolumn a {
-  color: #a8a8a8;
-  font-size: 13px;
-  transition: color 0.2s ease;
-  line-height: 19.5px;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400;
+    color: #a8a8a8;
+    font-size: 13px;
+    transition: color 0.2s ease;
+    line-height: 19.5px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
 }
 
 .thirdcolumn a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .fourthcolumn {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .fourthcolumn h4 {
-  color: #fff;
-  font-weight: 510;
-  font-size: 13px;
-  margin-bottom: 20px;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 19.5px;
-  font-style: normal;
+    color: #fff;
+    font-weight: 510;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 19.5px;
+    font-style: normal;
 }
 
 .fourthcolumn a {
-  color: #a8a8a8;
-  font-size: 13px;
-  transition: color 0.2s ease;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400;
-  line-height: 19.5px;
+    color: #a8a8a8;
+    font-size: 13px;
+    transition: color 0.2s ease;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    line-height: 19.5px;
 }
 
 .fourthcolumn a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .fifthcolumn {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .fifthcolumn h4 {
-  color: #fff;
-  font-weight: 510;
-  font-size: 13px;
-  margin-bottom: 20px;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 19.5px;
-  font-style: normal;
+    color: #fff;
+    font-weight: 510;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 19.5px;
+    font-style: normal;
 }
 
 .fifthcolumn a {
-  color: #a8a8a8;
-  font-size: 13px;
-  line-height: 19.5px;
-  transition: color 0.2s ease;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400;
+    color: #a8a8a8;
+    font-size: 13px;
+    line-height: 19.5px;
+    transition: color 0.2s ease;
+    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
 
 }
 
 .fifthcolumn a:hover {
-  color: #fff;
+    color: #fff;
 }

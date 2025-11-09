@@ -9,6 +9,11 @@
 header {
     border: 2px solid crimson;
     background-color: #08090A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     border: none;
 }
 
@@ -132,8 +137,8 @@ hr.full-line {
     width: 100%;
     border: none;
     margin: 0;
-    border-top: 0.1px solid white;
-    color: #1D1E1E;
+    height: 1px;
+    background-color: #1D1E1E;
 }
 
 .hero-sect {
