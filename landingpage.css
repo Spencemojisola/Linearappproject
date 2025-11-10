@@ -171,7 +171,10 @@ hr.full-line {
         font-size: 12px;
     }
 
-    .loginbtn,
+    .loginbtn{
+        font-size: 12px;
+        padding: 6px 10px;
+    }
     .signupbtn {
         font-size: 12px;
         padding: 6px 10px;
@@ -193,9 +196,9 @@ hr.full-line {
         padding: 12px 20px;
     }
 
-    /* .right-side{
-        display: none;
-    } */
+    .right-side{
+        flex-direction: column;
+    }
     .btn-icon button {
         display: none;
     }
