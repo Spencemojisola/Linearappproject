@@ -145,6 +145,108 @@ hr.full-line {
   background-color: #1D1E1E;
 }
 
+/* ========media query for header========== */
+
+@media (max-width: 1200px) {
+  .nav_link {
+    justify-content: space-between;
+    padding: 10px 40px;
+  }
+
+  .menu-list {
+    gap: 1.5em;
+  }
+
+  .btn-icon {
+    gap: 1.5em;
+  }
+}
+
+@media (max-width: 1023px) {
+  .menu-list {
+    gap: 1.2em;
+    font-size: 12px;
+  }
+
+  .loginbtn{
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+  .signupbtn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .nav_link {
+    padding: 10px 20px;
+  }
+
+  .logo {
+    width: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .nav_link {
+    justify-content: space-between;
+    padding: 12px 20px;
+  }
+
+  .right-side{
+    display: none;
+  }
+  .btn-icon button {
+    display: block;
+  }
+
+
+  .fa-bars {
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #08090A;
+    border-top: 1px solid #1D1E1E;
+    padding: 15px 0;
+    gap: 1.5em;
+    text-align: center;
+  }
+
+  .mobile-menu a {
+    color: #8A8F98;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .mobile-menu a:hover {
+    color: #F7F8F8;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 80px;
+  }
+
+  .fa-bars {
+    font-size: 18px;
+  }
+
+  .mobile-menu a {
+    font-size: 13px;
+  }
+}
+
+
 .hero-sect {
   background-color: #08090A;
 }
@@ -152,7 +254,8 @@ hr.full-line {
 .hero-text {
   border: 2px solid chartreuse;
   margin: auto;
-  width: 90%;
+  width: 100%;
+  margin-top: 120px;
   padding: 30px;
   border: none;
 }
@@ -194,26 +297,27 @@ hr.full-line {
 .customersect {
   border: 2px solid indigo;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin: auto;
   padding: 15px;
   border: none;
 }
 
-.openai {
+ .openai {
   border: 2px solid #1B1C1D;
   border-radius: 10px;
   padding: 20px;
   background-color: #0F1011;
-  width: 490px;
-  height: 300px;
+  width: 420px;
+  height: 250px;
   position: relative;
 }
 
 .openai .card8 {
   border: 2px solid crimson;
   position: absolute;
-  left: 200px;
+  left: 150px;
+  top: 5px;
   width: 265px;
   border: none;
 
@@ -233,7 +337,7 @@ hr.full-line {
 .openai h4 {
   border: 2px solid seagreen;
   position: absolute;
-  top: 150px;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -244,7 +348,7 @@ hr.full-line {
 .openai p {
   border: 2px solid khaki;
   position: absolute;
-  top: 250px;
+  top: 220px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -254,22 +358,23 @@ hr.full-line {
 
 .openai p:hover {
   color: white;
-}
+} 
 
 .ramp {
   border: 2px solid #1B1C1D;
   border-radius: 10px;
   padding: 20px;
   background-color: #0F1011;
-  width: 490px;
-  height: 300px;
+  width: 420px;
+  height: 250px;
   position: relative;
 }
 
 .ramp .card1 {
   border: 2px solid crimson;
   position: absolute;
-  left: 200px;
+  left: 150px;
+  top: 5px;
   width: 265px;
   border: none;
 
@@ -278,7 +383,7 @@ hr.full-line {
 .ramp .ram {
   border: 2px solid chocolate;
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 10px;
   background-color: #1B1C1D;
   border-radius: 10px;
@@ -289,7 +394,7 @@ hr.full-line {
 .ramp h4 {
   border: 2px solid seagreen;
   position: absolute;
-  top: 150px;
+  top: 130px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -300,7 +405,7 @@ hr.full-line {
 .ramp p {
   border: 2px solid khaki;
   position: absolute;
-  top: 250px;
+  top: 220px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -315,7 +420,7 @@ hr.full-line {
 .customersectt {
   border: 2px solid indigo;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin: auto;
   padding: 15px;
   border: none;
@@ -326,15 +431,16 @@ hr.full-line {
   border-radius: 10px;
   padding: 20px;
   background-color: #0F1011;
-  width: 490px;
-  height: 300px;
+  width: 420px;
+  height: 250px;
   position: relative;
 }
 
 .brex .breximg {
   border: 2px solid crimson;
   position: absolute;
-  left: 200px;
+  left: 150px;
+  top: 5px;
   width: 265px;
   border: none;
 
@@ -354,7 +460,7 @@ hr.full-line {
 .brex h4 {
   border: 2px solid seagreen;
   position: absolute;
-  top: 150px;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -365,7 +471,7 @@ hr.full-line {
 .brex p {
   border: 2px solid khaki;
   position: absolute;
-  top: 250px;
+  top: 220px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -382,15 +488,16 @@ hr.full-line {
   border-radius: 10px;
   padding: 20px;
   background-color: #0F1011;
-  width: 490px;
-  height: 300px;
+  width: 420px;
+  height: 250px;
   position: relative;
 }
 
 .scale .card6 {
   border: 2px solid crimson;
   position: absolute;
-  left: 200px;
+  left: 150px;
+  top: 5px;
   width: 265px;
   border: none;
 
@@ -410,7 +517,7 @@ hr.full-line {
 .scale h4 {
   border: 2px solid seagreen;
   position: absolute;
-  top: 150px;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -421,7 +528,7 @@ hr.full-line {
 .scale p {
   border: 2px solid khaki;
   position: absolute;
-  top: 250px;
+  top: 200px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -517,6 +624,154 @@ hr.tinyline {
 
 }
 
+/* =====MEDIA QUERY FOR FIGURESECT======= */
+
+
+@media (max-width: 1024px) {
+  .figuresect {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 40px;
+  }
+    .twox{
+      position: static;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+  .onepoint{
+    position: static;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .righttext{
+    position: static;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .smallline {
+    position: static;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+   .twox h4{
+    font-size: 64px;
+   }
+  .onepoint h4 {
+    font-size: 64px;
+  }
+   .twox p{
+     font-size: 15px;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 1.6;
+   }
+  .onepoint p{
+     font-size: 15px;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 1.6;
+  }
+  .righttext p {
+    font-size: 15px;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 1.6;
+  }
+    hr.tinyline {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .figuresect {
+    padding: 40px 20px;
+    height: auto;
+  }
+
+  .twox h4{
+    font-size: 48px;
+  }
+  .onepoint h4 {
+    font-size: 48px;
+  }
+
+  .twox p{
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .onepoint p{
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .righttext p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .twox{
+    position: static;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 25px;
+  }
+  .onepoint{
+    position: static;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 25px;
+  }
+  .righttext {
+    position: static;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 25px;
+  }
+
+  .smallline {
+    display: none;
+  }
+
+  hr.tinyline {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .figuresect {
+    padding: 30px 15px;
+    flex-direction: column-reverse;
+  }
+
+  .twox h4{
+    font-size: 36px;
+  }
+  .onepoint h4 {
+    font-size: 36px;
+  }
+
+  .twox p{
+    font-size: 13px;
+  }
+  .onepoint p{
+    font-size: 13px;
+  }
+  .righttext p {
+    font-size: 13px;
+  }
+
+  .twox{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .onepoint{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .righttext {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
 .firstthreecards {
   border: 2px solid indigo;
   display: flex;
@@ -531,8 +786,8 @@ hr.tinyline {
   border-radius: 10px;
   padding: 20px;
   background-color: #0F1011;
-  width: 330px;
-  height: 290px;
+  width: 300px;
+  height: 250px;
   position: relative;
 
 }
@@ -541,7 +796,7 @@ hr.tinyline {
 .mercury .img {
   border: 2px solid chocolate;
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 10px;
   background-color: #1B1C1D;
   border-radius: 10px;
@@ -552,7 +807,7 @@ hr.tinyline {
 .mercury h4 {
   border: 2px solid seagreen;
   position: absolute;
-  top: 150px;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -563,7 +818,7 @@ hr.tinyline {
 .mercury p {
   border: 2px solid khaki;
   position: absolute;
-  top: 250px;
+  top: 220px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -584,8 +839,8 @@ hr.tinyline {
   border-radius: 10px;
   padding: 20px;
   background-color: #0F1011;
-  width: 330px;
-  height: 290px;
+  width: 300px;
+  height: 250px;
   position: relative;
 }
 
@@ -604,7 +859,7 @@ hr.tinyline {
 .retools h4 {
   border: 2px solid seagreen;
   position: absolute;
-  top: 150px;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -615,7 +870,7 @@ hr.tinyline {
 .retools p {
   border: 2px solid khaki;
   position: absolute;
-  top: 250px;
+  top: 220px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -636,8 +891,8 @@ hr.tinyline {
   border-radius: 20px;
   padding: 20px;
   background-color: #0F1011;
-  width: 330px;
-  height: 290px;
+  width: 300px;
+  height: 250px;
   position: relative;
 }
 
@@ -656,7 +911,7 @@ hr.tinyline {
 .cashapp h4 {
   border: 2px solid seagreen;
   position: absolute;
-  top: 150px;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -667,7 +922,7 @@ hr.tinyline {
 .cashapp p {
   border: 2px solid khaki;
   position: absolute;
-  top: 250px;
+  top: 220px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -698,8 +953,8 @@ hr.tinyline {
   border-radius: 10px;
   padding: 20px;
   background-color: #0F1011;
-  width: 330px;
-  height: 290px;
+  width: 300px;
+  height: 250px;
   position: relative;
 
 }
@@ -719,7 +974,7 @@ hr.tinyline {
 .pleo h4 {
   border: 2px solid seagreen;
   position: absolute;
-  top: 150px;
+  top: 120px;
   color: #F7F8F8;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -730,7 +985,7 @@ hr.tinyline {
 .pleo p {
   border: 2px solid khaki;
   position: absolute;
-  top: 250px;
+  top: 220px;
   color: #8A8F98;
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -751,8 +1006,8 @@ hr.tinyline {
   border-radius: 10px;
   padding: 20px;
   background-color: #0F1011;
-  width: 330px;
-  height: 290px;
+  width: 300px;
+  height: 250px;
   position: relative;
 }
 
@@ -771,9 +1026,8 @@ hr.tinyline {
 .seria h4 {
   border: 2px solid seagreen;
   position: absolute;
-  top: 150px;
+  top: 120px;
   color: #F7F8F8;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: 510;
   border: none;
@@ -782,11 +1036,10 @@ hr.tinyline {
 .seria p {
   border: 2px solid khaki;
   position: absolute;
-  top: 250px;
+  top: 220px;
   color: #8A8F98;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   border: none;
 }
 
@@ -803,8 +1056,8 @@ hr.tinyline {
   border-radius: 20px;
   padding: 20px;
   background-color: #0F1011;
-  width: 330px;
-  height: 290px;
+  width: 300px;
+  height: 250px;
   position: relative;
 }
 
@@ -823,9 +1076,8 @@ hr.tinyline {
 .clio h4 {
   border: 2px solid seagreen;
   position: absolute;
-  top: 150px;
+  top: 100px;
   color: #F7F8F8;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: 510;
   border: none;
@@ -834,9 +1086,8 @@ hr.tinyline {
 .clio p {
   border: 2px solid khaki;
   position: absolute;
-  top: 250px;
+  top: 220px;
   color: #8A8F98;
-  font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 14px;
   border: none;
@@ -850,7 +1101,263 @@ hr.tinyline {
   background-color: #161719;
 }
 
-h3 {
+
+
+/* =========MEDIA QUERY FOR THE CARDS====== */
+
+@media (max-width: 768px) {
+  .firstthreecards{
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .secondthreecards {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+   .mercury{
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    padding: 30px 20px;
+    position: relative;
+   }
+  .retools{
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    padding: 30px 20px;
+    position: relative;
+  }
+  .cashapp{
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    padding: 30px 20px;
+    position: relative;
+  }
+  .pleo{
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    padding: 30px 20px;
+    position: relative;
+  }
+  .seria{
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    padding: 30px 20px;
+    position: relative;
+  }
+  .clio {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    padding: 30px 20px;
+    position: relative;
+  }
+  .mercury .img{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .retools .img{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .cashapp .img{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .pleo .img{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .seria .img{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .clio .img {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    display: block;
+  }
+   .mercury h4{
+    position: relative;
+    top: 0;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 20px;
+   }
+  .retools h4{
+    position: relative;
+    top: 0;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  .cashapp h4{
+    position: relative;
+    top: 0;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  .pleo h4{
+    position: relative;
+    top: 0;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  .seria h4{
+    position: relative;
+    top: 0;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  .clio h4 {
+    position: relative;
+    top: 0;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  .mercury p{
+     position: relative;
+    top: 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .retools p{
+     position: relative;
+    top: 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .cashapp p{
+     position: relative;
+    top: 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .pleo p{
+     position: relative;
+    top: 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .seria p{
+     position: relative;
+    top: 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .clio p {
+    position: relative;
+    top: 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .mercury{
+    width: 95%;
+    padding: 25px 15px;
+    border-radius: 12px;
+  }
+  .retools{
+    width: 95%;
+    padding: 25px 15px;
+    border-radius: 12px;
+  }
+  .cashapp{
+    width: 95%;
+    padding: 25px 15px;
+    border-radius: 12px;
+  }
+  .pleo{
+    width: 95%;
+    padding: 25px 15px;
+    border-radius: 12px;
+  }
+  .seria{
+    width: 95%;
+    padding: 25px 15px;
+    border-radius: 12px;
+  }
+  .clio {
+    width: 95%;
+    padding: 25px 15px;
+    border-radius: 12px;
+  }
+   .mercury h4{
+    font-size: 18px;
+   }
+  .retools h4{
+    font-size: 18px;
+  }
+  .cashapp h4{
+    font-size: 18px;
+  }
+  .pleo h4{
+    font-size: 18px;
+  }
+  .seria h4{
+    font-size: 18px;
+  }
+  .clio h4 {
+    font-size: 18px;
+  }
+   .mercury p{
+    font-size: 13px;
+   }
+  .retools p{
+    font-size: 13px;
+  }
+  .cashapp p{
+    font-size: 13px;
+  }
+  .pleo p{
+    font-size: 13px;
+  }
+  .seria p{
+    font-size: 13px;
+  }
+  .clio p {
+    font-size: 13px;
+  }
+}
+
+
+
+.powersectt h3 {
   border: 2px solid crimson;
   color: #F7F8F8;
   font-size: 40px;
@@ -894,6 +1401,77 @@ h3 {
   font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
 }
+
+/* ======MEDIA QUERY FOR POWERSECTT===== */
+
+@media (max-width: 1024px) {
+  .powersectt h3 {
+    font-size: 32px;
+    margin-top: 100px;
+  }
+
+  .middle-side {
+    padding: 6px;
+    margin-top: 50px;
+  }
+
+  .middle-list {
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .middle-list li a {
+    font-size: 15px;
+    padding: 16px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .powersectt h3 {
+    font-size: 26px;
+    margin-top: 80px;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .middle-side {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .middle-list {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .middle-list li {
+    width: 90%;
+  }
+
+  .middle-list li a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    padding: 14px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .powersectt h3 {
+    font-size: 22px;
+    margin-top: 60px;
+  }
+
+  .middle-list li a {
+    font-size: 13px;
+    padding: 12px 0;
+  }
+}
+
 
 .companyli {
   width: 80%;
@@ -1664,6 +2242,742 @@ h3 {
 }
 
 
+/* ======MEDIA QUERY FOR COMPANIES======= */
+
+
+@media (max-width: 1024px) {
+  .companyli {
+    width: 85%;
+    padding: 40px;
+  }
+
+  .companyramp{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companybrex{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companycoin{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companymecury{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companycash{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  
+  .companypleo{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companymonzo{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  
+  .companyopensea{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companyalan{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companymoonpay{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companypulley{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companymodern{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companyworld{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companyparafin{
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+  .companyyourcompany {
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px 0;
+  }
+
+  .ramptext{
+     font-size: 15px;
+  }
+  .brextext{
+     font-size: 15px;
+  }
+  .cointext{
+     font-size: 15px;
+  }
+  .mectext{
+     font-size: 15px;
+  }
+  .castext{
+     font-size: 15px;
+  }
+  .pletext{
+     font-size: 15px;
+  }
+  .montext{
+     font-size: 15px;
+  }
+  .opetext{
+     font-size: 15px;
+  }
+  .alatext{
+     font-size: 15px;
+  }
+  .mootext{
+     font-size: 15px;
+  }
+  .pultext{
+     font-size: 15px;
+  }
+  .modtext{
+     font-size: 15px;
+  }
+  .wortext{
+     font-size: 15px;
+  }
+  .partext{
+     font-size: 15px;
+  }
+  .youtext {
+    font-size: 15px;
+  }
+
+  .fe{
+    font-size: 12px;
+  }
+  .fi{
+    font-size: 12px;
+  }
+  .fien{
+    font-size: 12px;
+  }
+  .fient{
+    font-size: 12px;
+  }
+  .fientc{
+    font-size: 12px;
+  }
+  .fte{
+    font-size: 12px;
+  }
+  .mon{
+    font-size: 12px;
+  }
+  .ope{
+
+  }
+  .ala{
+    font-size: 12px;
+  }
+  .moo{
+    font-size: 12px;
+  }
+  .pul{
+    font-size: 12px;
+  }
+  .mod{
+    font-size: 12px;
+  }
+  .wor{
+    font-size: 12px;
+  }
+  .par{
+    font-size: 12px;
+  }
+  .you {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .companyli {
+    width: 90%;
+    padding: 30px;
+  }
+
+  .companyramp{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companybrex{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companycoin{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companymecury{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companycash{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companypleo{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companymonzo{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companyopensea{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companyalan{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companymoonpay{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companypulley{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companymodern{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companyworld{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companyparafin{
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+  .companyyourcompany {
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    align-items: start;
+  }
+
+  .companyle{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companybr{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companycb{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companymec{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companycas{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companyple{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companymon{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companyope{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companyala{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companymoo{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companypul{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companymod{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companywor{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companypar{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .companyyou {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .ramptext{
+    font-size: 15px;
+  }
+  .brextext{
+    font-size: 15px;
+  }
+  .cointext{
+    font-size: 15px;
+  }
+  .mectext{
+    font-size: 15px;
+  }
+  .castext{
+    font-size: 15px;
+  }
+  .pletext{
+    font-size: 15px;
+  }
+  .montext{
+    font-size: 15px;
+  }
+  .opetext{
+    font-size: 15px;
+  }
+  .alatext{
+    font-size: 15px;
+  }
+  .mootext{
+    font-size: 15px;
+  }
+  .pultext{
+    font-size: 15px;
+  }
+  .modtext{
+    font-size: 15px;
+  }
+  .wortext{
+    font-size: 15px;
+  }
+  .partext{
+    font-size: 15px;
+  }
+  .youtext {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+ 
+  .companyli {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .companyramp{
+    
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companybrex{
+   
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companycoin{
+   
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companymecury{
+  
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companycash{
+   
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companypleo{
+    
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companymonzo{
+    
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companyopensea{
+    
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companyalan{
+ 
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companymoonpay{
+
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companypulley{
+ 
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companymodern{
+ 
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companyworld{
+  
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companyparafin{
+
+    align-items: center;
+    padding: 12px 0;
+  }
+  .companyyourcompany {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+
+  .companyle{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companybr{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companycb{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companymec{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companycas{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companyple{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companymon{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companyope{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companyala{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companymoo{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companypul{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companymod{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companywor{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companypar{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .companyyou {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+
+  .companylo{
+    width: 20px;
+    height: 20px;
+  }
+  .companybrlo{
+    width: 20px;
+    height: 20px;
+  }
+  .companycblo{
+    width: 20px;
+    height: 20px;
+  }
+  .companymeclo{
+    width: 20px;
+    height: 20px;
+  }
+  .companycaslo{
+    width: 20px;
+    height: 20px;
+  }
+  .companyplelo{
+    width: 20px;
+    height: 20px;
+  }
+  .companymonlo{
+    width: 20px;
+    height: 20px;
+  }
+  .companyopelo{
+    width: 20px;
+    height: 20px;
+  }
+  .companyalalo{
+    width: 20px;
+    height: 20px;
+  }
+  .companymoolo{
+    width: 20px;
+    height: 20px;
+  }
+  .companypullo{
+    width: 20px;
+    height: 20px;
+  }
+  .companymodlo{
+    width: 20px;
+    height: 20px;
+  }
+  .companyworlo{
+    width: 20px;
+    height: 20px;
+  }
+  .companyparlo{
+    width: 20px;
+    height: 20px;
+  }
+  .companyyoulo {
+    width: 20px;
+    height: 20px;
+  }
+
+  
+  .fe{
+    display: none;
+  }
+  .fi{
+    display: none;
+  }
+  .fien{
+    display: none;
+  }
+  .fient{
+    display: none;
+  }
+  .fientc{
+    display: none;
+  }
+  .fte{
+    display: none;
+  }
+  .mon{
+    display: none;
+  }
+  .ope{
+    display: none;
+  }
+  .ala{
+    display: none;
+  }
+  .moo{
+    display: none;
+  }
+  .pul{
+    display: none;
+  }
+  .mod{
+    display: none;
+  }
+  .wor{
+    display: none;
+  }
+  .par{
+    display: none;
+  }
+  .you {
+    display: none;
+  }
+
+  
+  .ramptext{
+    font-size: 14px;
+  }
+  .brextext{
+    font-size: 14px;
+  }
+  .cointext{
+    font-size: 14px;
+  }
+  .mectext{
+    font-size: 14px;
+  }
+  .castext{
+    font-size: 14px;
+  }
+  .pletext{
+    font-size: 14px;
+  }
+  .montext{
+    font-size: 14px;
+  }
+  .opetext{
+    font-size: 14px;
+  }
+  .alatext{
+    font-size: 14px;
+  }
+  .mootext{
+    font-size: 14px;
+  }
+  .pultext{
+    font-size: 14px;
+  }
+  .modtext{
+    font-size: 14px;
+  }
+  .wortext{
+    font-size: 14px;
+  }
+  .partext{
+    font-size: 14px;
+  }
+  .youtext {
+    font-size: 14px;
+  }
+
+  .rampstory{
+    font-size: 12px;
+  }
+  .brexstory{
+    font-size: 12px;
+  }
+  .cbstory{
+    font-size: 12px;
+  }
+  .mecstory{
+    font-size: 12px;
+  }
+  .casstory{
+    font-size: 12px;
+  }
+  .plestory{
+    font-size: 12px;
+  }
+  .monstory{
+    font-size: 12px;
+  }
+  .opestory{
+    font-size: 12px;
+  }
+  .alastory{
+    font-size: 12px;
+  }
+  .moostory{
+    font-size: 12px;
+  }
+  .pulstory{
+    font-size: 12px;
+  }
+  .modstory{
+    font-size: 12px;
+  }
+  .worstory{
+    font-size: 12px;
+  }
+  .parstory{
+    font-size: 12px;
+  }
+  .youstory {
+    font-size: 12px;
+  }
+}
+
+
+
+
 .cont {
   border: 2px solid cornflowerblue;
   border: none;
@@ -1727,6 +3041,90 @@ hr.longline {
   margin-top: 100px;
 }
 
+
+/* ======MEDIAQUERY FOR CONT===== */
+
+@media (max-width: 1024px) {
+  .lar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 150px;
+    padding: 0 6%;
+    text-align: center;
+  }
+
+  .lartext p {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+
+  .larbtn {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  .larbtn .cs{
+    font-size: 16px;
+    padding: 12px 22px;
+  }
+  .larbtn .gs {
+    font-size: 16px;
+    padding: 12px 22px;
+  }
+
+  hr.longline {
+    border: 0.5px solid #18191A;
+    width: 85%;
+    margin: 100px auto 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .lar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8em;
+    margin-top: 120px;
+    padding: 0 5%;
+    text-align: center;
+  }
+
+  .lartext p {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  .larbtn {
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .larbtn .cs{
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+  }
+  .larbtn .gs {
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  hr.longline {
+    border: 0.5px solid #18191A;
+    width: 90%;
+    margin: 80px auto 0 auto;
+  }
+}
+
+
 .footer {
   border: 2px solid aqua;
   background-color: #08090A;
@@ -1755,12 +3153,14 @@ hr.longline {
   display: flex;
   gap: 80px;
   flex-wrap: wrap;
+ 
 }
 
 .firstcolumn {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  
 }
 
 .firstcolumn h4 {
@@ -1901,4 +3301,52 @@ hr.longline {
 
 .fifthcolumn a:hover {
   color: #fff;
+}
+
+/* =======MEDIAQUERY FOR FOOTER======== */
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footercontainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+ 
+  .footerlogo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+  .footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 16px;
+  }
+
+  .footercontainer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footerlinks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 100%;
+  }
+
 }
