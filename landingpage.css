@@ -193,17 +193,19 @@ hr.full-line {
         padding: 12px 20px;
     }
 
-    .right-side,
+    /* .right-side{
+        display: none;
+    } */
     .btn-icon button {
         display: none;
     }
 
 
-    .fa-bars {
+    /* .fa-bars {
         display: block;
         font-size: 20px;
         cursor: pointer;
-    }
+    } */
 
     .mobile-menu {
         display: flex;

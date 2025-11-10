@@ -294,6 +294,11 @@ hr.full-line {
   align-items: center;
 }
 
+/* ======MEDIAQUERY FOR HEROTEXT===== */
+
+
+
+
 .customersect {
   border: 2px solid indigo;
   display: flex;
@@ -538,6 +543,220 @@ hr.full-line {
 
 .scale p:hover {
   color: white;
+}
+
+
+/* ======MEDIAQUERY FOR CUSTOMERSECT====== */
+
+
+@media (max-width: 768px) {
+  .customersect{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px;
+  }
+  .customersectt {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px;
+  }
+
+  .openai{
+    width: 90%;
+    max-width: 400px;
+    height: 230px;
+    margin: 0 auto;
+  }
+  .ramp{
+    width: 90%;
+    max-width: 400px;
+    height: 230px;
+    margin: 0 auto;
+  } 
+  .brex{
+    width: 90%;
+    max-width: 400px;
+    height: 230px;
+    margin: 0 auto;
+  }
+   .scale {
+    width: 90%;
+    max-width: 400px;
+    height: 230px;
+    margin: 0 auto;
+  }
+
+  .openai .card8{
+    width: 200px;
+    left: 110px;
+    top: 10px;
+  }
+  .ramp .card1{
+    width: 200px;
+    left: 110px;
+    top: 10px;
+  }
+  .brex .breximg{
+    width: 200px;
+    left: 110px;
+    top: 10px;
+  }
+  .scale .card6 {
+    width: 200px;
+    left: 110px;
+    top: 10px;
+  }
+
+  .openai .gpt{
+    width: 80px;
+    height: auto;
+    top: 10px;
+    left: 10px;
+  }
+  .ramp .ram{
+    width: 80px;
+    height: auto;
+    top: 10px;
+    left: 10px;
+  }
+  .brex .brexximg{
+    width: 80px;
+    height: auto;
+    top: 10px;
+    left: 10px;
+  }
+  .scale .scalee {
+    width: 80px;
+    height: auto;
+    top: 10px;
+    left: 10px;
+  }
+
+  .openai h4{
+    top: 120px;
+    font-size: 20px;
+    text-align: left;
+  }
+  .ramp h4{
+    top: 120px;
+    font-size: 20px;
+    text-align: left;
+  } 
+  .brex h4{
+    top: 120px;
+    font-size: 20px;
+    text-align: left;
+  }
+  .scale h4 {
+    top: 120px;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .openai p{
+    top: 190px;
+    font-size: 13px;
+    width: 90%;
+    line-height: 1.4;
+  }
+   .ramp p{
+    top: 190px;
+    font-size: 13px;
+    width: 90%;
+    line-height: 1.4;
+   }
+   .brex p{
+    top: 190px;
+    font-size: 13px;
+    width: 90%;
+    line-height: 1.4;
+   }
+   .scale p {
+    top: 190px;
+    font-size: 13px;
+    width: 90%;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  .openai{
+    width: 100%;
+    height: 210px;
+    padding: 20px;
+  } 
+  .ramp{
+    width: 100%;
+    height: 210px;
+    padding: 20px;
+  }
+  .brex{
+    width: 100%;
+    height: 210px;
+    padding: 20px;
+  }
+   .scale {
+    width: 100%;
+    height: 210px;
+    padding: 20px;
+  }
+
+  .openai .card8{
+    width: 160px;
+    left: 100px;
+    top: 10px;
+  }
+  .ramp .card1{
+    width: 160px;
+    left: 100px;
+    top: 10px;
+  }
+  .brex .breximg{
+    width: 160px;
+    left: 100px;
+    top: 10px;
+  }
+  .scale .card6 {
+    width: 160px;
+    left: 100px;
+    top: 10px;
+  }
+
+  .openai h4{
+    font-size: 18px;
+    top: 115px;
+  } 
+  .ramp h4{
+    font-size: 18px;
+    top: 115px;
+  }
+  .brex h4{
+    font-size: 18px;
+    top: 115px;
+  } 
+  .scale h4 {
+    font-size: 18px;
+    top: 115px;
+  }
+
+  .openai p{
+    font-size: 12px;
+    top: 180px;
+  }
+  .ramp p{
+    font-size: 12px;
+    top: 180px;
+  } 
+  .brex p{
+    font-size: 12px;
+    top: 180px;
+  }
+   .scale p {
+    font-size: 12px;
+    top: 180px;
+  }
 }
 
 .figuresect {
@@ -2382,6 +2601,7 @@ hr.tinyline {
     font-size: 12px;
   }
   .ope{
+    font-size: 12px;
 
   }
   .ala{
