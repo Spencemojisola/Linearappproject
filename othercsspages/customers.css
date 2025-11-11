@@ -19,22 +19,27 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
+  padding: 16px 24px;
   border: none;
+
 }
 
 .logo {
   border: 2px solid orange;
-  width: 100px;
+  width: auto;
+  height: 32px;
   border: none;
 }
 
 .nav_link {
   border: 2px solid purple;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  position: relative;
   border: none;
 }
 
@@ -42,6 +47,7 @@ header {
   border: 2px solid green;
   display: flex;
   align-items: center;
+  margin-right: 40px;
   border: none;
 }
 
@@ -50,13 +56,15 @@ header {
   display: flex;
   align-items: center;
   gap: 2em;
+  position: relative;
+  margin: 0 auto;
   border: none;
 }
 
 .menu-list {
   border: 2px solid red;
   display: flex;
-  gap: 2em;
+  gap: 1.5em;
   font-size: 13px;
   font-weight: 510;
   border: none;
@@ -65,6 +73,7 @@ header {
 .menu-list li a {
   border: 2px solid white;
   color: #8A8F98;
+  font-size: 14px;
   border: none;
 }
 
@@ -81,18 +90,19 @@ li a:hover {
 .btn-icon {
   border: 2px solid pink;
   display: flex;
-  gap: 2em;
+  gap: 0.75em;
+  margin-left: 40px;
   align-items: center;
   border: none;
 }
 
 .loginbtn {
   border: 2px solid green;
-  padding: 4px;
+  padding: 8px 16px;
   background-color: #08090A;
   text-align: center;
   border: none;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 510;
   font-family: "Inter Variable", sans-serif
 }
@@ -112,7 +122,7 @@ li a:hover {
 
 .signupbtn {
   border: 2px solid green;
-  padding: 10px;
+  padding: 8px 16px;
   text-align: center;
   background-color: #E6E6E6;
   border-radius: 6px;
@@ -130,12 +140,6 @@ li a:hover {
   background-color: white;
 }
 
-.fa-bars {
-  border: 2px solid crimson;
-  color: white;
-  display: none;
-  border: none;
-}
 
 hr.full-line {
   width: 100%;
@@ -147,102 +151,131 @@ hr.full-line {
 
 /* ========media query for header========== */
 
-@media (max-width: 1200px) {
+/* ========media query for header========== */
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px 12px;
+  }
+
   .nav_link {
+    display: flex;
     justify-content: space-between;
-    padding: 10px 40px;
+    align-items: center;
+    gap: 0.5em;
+  }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    gap: 0.5em;
+  }
+
+  .logo {
+    height: 28px;
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.75em;
   }
 
   .menu-list {
-    gap: 1.5em;
+    display: flex;
+    gap: 0.75em;
+    font-size: 12px;
+  }
+
+  .menu-list li a {
+    padding: 4px 6px;
+    font-size: 12px;
   }
 
   .btn-icon {
-    gap: 1.5em;
-  }
-}
-
-@media (max-width: 1023px) {
-  .menu-list {
-    gap: 1.2em;
-    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-left: 0;
   }
 
   .loginbtn{
-    font-size: 12px;
     padding: 6px 10px;
+    font-size: 12px;
   }
   .signupbtn {
-    font-size: 12px;
     padding: 6px 10px;
+    font-size: 12px;
   }
 
-  .nav_link {
-    padding: 10px 20px;
-  }
-
-  .logo {
-    width: 90px;
-  }
+ 
 }
-
-@media (max-width: 768px) {
-
-  .nav_link {
-    justify-content: space-between;
-    padding: 12px 20px;
-  }
-
-  .right-side{
-    display: none;
-  }
-  .btn-icon button {
-    display: block;
-  }
-
-
-  .fa-bars {
-    display: block;
-    font-size: 20px;
-    cursor: pointer;
-  }
-
-  .mobile-menu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #08090A;
-    border-top: 1px solid #1D1E1E;
-    padding: 15px 0;
-    gap: 1.5em;
-    text-align: center;
-  }
-
-  .mobile-menu a {
-    color: #8A8F98;
-    font-size: 14px;
-    font-weight: 500;
-  }
-
-  .mobile-menu a:hover {
-    color: #F7F8F8;
-  }
-}
-
 @media (max-width: 480px) {
+  header {
+    padding: 8px 10px;
+  }
+
+  .nav_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5em;
+  }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    margin-right: 0;
+  }
+
   .logo {
-    width: 80px;
+    height: 20px;
   }
 
-  .fa-bars {
-    font-size: 18px;
+  .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5em;
   }
 
-  .mobile-menu a {
-    font-size: 13px;
+  .menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    font-size: 10px;
+  }
+
+  .menu-list li a {
+    padding: 3px 5px;
+    font-size: 10px;
+  }
+
+  .btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.4em;
+    margin-left: 0;
+  }
+
+  .loginbtn{
+    padding: 2px 2px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  .signupbtn {
+    padding: 2px 2px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+
+
+  hr.full-line {
+    height: 0.8px;
   }
 }
 
@@ -308,7 +341,7 @@ hr.full-line {
   border: none;
 }
 
- .openai {
+.openai {
   border: 2px solid #1B1C1D;
   border-radius: 10px;
   padding: 20px;
@@ -363,7 +396,7 @@ hr.full-line {
 
 .openai p:hover {
   color: white;
-} 
+}
 
 .ramp {
   border: 2px solid #1B1C1D;
@@ -550,12 +583,13 @@ hr.full-line {
 
 
 @media (max-width: 768px) {
-  .customersect{
+  .customersect {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     padding: 20px;
   }
+
   .customersectt {
     flex-direction: column;
     align-items: center;
@@ -563,70 +597,79 @@ hr.full-line {
     padding: 20px;
   }
 
-  .openai{
-    width: 90%;
-    max-width: 400px;
-    height: 230px;
-    margin: 0 auto;
-  }
-  .ramp{
-    width: 90%;
-    max-width: 400px;
-    height: 230px;
-    margin: 0 auto;
-  } 
-  .brex{
-    width: 90%;
-    max-width: 400px;
-    height: 230px;
-    margin: 0 auto;
-  }
-   .scale {
+  .openai {
     width: 90%;
     max-width: 400px;
     height: 230px;
     margin: 0 auto;
   }
 
-  .openai .card8{
+  .ramp {
+    width: 90%;
+    max-width: 400px;
+    height: 230px;
+    margin: 0 auto;
+  }
+
+  .brex {
+    width: 90%;
+    max-width: 400px;
+    height: 230px;
+    margin: 0 auto;
+  }
+
+  .scale {
+    width: 90%;
+    max-width: 400px;
+    height: 230px;
+    margin: 0 auto;
+  }
+
+  .openai .card8 {
     width: 200px;
     left: 110px;
     top: 10px;
   }
-  .ramp .card1{
+
+  .ramp .card1 {
     width: 200px;
     left: 110px;
     top: 10px;
   }
-  .brex .breximg{
+
+  .brex .breximg {
     width: 200px;
     left: 110px;
     top: 10px;
   }
+
   .scale .card6 {
     width: 200px;
     left: 110px;
     top: 10px;
   }
 
-  .openai .gpt{
+  .openai .gpt {
     width: 80px;
     height: auto;
     top: 10px;
     left: 10px;
   }
-  .ramp .ram{
+
+  .ramp .ram {
     width: 80px;
     height: auto;
     top: 10px;
     left: 10px;
   }
-  .brex .brexximg{
+
+  .brex .brexximg {
     width: 80px;
     height: auto;
     top: 10px;
     left: 10px;
   }
+
   .scale .scalee {
     width: 80px;
     height: auto;
@@ -634,46 +677,52 @@ hr.full-line {
     left: 10px;
   }
 
-  .openai h4{
+  .openai h4 {
     top: 120px;
     font-size: 20px;
     text-align: left;
   }
-  .ramp h4{
-    top: 120px;
-    font-size: 20px;
-    text-align: left;
-  } 
-  .brex h4{
+
+  .ramp h4 {
     top: 120px;
     font-size: 20px;
     text-align: left;
   }
+
+  .brex h4 {
+    top: 120px;
+    font-size: 20px;
+    text-align: left;
+  }
+
   .scale h4 {
     top: 120px;
     font-size: 20px;
     text-align: left;
   }
 
-  .openai p{
+  .openai p {
     top: 190px;
     font-size: 13px;
     width: 90%;
     line-height: 1.4;
   }
-   .ramp p{
+
+  .ramp p {
     top: 190px;
     font-size: 13px;
     width: 90%;
     line-height: 1.4;
-   }
-   .brex p{
+  }
+
+  .brex p {
     top: 190px;
     font-size: 13px;
     width: 90%;
     line-height: 1.4;
-   }
-   .scale p {
+  }
+
+  .scale p {
     top: 190px;
     font-size: 13px;
     width: 90%;
@@ -682,78 +731,90 @@ hr.full-line {
 }
 
 @media (max-width: 480px) {
-  .openai{
-    width: 100%;
-    height: 210px;
-    padding: 20px;
-  } 
-  .ramp{
-    width: 100%;
-    height: 210px;
-    padding: 20px;
-  }
-  .brex{
-    width: 100%;
-    height: 210px;
-    padding: 20px;
-  }
-   .scale {
+  .openai {
     width: 100%;
     height: 210px;
     padding: 20px;
   }
 
-  .openai .card8{
+  .ramp {
+    width: 100%;
+    height: 210px;
+    padding: 20px;
+  }
+
+  .brex {
+    width: 100%;
+    height: 210px;
+    padding: 20px;
+  }
+
+  .scale {
+    width: 100%;
+    height: 210px;
+    padding: 20px;
+  }
+
+  .openai .card8 {
     width: 160px;
     left: 100px;
     top: 10px;
   }
-  .ramp .card1{
+
+  .ramp .card1 {
     width: 160px;
     left: 100px;
     top: 10px;
   }
-  .brex .breximg{
+
+  .brex .breximg {
     width: 160px;
     left: 100px;
     top: 10px;
   }
+
   .scale .card6 {
     width: 160px;
     left: 100px;
     top: 10px;
   }
 
-  .openai h4{
-    font-size: 18px;
-    top: 115px;
-  } 
-  .ramp h4{
+  .openai h4 {
     font-size: 18px;
     top: 115px;
   }
-  .brex h4{
+
+  .ramp h4 {
     font-size: 18px;
     top: 115px;
-  } 
+  }
+
+  .brex h4 {
+    font-size: 18px;
+    top: 115px;
+  }
+
   .scale h4 {
     font-size: 18px;
     top: 115px;
   }
 
-  .openai p{
+  .openai p {
     font-size: 12px;
     top: 180px;
   }
-  .ramp p{
-    font-size: 12px;
-    top: 180px;
-  } 
-  .brex p{
+
+  .ramp p {
     font-size: 12px;
     top: 180px;
   }
-   .scale p {
+
+  .brex p {
+    font-size: 12px;
+    top: 180px;
+  }
+
+  .scale p {
     font-size: 12px;
     top: 180px;
   }
@@ -853,92 +914,108 @@ hr.tinyline {
     align-items: center;
     padding: 60px 40px;
   }
-    .twox{
-      position: static;
-    text-align: center;
-    margin-bottom: 30px;
-    }
-  .onepoint{
+
+  .twox {
     position: static;
     text-align: center;
     margin-bottom: 30px;
   }
-  .righttext{
+
+  .onepoint {
     position: static;
     text-align: center;
     margin-bottom: 30px;
   }
+
+  .righttext {
+    position: static;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
   .smallline {
     position: static;
     text-align: center;
     margin-bottom: 30px;
   }
-   .twox h4{
+
+  .twox h4 {
     font-size: 64px;
-   }
+  }
+
   .onepoint h4 {
     font-size: 64px;
   }
-   .twox p{
-     font-size: 15px;
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 1.6;
-   }
-  .onepoint p{
-     font-size: 15px;
+
+  .twox p {
+    font-size: 15px;
     max-width: 500px;
     margin: 10px auto;
     line-height: 1.6;
   }
+
+  .onepoint p {
+    font-size: 15px;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 1.6;
+  }
+
   .righttext p {
     font-size: 15px;
     max-width: 500px;
     margin: 10px auto;
     line-height: 1.6;
   }
-    hr.tinyline {
+
+  hr.tinyline {
     display: none;
   }
 }
+
 @media (max-width: 768px) {
   .figuresect {
     padding: 40px 20px;
     height: auto;
   }
 
-  .twox h4{
+  .twox h4 {
     font-size: 48px;
   }
+
   .onepoint h4 {
     font-size: 48px;
   }
 
-  .twox p{
+  .twox p {
     font-size: 14px;
     line-height: 1.5;
   }
-  .onepoint p{
+
+  .onepoint p {
     font-size: 14px;
     line-height: 1.5;
   }
+
   .righttext p {
     font-size: 14px;
     line-height: 1.5;
   }
 
-  .twox{
+  .twox {
     position: static;
     text-align: center;
     width: 100%;
     margin: 0 auto 25px;
   }
-  .onepoint{
+
+  .onepoint {
     position: static;
     text-align: center;
     width: 100%;
     margin: 0 auto 25px;
   }
+
   .righttext {
     position: static;
     text-align: center;
@@ -954,37 +1031,43 @@ hr.tinyline {
     display: none;
   }
 }
+
 @media (max-width: 480px) {
   .figuresect {
     padding: 30px 15px;
     flex-direction: column-reverse;
   }
 
-  .twox h4{
+  .twox h4 {
     font-size: 36px;
   }
+
   .onepoint h4 {
     font-size: 36px;
   }
 
-  .twox p{
+  .twox p {
     font-size: 13px;
   }
-  .onepoint p{
+
+  .onepoint p {
     font-size: 13px;
   }
+
   .righttext p {
     font-size: 13px;
   }
 
-  .twox{
+  .twox {
     text-align: center;
     margin-bottom: 20px;
   }
-  .onepoint{
+
+  .onepoint {
     text-align: center;
     margin-bottom: 20px;
   }
+
   .righttext {
     text-align: center;
     margin-bottom: 20px;
@@ -1325,51 +1408,58 @@ hr.tinyline {
 /* =========MEDIA QUERY FOR THE CARDS====== */
 
 @media (max-width: 768px) {
-  .firstthreecards{
+  .firstthreecards {
     flex-direction: column;
     align-items: center;
     gap: 25px;
   }
+
   .secondthreecards {
     flex-direction: column;
     align-items: center;
     gap: 25px;
   }
-   .mercury{
-    width: 90%;
-    max-width: 350px;
-    height: auto;
-    padding: 30px 20px;
-    position: relative;
-   }
-  .retools{
+
+  .mercury {
     width: 90%;
     max-width: 350px;
     height: auto;
     padding: 30px 20px;
     position: relative;
   }
-  .cashapp{
+
+  .retools {
     width: 90%;
     max-width: 350px;
     height: auto;
     padding: 30px 20px;
     position: relative;
   }
-  .pleo{
+
+  .cashapp {
     width: 90%;
     max-width: 350px;
     height: auto;
     padding: 30px 20px;
     position: relative;
   }
-  .seria{
+
+  .pleo {
     width: 90%;
     max-width: 350px;
     height: auto;
     padding: 30px 20px;
     position: relative;
   }
+
+  .seria {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    padding: 30px 20px;
+    position: relative;
+  }
+
   .clio {
     width: 90%;
     max-width: 350px;
@@ -1377,41 +1467,47 @@ hr.tinyline {
     padding: 30px 20px;
     position: relative;
   }
-  .mercury .img{
+
+  .mercury .img {
     position: relative;
     top: 0;
     left: 0;
     margin-bottom: 20px;
     display: block;
   }
-  .retools .img{
+
+  .retools .img {
     position: relative;
     top: 0;
     left: 0;
     margin-bottom: 20px;
     display: block;
   }
-  .cashapp .img{
+
+  .cashapp .img {
     position: relative;
     top: 0;
     left: 0;
     margin-bottom: 20px;
     display: block;
   }
-  .pleo .img{
+
+  .pleo .img {
     position: relative;
     top: 0;
     left: 0;
     margin-bottom: 20px;
     display: block;
   }
-  .seria .img{
+
+  .seria .img {
     position: relative;
     top: 0;
     left: 0;
     margin-bottom: 20px;
     display: block;
   }
+
   .clio .img {
     position: relative;
     top: 0;
@@ -1419,41 +1515,47 @@ hr.tinyline {
     margin-bottom: 20px;
     display: block;
   }
-   .mercury h4{
-    position: relative;
-    top: 0;
-    text-align: left;
-    margin: 10px 0;
-    font-size: 20px;
-   }
-  .retools h4{
+
+  .mercury h4 {
     position: relative;
     top: 0;
     text-align: left;
     margin: 10px 0;
     font-size: 20px;
   }
-  .cashapp h4{
+
+  .retools h4 {
     position: relative;
     top: 0;
     text-align: left;
     margin: 10px 0;
     font-size: 20px;
   }
-  .pleo h4{
+
+  .cashapp h4 {
     position: relative;
     top: 0;
     text-align: left;
     margin: 10px 0;
     font-size: 20px;
   }
-  .seria h4{
+
+  .pleo h4 {
     position: relative;
     top: 0;
     text-align: left;
     margin: 10px 0;
     font-size: 20px;
   }
+
+  .seria h4 {
+    position: relative;
+    top: 0;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
   .clio h4 {
     position: relative;
     top: 0;
@@ -1461,41 +1563,47 @@ hr.tinyline {
     margin: 10px 0;
     font-size: 20px;
   }
-  .mercury p{
-     position: relative;
+
+  .mercury p {
+    position: relative;
     top: 0;
     text-align: left;
     font-size: 14px;
     line-height: 1.6;
   }
-  .retools p{
-     position: relative;
+
+  .retools p {
+    position: relative;
     top: 0;
     text-align: left;
     font-size: 14px;
     line-height: 1.6;
   }
-  .cashapp p{
-     position: relative;
+
+  .cashapp p {
+    position: relative;
     top: 0;
     text-align: left;
     font-size: 14px;
     line-height: 1.6;
   }
-  .pleo p{
-     position: relative;
+
+  .pleo p {
+    position: relative;
     top: 0;
     text-align: left;
     font-size: 14px;
     line-height: 1.6;
   }
-  .seria p{
-     position: relative;
+
+  .seria p {
+    position: relative;
     top: 0;
     text-align: left;
     font-size: 14px;
     line-height: 1.6;
   }
+
   .clio p {
     position: relative;
     top: 0;
@@ -1506,69 +1614,86 @@ hr.tinyline {
 }
 
 @media (max-width: 480px) {
-  .mercury{
+  .mercury {
     width: 95%;
     padding: 25px 15px;
     border-radius: 12px;
   }
-  .retools{
+
+  .retools {
     width: 95%;
     padding: 25px 15px;
     border-radius: 12px;
   }
-  .cashapp{
+
+  .cashapp {
     width: 95%;
     padding: 25px 15px;
     border-radius: 12px;
   }
-  .pleo{
+
+  .pleo {
     width: 95%;
     padding: 25px 15px;
     border-radius: 12px;
   }
-  .seria{
+
+  .seria {
     width: 95%;
     padding: 25px 15px;
     border-radius: 12px;
   }
+
   .clio {
     width: 95%;
     padding: 25px 15px;
     border-radius: 12px;
   }
-   .mercury h4{
-    font-size: 18px;
-   }
-  .retools h4{
+
+  .mercury h4 {
     font-size: 18px;
   }
-  .cashapp h4{
+
+  .retools h4 {
     font-size: 18px;
   }
-  .pleo h4{
+
+  .cashapp h4 {
     font-size: 18px;
   }
-  .seria h4{
+
+  .pleo h4 {
     font-size: 18px;
   }
+
+  .seria h4 {
+    font-size: 18px;
+  }
+
   .clio h4 {
     font-size: 18px;
   }
-   .mercury p{
-    font-size: 13px;
-   }
-  .retools p{
+
+  .mercury p {
     font-size: 13px;
   }
-  .cashapp p{
+
+  .retools p {
     font-size: 13px;
   }
-  .pleo p{
+
+  .cashapp p {
     font-size: 13px;
   }
-  .seria p{
+
+  .pleo p {
     font-size: 13px;
   }
+
+  .seria p {
+    font-size: 13px;
+  }
+
   .clio p {
     font-size: 13px;
   }
@@ -2470,158 +2595,198 @@ hr.tinyline {
     padding: 40px;
   }
 
-  .companyramp{
+  .companyramp {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companybrex{
+
+  .companybrex {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companycoin{
+
+  .companycoin {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companymecury{
+
+  .companymecury {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companycash{
+
+  .companycash {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  
-  .companypleo{
+
+  .companypleo {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companymonzo{
+
+  .companymonzo {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  
-  .companyopensea{
+
+  .companyopensea {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companyalan{
+
+  .companyalan {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companymoonpay{
+
+  .companymoonpay {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companypulley{
+
+  .companypulley {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companymodern{
+
+  .companymodern {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companyworld{
+
+  .companyworld {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
-  .companyparafin{
+
+  .companyparafin {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
+
   .companyyourcompany {
     grid-template-columns: 1fr 1fr auto;
     padding: 14px 0;
   }
 
-  .ramptext{
-     font-size: 15px;
+  .ramptext {
+    font-size: 15px;
   }
-  .brextext{
-     font-size: 15px;
+
+  .brextext {
+    font-size: 15px;
   }
-  .cointext{
-     font-size: 15px;
+
+  .cointext {
+    font-size: 15px;
   }
-  .mectext{
-     font-size: 15px;
+
+  .mectext {
+    font-size: 15px;
   }
-  .castext{
-     font-size: 15px;
+
+  .castext {
+    font-size: 15px;
   }
-  .pletext{
-     font-size: 15px;
+
+  .pletext {
+    font-size: 15px;
   }
-  .montext{
-     font-size: 15px;
+
+  .montext {
+    font-size: 15px;
   }
-  .opetext{
-     font-size: 15px;
+
+  .opetext {
+    font-size: 15px;
   }
-  .alatext{
-     font-size: 15px;
+
+  .alatext {
+    font-size: 15px;
   }
-  .mootext{
-     font-size: 15px;
+
+  .mootext {
+    font-size: 15px;
   }
-  .pultext{
-     font-size: 15px;
+
+  .pultext {
+    font-size: 15px;
   }
-  .modtext{
-     font-size: 15px;
+
+  .modtext {
+    font-size: 15px;
   }
-  .wortext{
-     font-size: 15px;
+
+  .wortext {
+    font-size: 15px;
   }
-  .partext{
-     font-size: 15px;
+
+  .partext {
+    font-size: 15px;
   }
+
   .youtext {
     font-size: 15px;
   }
 
-  .fe{
+  .fe {
     font-size: 12px;
   }
-  .fi{
+
+  .fi {
     font-size: 12px;
   }
-  .fien{
+
+  .fien {
     font-size: 12px;
   }
-  .fient{
+
+  .fient {
     font-size: 12px;
   }
-  .fientc{
+
+  .fientc {
     font-size: 12px;
   }
-  .fte{
+
+  .fte {
     font-size: 12px;
   }
-  .mon{
+
+  .mon {
     font-size: 12px;
   }
-  .ope{
+
+  .ope {
     font-size: 12px;
 
   }
-  .ala{
+
+  .ala {
     font-size: 12px;
   }
-  .moo{
+
+  .moo {
     font-size: 12px;
   }
-  .pul{
+
+  .pul {
     font-size: 12px;
   }
-  .mod{
+
+  .mod {
     font-size: 12px;
   }
-  .wor{
+
+  .wor {
     font-size: 12px;
   }
-  .par{
+
+  .par {
     font-size: 12px;
   }
+
   .you {
     font-size: 12px;
   }
@@ -2633,282 +2798,338 @@ hr.tinyline {
     padding: 30px;
   }
 
-  .companyramp{
+  .companyramp {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companybrex{
+
+  .companybrex {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companycoin{
+
+  .companycoin {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companymecury{
+
+  .companymecury {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companycash{
+
+  .companycash {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companypleo{
+
+  .companypleo {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companymonzo{
+
+  .companymonzo {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companyopensea{
+
+  .companyopensea {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companyalan{
+
+  .companyalan {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companymoonpay{
+
+  .companymoonpay {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companypulley{
+
+  .companypulley {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companymodern{
+
+  .companymodern {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companyworld{
+
+  .companyworld {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
-  .companyparafin{
+
+  .companyparafin {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
+
   .companyyourcompany {
     grid-template-columns: 1fr auto;
     gap: 6px;
     align-items: start;
   }
 
-  .companyle{
+  .companyle {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companybr{
+
+  .companybr {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companycb{
+
+  .companycb {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companymec{
+
+  .companymec {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companycas{
+
+  .companycas {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companyple{
+
+  .companyple {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companymon{
+
+  .companymon {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companyope{
+
+  .companyope {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companyala{
+
+  .companyala {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companymoo{
+
+  .companymoo {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companypul{
+
+  .companypul {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companymod{
+
+  .companymod {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companywor{
+
+  .companywor {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .companypar{
+
+  .companypar {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
+
   .companyyou {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
 
-  .ramptext{
+  .ramptext {
     font-size: 15px;
   }
-  .brextext{
+
+  .brextext {
     font-size: 15px;
   }
-  .cointext{
+
+  .cointext {
     font-size: 15px;
   }
-  .mectext{
+
+  .mectext {
     font-size: 15px;
   }
-  .castext{
+
+  .castext {
     font-size: 15px;
   }
-  .pletext{
+
+  .pletext {
     font-size: 15px;
   }
-  .montext{
+
+  .montext {
     font-size: 15px;
   }
-  .opetext{
+
+  .opetext {
     font-size: 15px;
   }
-  .alatext{
+
+  .alatext {
     font-size: 15px;
   }
-  .mootext{
+
+  .mootext {
     font-size: 15px;
   }
-  .pultext{
+
+  .pultext {
     font-size: 15px;
   }
-  .modtext{
+
+  .modtext {
     font-size: 15px;
   }
-  .wortext{
+
+  .wortext {
     font-size: 15px;
   }
-  .partext{
+
+  .partext {
     font-size: 15px;
   }
+
   .youtext {
     font-size: 15px;
   }
 }
 
 @media (max-width: 480px) {
- 
+
   .companyli {
     width: 95%;
     padding: 20px;
   }
 
-  .companyramp{
-    
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companybrex{
-   
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companycoin{
-   
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companymecury{
-  
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companycash{
-   
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companypleo{
-    
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companymonzo{
-    
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companyopensea{
-    
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companyalan{
- 
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companymoonpay{
+  .companyramp {
 
     align-items: center;
     padding: 12px 0;
   }
-  .companypulley{
- 
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companymodern{
- 
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companyworld{
-  
-    align-items: center;
-    padding: 12px 0;
-  }
-  .companyparafin{
+
+  .companybrex {
 
     align-items: center;
     padding: 12px 0;
   }
+
+  .companycoin {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companymecury {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companycash {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companypleo {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companymonzo {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companyopensea {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companyalan {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companymoonpay {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companypulley {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companymodern {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companyworld {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .companyparafin {
+
+    align-items: center;
+    padding: 12px 0;
+  }
+
   .companyyourcompany {
 
     align-items: center;
@@ -2916,76 +3137,90 @@ hr.tinyline {
   }
 
 
-  .companyle{
+  .companyle {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companybr{
+
+  .companybr {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companycb{
+
+  .companycb {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companymec{
+
+  .companymec {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companycas{
+
+  .companycas {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companyple{
+
+  .companyple {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companymon{
+
+  .companymon {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companyope{
+
+  .companyope {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companyala{
+
+  .companyala {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companymoo{
+
+  .companymoo {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companypul{
+
+  .companypul {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companymod{
+
+  .companymod {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companywor{
+
+  .companywor {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
-  .companypar{
+
+  .companypar {
     flex-direction: row;
     align-items: center;
     gap: 8px;
   }
+
   .companyyou {
     flex-direction: row;
     align-items: center;
@@ -2993,203 +3228,259 @@ hr.tinyline {
   }
 
 
-  .companylo{
+  .companylo {
     width: 20px;
     height: 20px;
   }
-  .companybrlo{
+
+  .companybrlo {
     width: 20px;
     height: 20px;
   }
-  .companycblo{
+
+  .companycblo {
     width: 20px;
     height: 20px;
   }
-  .companymeclo{
+
+  .companymeclo {
     width: 20px;
     height: 20px;
   }
-  .companycaslo{
+
+  .companycaslo {
     width: 20px;
     height: 20px;
   }
-  .companyplelo{
+
+  .companyplelo {
     width: 20px;
     height: 20px;
   }
-  .companymonlo{
+
+  .companymonlo {
     width: 20px;
     height: 20px;
   }
-  .companyopelo{
+
+  .companyopelo {
     width: 20px;
     height: 20px;
   }
-  .companyalalo{
+
+  .companyalalo {
     width: 20px;
     height: 20px;
   }
-  .companymoolo{
+
+  .companymoolo {
     width: 20px;
     height: 20px;
   }
-  .companypullo{
+
+  .companypullo {
     width: 20px;
     height: 20px;
   }
-  .companymodlo{
+
+  .companymodlo {
     width: 20px;
     height: 20px;
   }
-  .companyworlo{
+
+  .companyworlo {
     width: 20px;
     height: 20px;
   }
-  .companyparlo{
+
+  .companyparlo {
     width: 20px;
     height: 20px;
   }
+
   .companyyoulo {
     width: 20px;
     height: 20px;
   }
 
-  
-  .fe{
+
+  .fe {
     display: none;
   }
-  .fi{
+
+  .fi {
     display: none;
   }
-  .fien{
+
+  .fien {
     display: none;
   }
-  .fient{
+
+  .fient {
     display: none;
   }
-  .fientc{
+
+  .fientc {
     display: none;
   }
-  .fte{
+
+  .fte {
     display: none;
   }
-  .mon{
+
+  .mon {
     display: none;
   }
-  .ope{
+
+  .ope {
     display: none;
   }
-  .ala{
+
+  .ala {
     display: none;
   }
-  .moo{
+
+  .moo {
     display: none;
   }
-  .pul{
+
+  .pul {
     display: none;
   }
-  .mod{
+
+  .mod {
     display: none;
   }
-  .wor{
+
+  .wor {
     display: none;
   }
-  .par{
+
+  .par {
     display: none;
   }
+
   .you {
     display: none;
   }
 
-  
-  .ramptext{
+
+  .ramptext {
     font-size: 14px;
   }
-  .brextext{
+
+  .brextext {
     font-size: 14px;
   }
-  .cointext{
+
+  .cointext {
     font-size: 14px;
   }
-  .mectext{
+
+  .mectext {
     font-size: 14px;
   }
-  .castext{
+
+  .castext {
     font-size: 14px;
   }
-  .pletext{
+
+  .pletext {
     font-size: 14px;
   }
-  .montext{
+
+  .montext {
     font-size: 14px;
   }
-  .opetext{
+
+  .opetext {
     font-size: 14px;
   }
-  .alatext{
+
+  .alatext {
     font-size: 14px;
   }
-  .mootext{
+
+  .mootext {
     font-size: 14px;
   }
-  .pultext{
+
+  .pultext {
     font-size: 14px;
   }
-  .modtext{
+
+  .modtext {
     font-size: 14px;
   }
-  .wortext{
+
+  .wortext {
     font-size: 14px;
   }
-  .partext{
+
+  .partext {
     font-size: 14px;
   }
+
   .youtext {
     font-size: 14px;
   }
 
-  .rampstory{
+  .rampstory {
     font-size: 12px;
   }
-  .brexstory{
+
+  .brexstory {
     font-size: 12px;
   }
-  .cbstory{
+
+  .cbstory {
     font-size: 12px;
   }
-  .mecstory{
+
+  .mecstory {
     font-size: 12px;
   }
-  .casstory{
+
+  .casstory {
     font-size: 12px;
   }
-  .plestory{
+
+  .plestory {
     font-size: 12px;
   }
-  .monstory{
+
+  .monstory {
     font-size: 12px;
   }
-  .opestory{
+
+  .opestory {
     font-size: 12px;
   }
-  .alastory{
+
+  .alastory {
     font-size: 12px;
   }
-  .moostory{
+
+  .moostory {
     font-size: 12px;
   }
-  .pulstory{
+
+  .pulstory {
     font-size: 12px;
   }
-  .modstory{
+
+  .modstory {
     font-size: 12px;
   }
-  .worstory{
+
+  .worstory {
     font-size: 12px;
   }
-  .parstory{
+
+  .parstory {
     font-size: 12px;
   }
+
   .youstory {
     font-size: 12px;
   }
@@ -3287,10 +3578,11 @@ hr.longline {
     gap: 1em;
   }
 
-  .larbtn .cs{
+  .larbtn .cs {
     font-size: 16px;
     padding: 12px 22px;
   }
+
   .larbtn .gs {
     font-size: 16px;
     padding: 12px 22px;
@@ -3326,11 +3618,12 @@ hr.longline {
     max-width: 320px;
   }
 
-  .larbtn .cs{
+  .larbtn .cs {
     width: 100%;
     font-size: 15px;
     padding: 12px;
   }
+
   .larbtn .gs {
     width: 100%;
     font-size: 15px;
@@ -3373,14 +3666,14 @@ hr.longline {
   display: flex;
   gap: 80px;
   flex-wrap: wrap;
- 
+
 }
 
 .firstcolumn {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  
+
 }
 
 .firstcolumn h4 {
@@ -3536,7 +3829,7 @@ hr.longline {
     gap: 40px;
   }
 
- 
+
   .footerlogo {
     width: 100%;
     margin-bottom: 20px;

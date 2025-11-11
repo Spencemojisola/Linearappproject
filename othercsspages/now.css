@@ -14,22 +14,27 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
+    padding: 16px 24px;
     border: none;
+
 }
 
 .logo {
     border: 2px solid orange;
-    width: 100px;
+    width: auto;
+    height: 32px;
     border: none;
 }
 
 .nav_link {
     border: 2px solid purple;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    position: relative;
     border: none;
 }
 
@@ -37,6 +42,7 @@ header {
     border: 2px solid green;
     display: flex;
     align-items: center;
+    margin-right: 40px;
     border: none;
 }
 
@@ -45,22 +51,24 @@ header {
     display: flex;
     align-items: center;
     gap: 2em;
+    position: relative;
+    margin: 0 auto;
     border: none;
 }
 
 .menu-list {
     border: 2px solid red;
     display: flex;
-    gap: 2em;
+    gap: 1.5em;
     font-size: 13px;
     font-weight: 510;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     border: none;
 }
 
 .menu-list li a {
     border: 2px solid white;
     color: #8A8F98;
+    font-size: 14px;
     border: none;
 }
 
@@ -77,18 +85,19 @@ li a:hover {
 .btn-icon {
     border: 2px solid pink;
     display: flex;
-    gap: 2em;
+    gap: 0.75em;
+    margin-left: 40px;
     align-items: center;
     border: none;
 }
 
 .loginbtn {
     border: 2px solid green;
-    padding: 4px;
+    padding: 8px 16px;
     background-color: #08090A;
     text-align: center;
     border: none;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 510;
     font-family: "Inter Variable", sans-serif
 }
@@ -108,7 +117,7 @@ li a:hover {
 
 .signupbtn {
     border: 2px solid green;
-    padding: 10px;
+    padding: 8px 16px;
     text-align: center;
     background-color: #E6E6E6;
     border-radius: 6px;
@@ -126,13 +135,6 @@ li a:hover {
     background-color: white;
 }
 
-.fa-bars {
-    border: 2px solid crimson;
-    color: white;
-    display: none;
-    border: none;
-}
-
 hr.full-line {
     width: 100%;
     border: none;
@@ -141,42 +143,180 @@ hr.full-line {
     background-color: #1D1E1E;
 }
 
+/* ========media query for header========== */
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px 12px;
+  }
+
+  .nav_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em;
+  }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    gap: 0.5em;
+  }
+
+  .logo {
+    height: 28px;
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.75em;
+  }
+
+  .menu-list {
+    display: flex;
+    gap: 0.75em;
+    font-size: 12px;
+  }
+
+  .menu-list li a {
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+
+  .btn-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-left: 0;
+  }
+
+  .loginbtn{
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  .signupbtn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+ 
+}
+@media (max-width: 480px) {
+  header {
+    padding: 8px 10px;
+  }
+
+  .nav_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5em;
+  }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    margin-right: 0;
+  }
+
+  .logo {
+    height: 20px;
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5em;
+  }
+
+  .menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    font-size: 10px;
+  }
+
+  .menu-list li a {
+    padding: 3px 5px;
+    font-size: 10px;
+  }
+
+  .btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.4em;
+    margin-left: 0;
+  }
+
+  .loginbtn{
+    padding: 2px 2px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  .signupbtn {
+    padding: 2px 2px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+
+
+  hr.full-line {
+    height: 0.8px;
+  }
+}
+
+
+/* ======HEROSECTION======= */
+
 .hero-sect {
     background-color: #08090A;
-    /* height: 100vh; */
+    width: 100%;
 }
 
 .nowbtn {
-    border: 2px solid crimson;
-    padding: 40px;
-    width: 90%;
-    margin: auto;
-    border: none;
+    padding: 10px 0;
+    /* text-align: left; */
+  max-width: 1200px;
+    
 }
-
 .nowbtn a {
-    color: white;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 32px;
-    font-weight: 590;
-    margin: auto;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin: 70px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
 }
 
 .now_navlink {
     border: 2px solid orange;
-    width: 82%;
-    margin: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+  border-bottom: 1px solid #e5e5e5;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: none;
 
 }
+.nowleft {
+  flex: 1;
+}
 
 .nowmenulist {
     display: flex;
-    justify-content: space-around;
-    gap: 1em;
+    /* justify-content: space-around; */
+    margin: 0;
+    padding: 0;
+    gap: 2em;
 }
 
 .nowmenulist li a:hover {
@@ -188,6 +328,8 @@ hr.full-line {
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 15px;
+    position: relative;
+    padding: 8px 0;
     background: none;
 }
 
@@ -200,13 +342,12 @@ hr.full-line {
 .search {
     display: flex;
     align-items: center;
-    gap: 5em;
+    gap: 1.5em;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 8px;
     background-color: #1C1D1D;
-    padding: 5px;
-    width: 220px;
-    height: 40px;
+    padding: 8px 12px;
+    min-width: 200px;
 }
 
 .search a {
@@ -215,10 +356,32 @@ hr.full-line {
     color: #8A8F98;
     font-weight: 400;
     font-size: 14px;
-    gap: .5em;
+    gap: 0.5em;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
+.search a .firs-child {
+  flex: 1;
+}
+.search .fa-magnifying-glass {
+  font-size: 14px;
+}
+.search .justsearch {
+  margin: 0;
+  font-size: 14px;
+}
+.search a .las-child {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.search a .last-child p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+}
+.search a:last-child img {
+  opacity: 0.6;
+}
 .fa-rss {
     color: #8A8F98;
     align-items: center;
@@ -235,27 +398,49 @@ hr.full-line {
 
 .imagesection {
     border: 2px solid maroon;
-    padding: 10px;
-    margin: auto;
-    width: 90%;
+    padding: 0 40px;
+    margin: 40px auto;
+    max-width: 1200px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 2.5em;
     border: none;
 }
 
+.centerpc {
+  display: flex;
+  align-items: stretch;
+}
+
+.vertical {
+  width: 1px;
+  height: auto;
+  background-color: #e5e5e5;
+  border: none;
+  margin: 0;
+}
+
+.karri{
+    flex: 1;
+}
+
+.karri a{
+    display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .karri a img {
-    border: 2px solid forestgreen;
-    border-radius: 5px;
-    border: none;
-    align-items: center;
-    margin-top: 30px;
+    width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
 }
 
 .karri a .oct {
     color: #8A8F98;
     padding: 5px;
     font-size: 13px;
+     margin: 0 0 12px 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
@@ -263,43 +448,42 @@ hr.full-line {
 .karri a h4 {
     color: #F7F8F8;
     font-size: 24px;
+    margin: 0 0 12px 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
     padding: 5px;
 
 }
 
-.karri a .Real {
+.Real {
     color: #8A8F98;
     padding: 5px;
+    margin: 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
 
-.centerpc {
-    color: #18191A;
+.robb{
+    flex: 1;
 }
-
-hr.vertical {
-    width: 1px;
-    height: 380px;
-    border-top: 0.1px thin #18191A;
-    margin-top: 30px;
-
+.robb a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
-
 .robb a img {
-    border: 2px solid forestgreen;
-    border-radius: 5px;
-    border: none;
-    align-items: center;
+   width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
 }
 
 .robb a .occt {
     color: #8A8F98;
     padding: 5px;
     font-size: 13px;
+     margin: 0 0 12px 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
@@ -307,15 +491,17 @@ hr.vertical {
 .robb a h4 {
     color: #F7F8F8;
     font-size: 24px;
+    margin: 0 0 12px 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
     padding: 5px;
 
 }
 
-.robb a .rebuilt {
+.rebuilt {
     color: #8A8F98;
     padding: 5px;
+    margin: 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -323,43 +509,51 @@ hr.vertical {
 
 .anotherimagesection {
     border: 2px solid maroon;
-    padding: 10px;
-    margin: auto;
-    width: 90%;
+    padding: 0 40px;
+    max-width: 1200px;
+      margin: 60px auto 40px auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 2.5em;
     border: none;
+}
+.timi{
+    flex: 1;
+}
+.timi a{
+    display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 .timi a img {
-    border: 2px solid forestgreen;
-    border-radius: 5px;
-    border: none;
-    align-items: center;
-    margin-top: 40px;
+    width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
 }
 
-.timi a .tim {
+.tim {
     color: #8A8F98;
-    padding: 5px;
+
+      margin: 0 0 12px 0;
     font-size: 13px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
 
-.timi a h4 {
+.timi h4 {
     color: #F7F8F8;
     font-size: 24px;
+    margin: 0 0 12px 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
-    padding: 5px;
+    
 
 }
 
-.timi a .notall {
+ .notall {
     color: #8A8F98;
-    padding: 5px;
+    margin: 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -367,43 +561,56 @@ hr.vertical {
 
 .anothercenterpc {
     color: #18191A;
+    display: flex;
+    align-items: stretch;
 }
 
 hr.anothervertical {
-    width: 1px;
-    height: 380px;
-    margin-top: 30px;
+   width: 1px;
+  height: auto;
+  background-color: #e5e5e5;
+  border: none;
+  margin: 0;
 
+}
+.twoauthors {
+  flex: 1;
+}
+.twoauthors a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 .twoauthors a img {
-    border: 2px solid forestgreen;
-    border-radius: 5px;
-    border: none;
-    align-items: center;
-    margin-top: 28px;
+    width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
 }
 
-.twoauthors a .twoauth {
+ .twoauth {
     color: #8A8F98;
-    padding: 5px;
+    
+      margin: 0 0 12px 0;
     font-size: 13px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
 
-.twoauthors a h4 {
+.twoauthors h4 {
     color: #F7F8F8;
     font-size: 24px;
+    margin: 0 0 12px 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
-    padding: 5px;
+    
 
 }
 
 .twoauthors a .zero {
     color: #8A8F98;
-    padding: 5px;
+    margin: 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -419,8 +626,265 @@ hr.line {
     margin-top: 50px;
 }
 
+/* =====MEDIAQUERY FOR HERO-SECT===== */
+
+@media (max-width: 1024px) {
+  .nowbtn{
+    max-width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .now_navlink{
+    max-width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .imagesection{
+    max-width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .anotherimagesection{
+    max-width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .line {
+    max-width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .nowbtn a {
+    font-size: 30px;
+  }
+  
+  .nowmenulist {
+    gap: 24px;
+  }
+  
+  .search {
+    min-width: 180px;
+  }
+  
+  .karri h4{
+    font-size: 22px;
+  }
+  .robb h4{
+    font-size: 22px;
+  }
+  .timi h4{
+    font-size: 22px;
+  }
+  .twoauthors h4 {
+    font-size: 22px;
+  }
+  
+  .imagesection{
+    gap: 30px;
+  }
+  .anotherimagesection {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .now_navlink {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .nowmenulist {
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  .search {
+    min-width: auto;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .imagesection{
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .anotherimagesection {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  
+  .centerpc{
+    display: block;
+  }
+  .anothercenterpc {
+    display: block;
+  }
+  
+  .nowbtn {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nowbtn {
+    padding: 16px;
+  }
+  
+  .nowbtn a {
+    font-size: 26px;
+  }
+
+  .now_navlink {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .nowmenulist {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .nowmenulist li a {
+    font-size: 14px;
+  }
+
+  .nowright {
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .search {
+    flex: 1;
+    padding: 10px 12px;
+    min-width: auto;
+    max-width: none;
+  }
+
+  .search .justsearch {
+    font-size: 13px;
+  }
+
+  .prompt a {
+    width: 32px;
+    height: 32px;
+  }
+
+  .imagesection{
+    margin: 24px auto;
+    padding: 0 16px;
+    gap: 24px;
+  }
+  .anotherimagesection {
+    margin: 24px auto;
+    padding: 0 16px;
+    gap: 24px;
+  }
+
+  .karri h4{
+     font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .robb h4{
+     font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .timi h4{
+     font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .twoauthors h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .Real{
+    font-size: 14px;
+  }
+  .rebuilt{
+    font-size: 14px;
+  }
+  .notall{
+    font-size: 14px;
+  }
+  .zero {
+    font-size: 14px;
+  }
+
+  .oct{
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .occt{
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .tim{
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .twoauth {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .line {
+    margin: 24px auto 0 auto;
+  }
+}
+@media (max-width: 360px) {
+  .nowbtn a {
+    font-size: 24px;
+  }
+
+  .nowmenulist li a {
+    font-size: 13px;
+  }
+
+  .karri h4{
+    font-size: 16px;
+  }
+  .robb h4{
+    font-size: 16px;
+  }
+  .timi h4{
+    font-size: 16px;
+  }
+  .twoauthors h4 {
+    font-size: 16px;
+  }
+
+  .Real{
+    font-size: 13px;
+  }
+  .rebuilt{
+    font-size: 13px;
+  }
+  .notall{
+    font-size: 13px;
+  }
+  .zero {
+    font-size: 13px;
+  }
+
+  .imagesection{
+    padding: 0 12px;
+  }
+  .anotherimagesection {
+    padding: 0 12px;
+  }
+}
+
+/* =====ANOTHERHEROSECT-====== */
 .anotherherosect {
     background-color: #08090A;
+    max-width: 1200px;
+      margin: 0 auto;
+  padding: 60px 24px;
 
 }
 
@@ -428,14 +892,15 @@ hr.line {
     border: 2px solid peru;
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    width: 85%;
+    align-items: center;
+    margin-bottom: 32px;
     border: none;
 }
 
 .change h5 {
     color: #F7F8F8;
     font-size: 24px;
+    margin: 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 590;
 
@@ -444,6 +909,9 @@ hr.line {
 .change a {
     color: #EFF0F1;
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
@@ -454,13 +922,10 @@ hr.line {
 
 .cards {
     border: 2px solid yellow;
-    display: flex;
-    gap: 1em;
-    justify-items: center;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    padding: 10px;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+  margin-bottom: 60px;
     border: none;
 
 }
@@ -468,19 +933,29 @@ hr.line {
 .firstcard {
     background-color: #141414;
     border: 1px solid #1f1f1f;
-    border-radius: 16px;
+    border-radius: 12px;
     overflow: hidden;
-    width: 260px;
     transition: all 0.3s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
-.firstcard a .date{
+.firstcard a{
+    display: block;
+  color: inherit;
+}
+
+.firstcard img{
+    width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.date{
     border: 2px solid crimson;
     color: #989DA7;
-    font-size: 13px;
+    font-size: 12px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
-    padding: 10px;
+     margin: 16px 16px 8px 16px;
     border: none;
 
 }
@@ -489,24 +964,32 @@ hr.line {
     color: white;
     font-size: 14px;
     font-weight: 510;
-    padding: 10px;
+    margin: 0 16px 8px 16px;
 }
 .issues{
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #8A8F98;
     font-size: 14px;
     font-weight: 400;
-   padding: 10px;
+   margin: 0 16px 16px 16px;
 }
 
 .secondcard {
     background-color: #141414;
     border: 1px solid #1f1f1f;
-    border-radius: 16px;
+    border-radius: 12px;
     overflow: hidden;
-    width: 250px;
     transition: all 0.3s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.secondcard a{
+    display: block;
+  color: inherit;
+}
+.secondcard img{
+    width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 .year{
     border: 2px solid crimson;
@@ -514,7 +997,7 @@ hr.line {
     font-size: 13px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
-    padding: 10px;
+    margin: 16px 16px 8px 16px;
     border: none;
 
 }
@@ -523,23 +1006,31 @@ hr.line {
     color: white;
     font-size: 14px;
     font-weight: 510;
-    padding: 10px;
+    margin: 0 16px 8px 16px;
 }
 .ios{
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #8A8F98;
     font-size: 14px;
     font-weight: 400;
-   padding: 10px;
+   margin: 0 16px 16px 16px;
 }
 .thirdcard {
     background-color: #141414;
     border: 1px solid #1f1f1f;
-    border-radius: 16px;
+    border-radius: 12px;
     overflow: hidden;
-    width: 250px;
     transition: all 0.3s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.thirdcard a{
+    display: block;
+  color: inherit;
+}
+.thirdcard img{
+    width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 .oct{
     border: 2px solid crimson;
@@ -547,7 +1038,7 @@ hr.line {
     font-size: 13px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
-    padding: 10px;
+    margin: 16px 16px 8px 16px;
     border: none;
 
 }
@@ -556,24 +1047,32 @@ hr.line {
     color: white;
     font-size: 14px;
     font-weight: 510;
-    padding: 10px;
+    margin: 0 16px 8px 16px;
 }
 .org{
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #8A8F98;
     font-size: 14px;
     font-weight: 400;
-   padding: 10px;
+   margin: 0 16px 16px 16px;
 }
 
 .fourthcard {
     background-color: #141414;
     border: 1px solid #1f1f1f;
-    border-radius: 16px;
+    border-radius: 12px;
     overflow: hidden;
-    width: 250px;
     transition: all 0.3s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.fourthcard a{
+    display: block;
+  color: inherit;
+}
+.fourthcard img{
+    width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 .fth{
     border: 2px solid crimson;
@@ -581,7 +1080,7 @@ hr.line {
     font-size: 13px;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
-    padding: 10px;
+    margin: 16px 16px 8px 16px;
     border: none;
 
 }
@@ -590,23 +1089,20 @@ hr.line {
     color: white;
     font-size: 14px;
     font-weight: 510;
-    padding: 10px;
+    margin: 0 16px 8px 16px;
 }
 .sum{
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #8A8F98;
     font-size: 14px;
     font-weight: 400;
-   padding: 10px;
+  margin: 0 16px 16px 16px;
 }
 hr.secondline{
-    width: 83%;
     border: none;
-    margin: auto;
     border-top: 0.1px solid #1A1B1B;
     color: #1D1E1E;
-    padding: 20px;
-    margin-top: 50px;
+    margin: 32px 0;
 }
 
 .imagecontainer {
@@ -658,9 +1154,8 @@ hr.secondline{
 }
 
 hr.theline {
-    width: 1px;
-    height: 380px;
-    margin-top: 30px;
+    border-top: 2px solid #e5e5e5;
+    margin: 32px 0;
 
 }
 
@@ -746,9 +1241,8 @@ hr.theline {
 }
 
 hr.allline {
-    width: 1px;
-    height: 380px;
-    margin-top: 30px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 
 }
 
@@ -820,9 +1314,8 @@ hr.allline {
     margin-top: 10px;
 }
 hr.wedline{
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .api{
@@ -851,9 +1344,8 @@ hr.wedline{
     margin-top: 10px;
 }
 hr.apiline{
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .mecur{
@@ -923,9 +1415,8 @@ hr.apiline{
     margin-top: 10px;
 }
 hr.kariline{
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .krisa{
@@ -954,9 +1445,8 @@ hr.kariline{
     margin-top: 10px;
 }
 hr.krisaline{
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .krsa{
@@ -989,16 +1479,15 @@ hr.krisaline{
     border: 2px solid peru;
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    width: 85%;
-    margin-top: 100px;
-    align-items: center;
+     align-items: center;
+  margin-bottom: 32px;
     border: none;
 }
 
 .press h5 {
     color: #F7F8F8;
     font-size: 24px;
+    margin: 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 510;
     font-style: normal;
@@ -1007,6 +1496,9 @@ hr.krisaline{
 .press a {
     color: #666A71;
     font-size: 15px;
+     display: flex;
+  align-items: center;
+  gap: 0.3em;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
@@ -1050,9 +1542,8 @@ hr.krisaline{
     margin-top: 10px;
 }
 hr.ycombline{
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .aieng{
@@ -1080,9 +1571,8 @@ hr.ycombline{
     margin-top: 10px;
 }
 hr.aiengline{
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .tech{
@@ -1112,27 +1602,23 @@ hr.aiengline{
 }
 
 hr.underline{
-    width: 83%;
-    border: none;
-    margin: auto;
-    border-top: 0.1px solid #1A1B1B;
-    color: #1D1E1E;
-    padding: 20px;
-    margin-top: 50px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .custsto {
     border: 2px solid peru;
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    width: 85%;
+    align-items: center;
+  margin-bottom: 32px;
     border: none;
 }
 
 .custsto h5 {
     color: #F7F8F8;
     font-size: 24px;
+    margin: 0;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 590;
 
@@ -1141,6 +1627,9 @@ hr.underline{
 .custsto a {
     color: #EFF0F1;
     font-size: 15px;
+     display: flex;
+  align-items: center;
+  gap: 0.3em;
     font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
@@ -1341,13 +1830,8 @@ hr.underline{
     background-color: #161718;
 }
 hr.newline{
-    width: 83%;
-    border: none;
-    margin: auto;
-    border-top: 0.1px solid #1A1B1B;
-    color: #1D1E1E;
-    padding: 20px;
-    margin-top: 50px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .cardc{
@@ -1384,9 +1868,8 @@ hr.newline{
     margin-top: 10px;
 }
 hr.qualine{
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .design{
@@ -1415,9 +1898,8 @@ hr.qualine{
     margin-top: 10px;
 }
 hr.desline{
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
+   border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .building{
@@ -1481,9 +1963,8 @@ hr.desline{
     margin-top: 10px;
 }
 hr.proline{
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .migrated{
@@ -1512,9 +1993,8 @@ hr.proline{
     margin-top: 10px;
 }
 hr.migline{
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+  margin: 32px 0;
 }
 
 .support{
