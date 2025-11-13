@@ -2305,13 +2305,12 @@ hr.mmline {
     }
 
     .fordivs {
-        flex-direction: column;
         gap: 1em;
         align-items: center;
     }
 
     .tailored p {
-        margin-left: 0;
+        /* margin-left: 0; */
         text-align: center;
     }
 
