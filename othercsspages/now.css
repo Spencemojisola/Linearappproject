@@ -423,12 +423,15 @@ hr.full-line {
     align-items: stretch;
 }
 
-.vertical {
-    width: 1px;
-    height: auto;
-    background-color: #e5e5e5;
+hr.vertical {
+    width: 0;
+    height: 420px;
     border: none;
+    border-left: 0.5px solid #28282C;
     margin: 0;
+    align-self: stretch;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 .karri {
@@ -582,12 +585,14 @@ hr.full-line {
 }
 
 hr.anothervertical {
-    width: 1px;
-    height: auto;
-    background-color: #e5e5e5;
+    width: 0;
+    height: 420px;
     border: none;
+    border-left: 0.5px solid #28282C;
     margin: 0;
-
+    align-self: stretch;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 .twoauthors {
@@ -1173,11 +1178,14 @@ hr.secondline {
 }
 
 hr.theline {
-    writing-mode: vertical-lr;
-    height: 200px;
-    width: 1px;
+    width: 0;
+    height: 330px;
+    border: none;
+    border-left: 0.5px solid #28282C;
     margin: 0;
-
+    align-self: stretch;
+    margin-top: 20px;
+    margin-right: 5px;
 }
 
 .prodi {
@@ -1287,11 +1295,14 @@ hr.theline {
 }
 
 hr.allline {
-    writing-mode: vertical-lr;
-    height: 200px;
-    width: 1px;
+   width: 0;
+    height: 380px;
+    border: none;
+    border-left: 0.5px solid #28282C;
     margin: 0;
-
+    align-self: stretch;
+    margin-top: 20px;
+    margin-right: 5px;
 }
 
 .hart {
@@ -1384,8 +1395,14 @@ hr.allline {
 }
 
 hr.wedline {
-    border-top: 1px solid #e5e5e5;
-    margin: 32px 0;
+    width: 0;
+    height: 220px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .api {
@@ -1421,8 +1438,14 @@ hr.wedline {
 }
 
 hr.apiline {
-    border-top: 1px solid #e5e5e5;
-    margin: 32px 0;
+    width: 0;
+    height: 220px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .mecur {
@@ -1455,12 +1478,6 @@ hr.apiline {
     font-size: 15px;
     font-style: normal;
     margin: 0;
-}
-
-hr.apiline {
-    width: 1px;
-    height: 230px;
-    margin-top: 10px;
 }
 
 
@@ -1506,8 +1523,14 @@ hr.apiline {
 }
 
 hr.kariline {
-    border-top: 1px solid #e5e5e5;
-    margin: 32px 0;
+    width: 0;
+    height: 220px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .krisa {
@@ -1543,8 +1566,14 @@ hr.kariline {
 }
 
 hr.krisaline {
-    border-top: 1px solid #e5e5e5;
-    margin: 32px 0;
+    width: 0;
+    height: 220px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .krsa {
@@ -1653,8 +1682,14 @@ hr.krisaline {
 }
 
 hr.ycombline {
-    border-top: 1px solid #e5e5e5;
-    margin: 32px 0;
+    width: 0;
+    height: 220px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .aieng {
@@ -1690,8 +1725,14 @@ hr.ycombline {
 }
 
 hr.aiengline {
-    border-top: 1px solid #e5e5e5;
-    margin: 32px 0;
+    width: 0;
+    height: 220px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .tech {
@@ -1951,7 +1992,7 @@ hr.underline {
     position: absolute;
     top: 120px;
     color: #F7F8F8;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     font-size: 15px;
     font-weight: 510;
     border: none;
@@ -1970,214 +2011,265 @@ hr.newline {
 
 .cardc {
     border: 2px solid crimson;
-    margin: auto;
-    width: 90%;
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-around;
+     display: flex;
+    gap: 32px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
     border: none;
+    /* flex-wrap: wrap; */
 }
 
 .quality {
-    display: block;
+    flex: 1;
+    /* min-width: 280px; */
+    /* display: block; */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .quaimg {
     border: 2px solid #1B1D1E;
-    border-radius: 3px;
-    padding: 10px;
+    object-fit: cover;
+    display: block;
 }
 
 .quatext {
     color: #8A8F98;
     font-size: 13px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     font-weight: 400;
     font-style: normal;
-    margin-top: 10px;
+    margin: 16px 20px 8px 20px;
 }
 
 .quality h6 {
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     color: #F7F8F8;
     font-weight: 510;
     font-size: 15px;
     font-style: normal;
-    margin-top: 10px;
+    margin: 0 20px 20px 20px;
 }
 
 hr.qualine {
-    border-top: 1px solid #e5e5e5;
-    margin: 32px 0;
+    width: 0;
+    height: 200px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 .design {
-    display: block;
+    flex: 1;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .desimg {
     border: 2px solid #1B1D1E;
-    border-radius: 3px;
-    padding: 10px;
+    object-fit: cover;
+    display: block;
 
 }
 
 .destext {
     color: #8A8F98;
     font-size: 13px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     font-weight: 400;
     font-style: normal;
-    margin-top: 10px;
+        margin: 16px 20px 8px 20px;
 }
 
 .design h6 {
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     color: #F7F8F8;
     font-weight: 510;
     font-size: 15px;
     font-style: normal;
-    margin-top: 10px;
+    margin: 0 20px 20px 20px;
 }
 
 hr.desline {
-    border-top: 1px solid #e5e5e5;
-    margin: 32px 0;
+    width: 0;
+    height: 200px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 .building {
-    display: block;
+    flex: 1;
+    /* min-width: 280px; */
+    /* display: block; */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .bedimg {
     border: 2px solid #1B1D1E;
-    border-radius: 3px;
-    padding: 10px;
+   object-fit: cover;
+    display: block;
 
 }
 
 .bedtext {
     color: #8A8F98;
     font-size: 13px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     font-weight: 400;
     font-style: normal;
-    margin-top: 10px;
+    margin: 16px 20px 8px 20px;
 }
 
 .building h6 {
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     color: #F7F8F8;
     font-weight: 510;
     font-size: 15px;
     font-style: normal;
-    margin-top: 10px;
+    margin: 0 20px 20px 20px;
 }
 
 .cardd {
     border: 2px solid crimson;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   display: flex;
     gap: 32px;
-    margin-bottom: 60px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
     border: none;
 }
 
 .profitable {
-    display: block;
+    flex: 1;
+    /* min-width: 280px; */
+    /* display: block; */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .proimg {
     border: 2px solid #1B1D1E;
-    border-radius: 3px;
-    padding: 10px;
+  object-fit: cover;
+    display: block;
 
 }
 
 .protext {
     color: #8A8F98;
     font-size: 13px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     font-weight: 400;
     font-style: normal;
-    margin-top: 10px;
+    margin: 16px 20px 8px 20px;
 }
 
 .profitable h6 {
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     color: #F7F8F8;
     font-weight: 510;
     font-size: 15px;
     font-style: normal;
-    margin-top: 10px;
+    margin: 0 20px 20px 20px;
 }
 
 hr.proline {
-    border-top: 1px solid #e5e5e5;
-    margin: 32px 0;
+    width: 0;
+    height: 200px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 .migrated {
-    display: block;
+     flex: 1;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .migimg {
     border: 2px solid #1B1D1E;
-    border-radius: 3px;
-    padding: 10px;
+    object-fit: cover;
+    display: block;
+
 
 }
 
 .migtext {
-    color: #8A8F98;
+     color: #8A8F98;
     font-size: 13px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     font-weight: 400;
     font-style: normal;
-    margin-top: 10px;
+    margin: 16px 20px 8px 20px;
 }
 
 .migrated h6 {
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     color: #F7F8F8;
     font-weight: 510;
     font-size: 15px;
     font-style: normal;
-    margin-top: 10px;
+    margin: 0 20px 20px 20px;
 }
 
 hr.migline {
-    border-top: 1px solid #e5e5e5;
-    margin: 32px 0;
+    width: 0;
+    height: 200px;
+    border: none;
+    border-left: 0.5px solid #28282C;
+    margin: 0;
+    align-self: stretch;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 .support {
-    display: block;
+  flex: 1;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .supimg {
     border: 2px solid #1B1D1E;
-    border-radius: 3px;
-    padding: 10px;
+ object-fit: cover;
+    display: block;
 
 }
 
 .suptext {
-    color: #8A8F98;
+      color: #8A8F98;
     font-size: 13px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     font-weight: 400;
     font-style: normal;
-    margin-top: 10px;
+    margin: 16px 20px 8px 20px;
 }
 
 .support h6 {
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   font-family: "Inter Variable";
     color: #F7F8F8;
     font-weight: 510;
     font-size: 15px;
     font-style: normal;
-    margin-top: 10px;
+    margin: 0 20px 20px 20px;
 }
 
 .load {
