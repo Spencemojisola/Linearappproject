@@ -1350,8 +1350,8 @@ hr.btmline {
 
 .spice .fa-users {
     position: absolute;
-    top: 100px;
-    right: 400px;
+    top: 70px;
+    right: 320px;
 }
 
 .spice .on {
@@ -1361,7 +1361,7 @@ hr.btmline {
     font-weight: 510;
     position: absolute;
     top: 140px;
-    left: 70px;
+    left: 50px;
 
 }
 
@@ -1371,8 +1371,8 @@ hr.btmline {
     color: #8A8F98;
     font-weight: 400;
     position: absolute;
-    top: 180px;
-    left: 70px;
+    top: 170px;
+    left: 50px;
 }
 
 hr.btmmline {
