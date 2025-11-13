@@ -2300,7 +2300,6 @@ hr.mmline {
     }
 
     .tailored p {
-        /* margin-left: 0; */
         text-align: center;
     }
 
@@ -2828,7 +2827,7 @@ hr.twoshot {
 .larrrtext p {
     color: #F7F8F8;
     font-size: 40px;
-    font-family: "Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Inter Variable";
     font-weight: 510;
 }
 
@@ -3285,4 +3284,50 @@ hr.longrrline {
 
 .fifthcolumn a:hover {
     color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footercontainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+
+  .footerlogo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+  .footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 16px;
+  }
+
+  .footercontainer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footerlinks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 100%;
+  }
+
 }
