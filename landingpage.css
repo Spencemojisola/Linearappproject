@@ -609,6 +609,7 @@ hr.full-line {
 
 @media (max-width: 480px) {
     .hero-sect {
+        width: 100%;
         padding: 60px 20px;
     }
 
@@ -1591,24 +1592,8 @@ hr.btmmline {
         flex-direction: column;
         gap: 1.5em;
     }
-
-    .spice .on {
-        position: static;
-        display: block;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .spice .pd {
-        position: static;
-        display: block;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .spice .fa-users {
-        position: static;
-        margin: 0 auto 10px auto;
+    .spice img{
+        width: 400px;
     }
 
     .fourdivs {
