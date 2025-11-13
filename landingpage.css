@@ -3286,6 +3286,8 @@ hr.longrrline {
     color: #fff;
 }
 
+/* =======MEDIAQUERY FOR FOOTER======== */
+
 @media (max-width: 768px) {
   .footer {
     padding: 40px 20px;

@@ -2483,3 +2483,51 @@ hr.footerline {
 .fifthcolumn a:hover {
     color: #fff;
 }
+
+/* =======MEDIAQUERY FOR FOOTER======== */
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footercontainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+
+  .footerlogo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+  .footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 16px;
+  }
+
+  .footercontainer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footerlinks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 100%;
+  }
+
+}
